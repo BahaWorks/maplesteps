@@ -1,0 +1,468 @@
+{
+ "code": "fr",
+ "hreflang": "fr-CA",
+ "name": "Français",
+ "dir": "ltr",
+ "og_locale": "fr_CA",
+ "ui": {
+  "skip": "Aller au contenu",
+  "lang_label": "Langue",
+  "official": "Sources officielles",
+  "reviewed": "Révisé en novembre 2026. Les règles changent : vérifiez les détails sur les sites officiels.",
+  "disclaimer": "MapleSteps est un guide indépendant. Ce n'est pas un site du gouvernement et il ne donne pas de conseils juridiques ou en immigration.",
+  "progress": "{done} sur {total} terminées",
+  "reset": "Effacer ma liste",
+  "saved": "Vos cases cochées sont enregistrées sur cet appareil seulement.",
+  "next": "Guide suivant",
+  "about_link": "À propos et confidentialité",
+  "tagline": "Des guides gratuits pour vos premiers mois au Canada, en six langues.",
+  "home": "Accueil",
+  "guides": "Guides",
+  "official_page": "Page officielle",
+  "built_by": "Conçu et réalisé par {studio}"
+ },
+ "pages": {
+  "index": {
+   "title": "MapleSteps : guide gratuit pour les nouveaux arrivants au Canada",
+   "desc": "Guide gratuit et en langage simple pour les nouveaux arrivants et immigrants au Canada : premières démarches, logement, emploi, santé, banque et impôts.",
+   "h1": "Vos premiers mois au Canada, une étape à la fois",
+   "lead": "Des guides en langage simple pour les nouveaux arrivants et les immigrants. Gratuits, indépendants et liés aux sources officielles.",
+   "cta1": "Commencer ma liste",
+   "cta2": "Trouver de l'aide gratuite près de chez vous",
+   "card_title": "Votre première semaine",
+   "card_items": [
+    [
+     "Jour 1",
+     "Gardez vos papiers d'immigration en lieu sûr"
+    ],
+    [
+     "Jours 1 à 3",
+     "Demandez votre NAS"
+    ],
+    [
+     "Semaine 1",
+     "Demandez votre carte santé"
+    ],
+    [
+     "Semaine 1",
+     "Ouvrez un compte bancaire"
+    ]
+   ],
+   "guides_h": "Guides",
+   "guides_lead": "Commencez par la liste, puis lisez ce dont vous avez besoin maintenant.",
+   "help_h": "Numéros à garder",
+   "numbers": [
+    [
+     "911",
+     "Urgence",
+     "Police, pompiers ou ambulance. Gratuit depuis n'importe quel téléphone."
+    ],
+    [
+     "211",
+     "Aide communautaire",
+     "Alimentation, logement, établissement et autres services locaux."
+    ],
+    [
+     "811",
+     "Conseils santé",
+     "Parlez à une infirmière dans la plupart des provinces. Pas pour les urgences."
+    ]
+   ],
+   "free_h": "De l'aide gratuite à l'établissement près de chez vous",
+   "free_p": "Partout au Canada, des organismes financés par le gouvernement aident les nouveaux arrivants à trouver un logement, un emploi, des cours de langue et une école. Beaucoup ont du personnel qui parle votre langue, et la plupart des services sont gratuits pour les résidents permanents et les réfugiés.",
+   "free_cta": "Trouver des services près de chez vous"
+  },
+  "first-steps": {
+   "nav": "Premières étapes",
+   "card": "Une liste pour vos premières semaines, dans le bon ordre.",
+   "title": "Premières étapes au Canada : liste pour nouveaux arrivants",
+   "desc": "Une liste étape par étape pour vos premières semaines au Canada : NAS, carte santé, compte bancaire, téléphone, services d'établissement et prestations.",
+   "eyebrow": "Liste",
+   "h1": "Vos premières semaines au Canada",
+   "lead": "Cochez chaque étape au fur et à mesure. La plupart se font dans les deux premières semaines, et les intervenants en établissement peuvent vous aider gratuitement.",
+   "checklist": [
+    [
+     "Jour 1",
+     "Gardez vos documents en lieu sûr",
+     "Rangez votre passeport, votre Confirmation de résidence permanente ou votre permis, et vos papiers d'arrivée. Gardez des copies et des photos.",
+     "id"
+    ],
+    [
+     "Jours 1 à 3",
+     "Demandez votre numéro d'assurance sociale (NAS)",
+     "Il vous faut un NAS pour travailler et recevoir des prestations du gouvernement. Faites la demande en ligne ou dans un bureau de Service Canada. C'est gratuit.",
+     "sin"
+    ],
+    [
+     "Semaine 1",
+     "Demandez votre carte santé provinciale",
+     "Faites la demande dès votre arrivée. Certaines provinces ont un délai d'attente : prenez une assurance privée pour le couvrir.",
+     "health"
+    ],
+    [
+     "Semaine 1",
+     "Ouvrez un compte bancaire",
+     "Apportez votre passeport et votre document d'immigration. Demandez les comptes pour nouveaux arrivants sans frais mensuels.",
+     "money"
+    ],
+    [
+     "Semaine 1",
+     "Obtenez un numéro de téléphone canadien",
+     "Comparez les forfaits prépayés et mensuels. Un numéro local aide pour les candidatures et les rendez-vous.",
+     "phone"
+    ],
+    [
+     "Semaines 1 et 2",
+     "Visitez un organisme d'établissement",
+     "Il vous aide pour le logement, l'emploi, les formulaires et les cours de langue, généralement gratuitement.",
+     "finder"
+    ],
+    [
+     "Semaines 1 et 2",
+     "Inscrivez vos enfants à l'école",
+     "L'école publique est gratuite. Contactez votre centre de services scolaire ou conseil scolaire avec les documents de vos enfants.",
+     "school"
+    ],
+    [
+     "Semaines 2 à 4",
+     "Demandez vos prestations",
+     "Les nouveaux arrivants peuvent demander à l'Agence du revenu du Canada des paiements comme l'allocation canadienne pour enfants et le crédit pour la TPS/TVH.",
+     "cra"
+    ],
+    [
+     "Mois 1",
+     "Vérifiez votre permis de conduire",
+     "Chaque province a ses règles pour échanger un permis étranger. Les permis de certains pays s'échangent directement.",
+     "driving"
+    ],
+    [
+     "Mois 1",
+     "Inscrivez-vous à un cours de langue gratuit",
+     "Les nouveaux arrivants admissibles peuvent suivre des cours gratuits d'anglais ou de français. Renseignez-vous auprès de votre organisme d'établissement.",
+     "language"
+    ]
+   ],
+   "sections": [
+    {
+     "h": "Bon à savoir",
+     "items": [
+      "Gardez un dossier avec une copie de chaque formulaire envoyé et de chaque lettre reçue.",
+      "Le gouvernement ne demande jamais de paiement en cartes-cadeaux, en cryptomonnaie ou par virement.",
+      "Quand vous déménagez, mettez votre adresse à jour auprès d'IRCC, de votre banque et de l'ARC."
+     ]
+    }
+   ],
+   "links": [
+    [
+     "Demander un numéro d'assurance sociale",
+     "sin"
+    ],
+    [
+     "Trouver des services gratuits pour nouveaux arrivants",
+     "finder"
+    ],
+    [
+     "Prestations et crédits pour nouveaux arrivants (ARC)",
+     "cra"
+    ],
+    [
+     "Nouveaux immigrants : gouvernement du Canada",
+     "ircc"
+    ]
+   ]
+  },
+  "housing": {
+   "nav": "Logement",
+   "card": "Où chercher, ce que demandent les propriétaires et comment éviter les fraudes.",
+   "title": "Louer un logement au Canada : guide pour nouveaux arrivants",
+   "desc": "Comment trouver un logement à louer au Canada, ce que demandent les propriétaires, vos droits de locataire et comment éviter les fraudes.",
+   "eyebrow": "Logement",
+   "h1": "Trouver un logement",
+   "lead": "La plupart des nouveaux arrivants commencent par louer. Les prix et les règles dépendent de votre ville et de votre province : planifiez tôt et demandez de l'aide.",
+   "sections": [
+    {
+     "h": "Où chercher",
+     "items": [
+      "Annonces de location en ligne et groupes communautaires locaux",
+      "Votre organisme d'établissement, qui connaît parfois des propriétaires accueillants",
+      "Location de courte durée ou logement temporaire pendant vos recherches",
+      "Chambres en colocation, moins chères dans les villes coûteuses"
+     ]
+    },
+    {
+     "h": "Ce que les propriétaires demandent souvent",
+     "items": [
+      "Une demande de location avec vos revenus ou votre offre d'emploi",
+      "Des références d'anciens propriétaires ou employeurs",
+      "Une vérification de crédit. Sans historique canadien, montrez vos relevés bancaires pour prouver que vous pouvez payer",
+      "Un dépôt. Ce qui est permis dépend de votre province"
+     ]
+    },
+    {
+     "h": "Connaître vos droits",
+     "items": [
+      "Demandez un bail écrit et lisez-le avant de signer",
+      "Chaque province a ses règles et un organisme qui règle les litiges entre locataires et propriétaires",
+      "Un propriétaire ne peut pas vous refuser à cause de votre origine, de votre religion ou de votre situation familiale",
+      "Gardez un reçu pour chaque paiement"
+     ]
+    },
+    {
+     "h": "Éviter les fraudes",
+     "items": [
+      "N'envoyez jamais d'argent avant d'avoir visité le logement et rencontré le propriétaire",
+      "Méfiez-vous d'un loyer beaucoup plus bas que ceux du quartier",
+      "Ne partagez pas votre passeport ni votre NAS avant d'avoir signé un bail",
+      "Payez d'une façon qui laisse une trace, jamais en cartes-cadeaux ni en cryptomonnaie"
+     ]
+    }
+   ],
+   "links": [
+    [
+     "Logement pour les nouveaux arrivants (IRCC)",
+     "housing"
+    ],
+    [
+     "211 : services locaux de logement et d'aide",
+     "211"
+    ],
+    [
+     "Trouver des services gratuits pour nouveaux arrivants",
+     "finder"
+    ]
+   ]
+  },
+  "work": {
+   "nav": "Emploi",
+   "card": "Recherche d'emploi, CV à la canadienne et professions réglementées.",
+   "title": "Trouver un emploi au Canada : guide pour nouveaux arrivants",
+   "desc": "Comment trouver un emploi au Canada : sites officiels, CV à la canadienne, professions réglementées et vos droits au travail.",
+   "eyebrow": "Emploi",
+   "h1": "Trouver un emploi au Canada",
+   "lead": "Le premier emploi au Canada vient souvent des gens que vous rencontrez. Utilisez les sites d'emploi officiels, les programmes gratuits et tous vos contacts.",
+   "sections": [
+    {
+     "h": "Où trouver des emplois",
+     "items": [
+      "Guichet-Emplois, le site d'emploi gratuit du gouvernement du Canada",
+      "Les programmes d'emploi gratuits des organismes d'établissement, avec mentorat et salons de l'emploi",
+      "Le réseautage : dites à vos amis, voisins et groupes communautaires quel travail vous cherchez",
+      "Le bénévolat, qui donne une expérience canadienne et des références"
+     ]
+    },
+    {
+     "h": "Un CV à la canadienne",
+     "items": [
+      "Une ou deux pages maximum",
+      "Pas de photo, d'âge, d'état civil ni de religion",
+      "Montrez vos résultats avec des chiffres quand c'est possible",
+      "Écrivez une courte lettre de présentation pour chaque poste"
+     ]
+    },
+    {
+     "h": "Professions réglementées",
+     "items": [
+      "Médecins, infirmières, ingénieurs, enseignants et beaucoup de métiers ont besoin d'un permis d'un ordre professionnel provincial",
+      "Commencez les démarches tôt, même avant d'arriver",
+      "Vous devrez peut-être faire évaluer vos diplômes",
+      "En attendant votre permis, cherchez un emploi lié à votre domaine"
+     ]
+    },
+    {
+     "h": "Vos droits au travail",
+     "items": [
+      "Chaque province fixe son salaire minimum et ses normes du travail",
+      "Vous devez recevoir un relevé de paie avec vos heures et vos retenues",
+      "Vous pouvez refuser un travail dangereux",
+      "Un employeur ne peut pas vous faire payer pour obtenir un emploi"
+     ]
+    }
+   ],
+   "links": [
+    [
+     "Chercher un emploi (IRCC)",
+     "jobsearch"
+    ],
+    [
+     "Faire reconnaître vos titres de compétences",
+     "credentials"
+    ],
+    [
+     "Guichet-Emplois",
+     "jobbank"
+    ],
+    [
+     "Trouver des services gratuits pour nouveaux arrivants",
+     "finder"
+    ]
+   ]
+  },
+  "health": {
+   "nav": "Santé",
+   "card": "Obtenir votre carte santé, trouver un médecin et savoir ce qui est couvert.",
+   "title": "Les soins de santé au Canada : guide pour nouveaux arrivants",
+   "desc": "Comment fonctionnent les soins de santé pour les nouveaux arrivants : carte santé provinciale, délais d'attente, ce qui est couvert et comment trouver un médecin.",
+   "eyebrow": "Santé",
+   "h1": "Les soins de santé au Canada",
+   "lead": "Chaque province et territoire gère son propre régime public d'assurance maladie. Demandez votre carte dès votre arrivée.",
+   "sections": [
+    {
+     "h": "Obtenir votre carte santé",
+     "items": [
+      "Inscrivez-vous au régime de votre province ou territoire dès votre arrivée",
+      "Certaines provinces ont un délai d'attente pouvant aller jusqu'à trois mois",
+      "Prenez une assurance privée pour couvrir ce délai",
+      "Les réfugiés réinstallés et les demandeurs d'asile peuvent avoir une couverture temporaire du gouvernement fédéral"
+     ]
+    },
+    {
+     "h": "Ce qui est couvert",
+     "items": [
+      "Les visites médicales et les soins à l'hôpital médicalement nécessaires",
+      "Habituellement non couverts pour la plupart des adultes : soins dentaires, lunettes et beaucoup de médicaments",
+      "Les assurances collectives des employeurs couvrent souvent ces frais",
+      "Certaines provinces ont des programmes pour les enfants, les aînés et les familles à faible revenu"
+     ]
+    },
+    {
+     "h": "Obtenir des soins",
+     "items": [
+      "Inscrivez-vous pour avoir un médecin de famille. Il y a souvent une liste d'attente",
+      "Utilisez les cliniques sans rendez-vous en attendant",
+      "Composez le 811 dans la plupart des provinces pour parler à une infirmière",
+      "En cas d'urgence, composez le 911 ou allez à l'urgence"
+     ]
+    },
+    {
+     "h": "Santé mentale",
+     "items": [
+      "Changer de pays est stressant. Demander de l'aide est normal",
+      "Appelez ou textez le 988 en tout temps si vous pensez au suicide",
+      "Les organismes d'établissement peuvent vous orienter vers des intervenants qui parlent votre langue"
+     ]
+    }
+   ],
+   "links": [
+    [
+     "Soins de santé pour les nouveaux arrivants (IRCC)",
+     "healthcare"
+    ],
+    [
+     "988 Ligne d'aide en cas de crise de suicide",
+     "988"
+    ],
+    [
+     "Trouver des services gratuits pour nouveaux arrivants",
+     "finder"
+    ],
+    [
+     "Nouveaux immigrants : gouvernement du Canada",
+     "ircc"
+    ]
+   ]
+  },
+  "money": {
+   "nav": "Argent",
+   "card": "Banque, crédit, impôts et prestations.",
+   "title": "Banque, crédit et impôts pour les nouveaux arrivants au Canada",
+   "desc": "Guide pour nouveaux arrivants : ouvrir un compte bancaire, bâtir son crédit, faire ses impôts, recevoir ses prestations et éviter les fraudes.",
+   "eyebrow": "Argent",
+   "h1": "Banque, crédit et impôts",
+   "lead": "Quelques étapes simples facilitent beaucoup la vie : un compte bancaire, un historique de crédit et une déclaration de revenus chaque année.",
+   "sections": [
+    {
+     "h": "La banque",
+     "items": [
+      "La plupart des banques offrent des comptes pour nouveaux arrivants avec moins de frais la première année",
+      "Le compte chèques sert aux dépenses quotidiennes ; le compte d'épargne sert à épargner",
+      "Comparez les frais mensuels et le nombre de transactions avant de choisir"
+     ]
+    },
+    {
+     "h": "Bâtir votre crédit",
+     "items": [
+      "Votre historique de crédit commence à zéro au Canada",
+      "Une carte de crédit garantie est une façon simple de commencer",
+      "Payez le solde complet à temps chaque mois",
+      "Consultez votre dossier de crédit gratuitement chez Equifax et TransUnion"
+     ]
+    },
+    {
+     "h": "Impôts et prestations",
+     "items": [
+      "Faites votre déclaration chaque année, même sans revenu, pour continuer à recevoir vos prestations",
+      "La date limite pour la plupart des gens est le 30 avril",
+      "La première année, vous pouvez demander vos prestations avant de faire votre déclaration",
+      "Des comptoirs d'impôts gratuits peuvent remplir une déclaration simple pour vous"
+     ]
+    },
+    {
+     "h": "Éviter les fraudes",
+     "items": [
+      "L'ARC ne demande jamais de paiement en cartes-cadeaux, en cryptomonnaie ou par virement à une personne",
+      "Raccrochez si on vous menace d'arrestation ou d'expulsion",
+      "En cas de doute, appelez l'ARC au numéro indiqué sur son site officiel"
+     ]
+    }
+   ],
+   "links": [
+    [
+     "Comment fonctionne l'argent au Canada (IRCC)",
+     "money"
+    ],
+    [
+     "Prestations et crédits pour nouveaux arrivants (ARC)",
+     "cra"
+    ],
+    [
+     "Comptoirs d'impôts gratuits",
+     "taxhelp"
+    ],
+    [
+     "Se protéger contre la fraude fiscale",
+     "fraud"
+    ],
+    [
+     "Agence de la consommation en matière financière du Canada",
+     "fcac"
+    ]
+   ]
+  },
+  "about": {
+   "nav": "À propos",
+   "title": "À propos de MapleSteps et confidentialité",
+   "desc": "Qui gère MapleSteps, comment le site est financé et comment nous protégeons votre vie privée.",
+   "eyebrow": "À propos",
+   "h1": "À propos de MapleSteps",
+   "lead": "MapleSteps est un guide gratuit et indépendant pour les nouveaux arrivants au Canada, écrit en langage simple et offert en six langues.",
+   "sections": [
+    {
+     "h": "Qui nous sommes",
+     "p": "Nous sommes un site indépendant. Nous ne faisons pas partie du gouvernement du Canada ni d'aucune agence d'immigration, et nous ne donnons pas de conseils juridiques ou en immigration. Pour votre situation, contactez un organisme d'établissement ou un professionnel autorisé."
+    },
+    {
+     "h": "Comment le site est financé",
+     "p": "MapleSteps est gratuit grâce à la publicité. Certaines pages peuvent contenir des liens d'affiliation. Si vous achetez par l'un d'eux, nous pouvons recevoir une petite commission, sans frais pour vous. Nous recommandons seulement ce qui, selon nous, aide les nouveaux arrivants."
+    },
+    {
+     "h": "Confidentialité",
+     "p": "Aucun compte n'est nécessaire. Les cases cochées de la liste sont enregistrées seulement dans votre navigateur. Nous pouvons utiliser des services de publicité et d'analyse de tiers, dont Google, qui utilisent des témoins (cookies) pour afficher et mesurer les annonces. Vous pouvez gérer la personnalisation des annonces dans vos paramètres publicitaires Google."
+    },
+    {
+     "h": "Nous joindre",
+     "p": "Vous avez trouvé une erreur ou avez une suggestion ? Écrivez à hello@maplesteps.ca."
+    }
+   ],
+   "links": [
+    [
+     "Paramètres des annonces Google",
+     "adsettings"
+    ],
+    [
+     "Comment Google utilise les informations des sites partenaires",
+     "partnersites"
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,468 @@
+{
+ "code": "en",
+ "hreflang": "en-CA",
+ "name": "English",
+ "dir": "ltr",
+ "og_locale": "en_CA",
+ "ui": {
+  "skip": "Skip to content",
+  "lang_label": "Language",
+  "official": "Official sources",
+  "reviewed": "Reviewed November 2026. Rules change, so confirm details on official websites.",
+  "disclaimer": "MapleSteps is an independent guide. It is not a government website and does not give legal or immigration advice.",
+  "progress": "{done} of {total} done",
+  "reset": "Clear my checklist",
+  "saved": "Your ticks are saved on this device only.",
+  "next": "Next guide",
+  "about_link": "About & privacy",
+  "tagline": "Free guides for your first months in Canada, in six languages.",
+  "home": "Home",
+  "guides": "Guides",
+  "official_page": "Official page",
+  "built_by": "Designed & built by {studio}"
+ },
+ "pages": {
+  "index": {
+   "title": "MapleSteps: free guide for newcomers to Canada",
+   "desc": "Free, plain-language guide for newcomers and immigrants to Canada: first steps, housing, jobs, health care, banking and taxes.",
+   "h1": "Your first months in Canada, one step at a time",
+   "lead": "Plain-language guides for newcomers and immigrants. Free, independent, and linked to official sources.",
+   "cta1": "Start your checklist",
+   "cta2": "Find free help near you",
+   "card_title": "Your first week",
+   "card_items": [
+    [
+     "Day 1",
+     "Keep your immigration papers safe"
+    ],
+    [
+     "Days 1–3",
+     "Apply for your SIN"
+    ],
+    [
+     "Week 1",
+     "Apply for your health card"
+    ],
+    [
+     "Week 1",
+     "Open a bank account"
+    ]
+   ],
+   "guides_h": "Guides",
+   "guides_lead": "Start with the checklist, then read what you need now.",
+   "help_h": "Numbers to save",
+   "numbers": [
+    [
+     "911",
+     "Emergency",
+     "Police, fire or ambulance. Free from any phone."
+    ],
+    [
+     "211",
+     "Community help",
+     "Food, housing, settlement and other local services."
+    ],
+    [
+     "811",
+     "Health advice",
+     "Talk to a nurse in most provinces. Not for emergencies."
+    ]
+   ],
+   "free_h": "Free settlement help is near you",
+   "free_p": "Government-funded organizations across Canada help newcomers find housing, jobs, language classes and schools. Many have staff who speak your language, and most services are free for permanent residents and refugees.",
+   "free_cta": "Find services near you"
+  },
+  "first-steps": {
+   "nav": "First steps",
+   "card": "A checklist for your first weeks, in the right order.",
+   "title": "First steps in Canada: newcomer checklist",
+   "desc": "A step-by-step checklist for your first weeks in Canada: SIN, health card, bank account, phone, settlement services and benefits.",
+   "eyebrow": "Checklist",
+   "h1": "Your first weeks in Canada",
+   "lead": "Tick off each step as you go. Most can be done in your first two weeks, and settlement workers can help with any of them for free.",
+   "checklist": [
+    [
+     "Day 1",
+     "Keep your documents safe",
+     "Store your passport, Confirmation of Permanent Residence or permit, and landing papers somewhere safe. Keep copies and photos.",
+     "id"
+    ],
+    [
+     "Days 1–3",
+     "Apply for your Social Insurance Number (SIN)",
+     "You need a SIN to work and to get government benefits. Apply online or at a Service Canada office. It is free.",
+     "sin"
+    ],
+    [
+     "Week 1",
+     "Apply for your provincial health card",
+     "Apply as soon as you arrive. Some provinces have a waiting period, so buy private insurance to cover it.",
+     "health"
+    ],
+    [
+     "Week 1",
+     "Open a bank account",
+     "Bring your passport and immigration document. Ask about newcomer accounts with no monthly fee.",
+     "money"
+    ],
+    [
+     "Week 1",
+     "Get a Canadian phone number",
+     "Compare prepaid and monthly plans. A local number helps with job applications and appointments.",
+     "phone"
+    ],
+    [
+     "Weeks 1–2",
+     "Visit a settlement agency",
+     "They help with housing, jobs, forms and language classes, usually for free.",
+     "finder"
+    ],
+    [
+     "Weeks 1–2",
+     "Register your children for school",
+     "Public school is free. Contact your local school board with your children's documents.",
+     "school"
+    ],
+    [
+     "Weeks 2–4",
+     "Apply for benefits",
+     "Newcomers can apply to the Canada Revenue Agency for payments like the Canada child benefit and the GST/HST credit.",
+     "cra"
+    ],
+    [
+     "Month 1",
+     "Check your driver's licence",
+     "Each province has its own rules for exchanging a foreign licence. Some countries' licences can be exchanged directly.",
+     "driving"
+    ],
+    [
+     "Month 1",
+     "Join a free language class",
+     "Eligible newcomers can take free English or French classes. Ask your settlement agency.",
+     "language"
+    ]
+   ],
+   "sections": [
+    {
+     "h": "Good to know",
+     "items": [
+      "Keep a folder with copies of every form you send and every letter you get.",
+      "Government agencies never ask for payment by gift card, crypto or wire transfer.",
+      "When you move, update your address with IRCC, your bank and the CRA."
+     ]
+    }
+   ],
+   "links": [
+    [
+     "Apply for a Social Insurance Number",
+     "sin"
+    ],
+    [
+     "Find free newcomer services near you",
+     "finder"
+    ],
+    [
+     "Benefits and credits for newcomers (CRA)",
+     "cra"
+    ],
+    [
+     "New immigrants: Government of Canada",
+     "ircc"
+    ]
+   ]
+  },
+  "housing": {
+   "nav": "Housing",
+   "card": "Where to look, what landlords ask for, and how to avoid scams.",
+   "title": "Renting a home in Canada: guide for newcomers",
+   "desc": "How newcomers can find a place to rent in Canada, what landlords ask for, tenant rights and how to avoid rental scams.",
+   "eyebrow": "Housing",
+   "h1": "Finding a place to live",
+   "lead": "Most newcomers start by renting. Prices and rules depend on your city and province, so plan early and ask for help.",
+   "sections": [
+    {
+     "h": "Where to look",
+     "items": [
+      "Online rental listings and local community groups",
+      "Your settlement agency, which may know newcomer-friendly landlords",
+      "Short-term rentals or temporary housing while you search",
+      "Rooms in shared homes, which cost less in expensive cities"
+     ]
+    },
+    {
+     "h": "What landlords usually ask for",
+     "items": [
+      "A rental application with your income or job offer",
+      "References from past landlords or employers",
+      "A credit check. With no Canadian credit yet, offer bank statements as proof you can pay",
+      "A deposit. What a landlord can legally ask for depends on your province"
+     ]
+    },
+    {
+     "h": "Know your rights",
+     "items": [
+      "Ask for a written lease and read it before you sign",
+      "Each province has its own tenant rules and an office that settles disputes",
+      "A landlord cannot refuse you because of your race, religion, country of origin or family status",
+      "Keep a receipt for every payment"
+     ]
+    },
+    {
+     "h": "Avoid rental scams",
+     "items": [
+      "Never send money before you see the place and meet the landlord",
+      "Be careful when the rent is much lower than similar homes nearby",
+      "Don't share your passport or SIN until you have signed a lease",
+      "Pay in a way that leaves a record, never by gift card or crypto"
+     ]
+    }
+   ],
+   "links": [
+    [
+     "Housing for newcomers (IRCC)",
+     "housing"
+    ],
+    [
+     "211: local housing and community services",
+     "211"
+    ],
+    [
+     "Find free newcomer services near you",
+     "finder"
+    ]
+   ]
+  },
+  "work": {
+   "nav": "Jobs",
+   "card": "Job search, Canadian-style résumés and licensed professions.",
+   "title": "Finding work in Canada: guide for newcomers",
+   "desc": "How newcomers can find a job in Canada: official job boards, Canadian-style résumés, licensed professions and your rights at work.",
+   "eyebrow": "Work",
+   "h1": "Finding work in Canada",
+   "lead": "A first Canadian job often comes through people you meet. Use official job boards, free employment programs and every connection you have.",
+   "sections": [
+    {
+     "h": "Where to find jobs",
+     "items": [
+      "Job Bank, the Government of Canada's free job board",
+      "Free employment programs at settlement agencies, including mentoring and job fairs",
+      "Networking: tell friends, neighbours and community groups what work you want",
+      "Volunteering, which builds Canadian experience and references"
+     ]
+    },
+    {
+     "h": "A Canadian-style résumé",
+     "items": [
+      "Keep it to one or two pages",
+      "Leave out your photo, age, marital status and religion",
+      "Show results with numbers where you can",
+      "Write a short cover letter for each job"
+     ]
+    },
+    {
+     "h": "Licensed professions",
+     "items": [
+      "Doctors, nurses, engineers, teachers and many trades need a licence from a provincial regulator",
+      "Start the licensing process early, even before you arrive",
+      "You may need your education assessed",
+      "While you work toward your licence, look for related jobs in your field"
+     ]
+    },
+    {
+     "h": "Your rights at work",
+     "items": [
+      "Each province sets its own minimum wage and work rules",
+      "You should get a pay stub that shows your hours and deductions",
+      "You can refuse work that is unsafe",
+      "An employer cannot make you pay to get a job"
+     ]
+    }
+   ],
+   "links": [
+    [
+     "Look for a job (IRCC)",
+     "jobsearch"
+    ],
+    [
+     "Get your credentials recognized",
+     "credentials"
+    ],
+    [
+     "Job Bank",
+     "jobbank"
+    ],
+    [
+     "Find free newcomer services near you",
+     "finder"
+    ]
+   ]
+  },
+  "health": {
+   "nav": "Health",
+   "card": "Get your health card, find a doctor and know what is covered.",
+   "title": "Health care in Canada: guide for newcomers",
+   "desc": "How health care works for newcomers to Canada: provincial health cards, waiting periods, what is covered and how to find a doctor.",
+   "eyebrow": "Health",
+   "h1": "Health care in Canada",
+   "lead": "Each province and territory runs its own public health insurance plan. Apply for your card as soon as you arrive.",
+   "sections": [
+    {
+     "h": "Get your health card",
+     "items": [
+      "Apply to your province or territory's health plan right after you arrive",
+      "Some provinces have a waiting period of up to three months",
+      "Buy private insurance to cover any waiting period",
+      "Resettled refugees and refugee claimants may get temporary coverage from the federal government"
+     ]
+    },
+    {
+     "h": "What is covered",
+     "items": [
+      "Medically necessary doctor visits and hospital care",
+      "Usually not covered for most adults: dental care, glasses and many prescriptions",
+      "Employer benefit plans often cover these extras",
+      "Some provinces have programs for children, seniors and low-income families"
+     ]
+    },
+    {
+     "h": "Getting care",
+     "items": [
+      "Register for a family doctor. Many areas have a waiting list",
+      "Use walk-in clinics while you wait",
+      "Call 811 in most provinces to speak with a nurse",
+      "Call 911 or go to an emergency room in an emergency"
+     ]
+    },
+    {
+     "h": "Mental health",
+     "items": [
+      "Moving to a new country is stressful. Asking for help is normal",
+      "Call or text 988 at any time if you are thinking about suicide",
+      "Settlement agencies can connect you with counsellors who speak your language"
+     ]
+    }
+   ],
+   "links": [
+    [
+     "Health care for newcomers (IRCC)",
+     "healthcare"
+    ],
+    [
+     "988 Suicide Crisis Helpline",
+     "988"
+    ],
+    [
+     "Find free newcomer services near you",
+     "finder"
+    ],
+    [
+     "New immigrants: Government of Canada",
+     "ircc"
+    ]
+   ]
+  },
+  "money": {
+   "nav": "Money",
+   "card": "Banking, building credit, taxes and benefits.",
+   "title": "Banking, credit and taxes for newcomers to Canada",
+   "desc": "A newcomer's guide to banking in Canada, building a credit history, filing taxes, getting benefits and avoiding scams.",
+   "eyebrow": "Money",
+   "h1": "Banking, credit and taxes",
+   "lead": "A few early steps make life much easier: a bank account, a credit history, and filing your taxes every year.",
+   "sections": [
+    {
+     "h": "Banking",
+     "items": [
+      "Most banks offer newcomer accounts with lower fees in the first year",
+      "A chequing account is for daily spending; a savings account is for saving",
+      "Compare monthly fees and transaction limits before you choose"
+     ]
+    },
+    {
+     "h": "Build your credit",
+     "items": [
+      "Your credit history starts at zero in Canada",
+      "A secured credit card is an easy way to start",
+      "Pay the full balance on time every month",
+      "Check your credit report for free with Equifax and TransUnion"
+     ]
+    },
+    {
+     "h": "Taxes and benefits",
+     "items": [
+      "File a tax return every year, even with no income, to keep getting benefits",
+      "The deadline for most people is April 30",
+      "In your first year, you can apply for benefits before you file",
+      "Free tax clinics can file a simple return for you"
+     ]
+    },
+    {
+     "h": "Avoid scams",
+     "items": [
+      "The CRA never asks for payment by gift card, crypto or e-transfer to a person",
+      "Hang up on calls that threaten arrest or deportation",
+      "When in doubt, call the CRA using the number on its official website"
+     ]
+    }
+   ],
+   "links": [
+    [
+     "How money works in Canada (IRCC)",
+     "money"
+    ],
+    [
+     "Benefits and credits for newcomers (CRA)",
+     "cra"
+    ],
+    [
+     "Free tax clinics",
+     "taxhelp"
+    ],
+    [
+     "Protect yourself from tax scams",
+     "fraud"
+    ],
+    [
+     "Financial Consumer Agency of Canada",
+     "fcac"
+    ]
+   ]
+  },
+  "about": {
+   "nav": "About",
+   "title": "About MapleSteps and privacy",
+   "desc": "Who runs MapleSteps, how the site is funded, and how we handle your privacy.",
+   "eyebrow": "About",
+   "h1": "About MapleSteps",
+   "lead": "MapleSteps is a free, independent guide for newcomers to Canada, written in plain language and available in six languages.",
+   "sections": [
+    {
+     "h": "Who we are",
+     "p": "We are an independent website. We are not part of the Government of Canada or any immigration agency, and we do not give legal or immigration advice. For your own situation, contact a settlement agency or an authorized professional."
+    },
+    {
+     "h": "How the site is funded",
+     "p": "MapleSteps is free because of advertising. Some pages may include affiliate links. If you buy through one, we may earn a small commission at no extra cost to you. We only recommend things we believe help newcomers."
+    },
+    {
+     "h": "Privacy",
+     "p": "You don't need an account to use MapleSteps. Checklist ticks are saved only in your own browser. We may use third-party advertising and analytics services, including Google, which use cookies to show and measure ads. You can manage ad personalization in your Google ad settings."
+    },
+    {
+     "h": "Contact",
+     "p": "Found a mistake or have a suggestion? Email hello@maplesteps.ca."
+    }
+   ],
+   "links": [
+    [
+     "Google ad settings",
+     "adsettings"
+    ],
+    [
+     "How Google uses information from sites that use its services",
+     "partnersites"
+    ]
+   ]
+  }
+ }
+}
