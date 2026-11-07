@@ -16,7 +16,20 @@ STUDIO = "BahaWorks"
 REVIEWED = "2026-11-06"
 LANG_ORDER = ["en", "fr", "ar", "zh", "hi", "fa"]
 GUIDES = ["first-steps", "housing", "work", "health", "money"]
-PAGES = ["index"] + GUIDES + ["about"]
+CITIES = ["toronto", "montreal", "vancouver", "calgary", "ottawa", "edmonton", "winnipeg", "halifax"]
+PAGES = ["index"] + GUIDES + ["about", "privacy", "cities"] + CITIES
+CONTACT_EMAIL = "hello@maplesteps.ca"
+# city slug -> (official city website, transit agency name, transit website)
+CITY_LINKS = {
+    "toronto": ("https://www.toronto.ca", "TTC", "https://www.ttc.ca"),
+    "montreal": ("https://montreal.ca", "STM", "https://www.stm.info"),
+    "vancouver": ("https://vancouver.ca", "TransLink", "https://www.translink.ca"),
+    "calgary": ("https://www.calgary.ca", "Calgary Transit", "https://www.calgarytransit.com"),
+    "ottawa": ("https://ottawa.ca", "OC Transpo", "https://www.octranspo.com"),
+    "edmonton": ("https://www.edmonton.ca", "Edmonton Transit Service", "https://www.edmonton.ca/ets"),
+    "winnipeg": ("https://www.winnipeg.ca", "Winnipeg Transit", "https://winnipegtransit.com"),
+    "halifax": ("https://www.halifax.ca", "Halifax Transit", "https://www.halifax.ca/transportation/halifax-transit"),
+}
 
 ROOT = Path(__file__).parent
 PREVIEW = "--preview" in sys.argv
@@ -49,6 +62,9 @@ LINKS = {
              "fr": "https://www.canada.ca/fr/agence-consommation-matiere-financiere.html"},
     "adsettings": {"en": "https://adssettings.google.com"},
     "partnersites": {"en": "https://policies.google.com/technologies/partner-sites"},
+    "youradchoices": {"en": "https://youradchoices.ca/en/", "fr": "https://youradchoices.ca/fr/"},
+    "aboutads": {"en": "https://www.aboutads.info/choices"},
+    "via": {"en": "https://www.viarail.ca/en", "fr": "https://www.viarail.ca/fr"},
 }
 
 FONTS = {
@@ -69,6 +85,11 @@ ICONS = {
     "work": '<rect x="3" y="7.5" width="18" height="12" rx="2"/><path d="M8.5 7.5V5.5a1.5 1.5 0 0 1 1.5-1.5h4a1.5 1.5 0 0 1 1.5 1.5v2"/><path d="M3 13h18"/>',
     "health": '<path d="M12 20s-7.5-4.4-7.5-10A4.3 4.3 0 0 1 12 7.4 4.3 4.3 0 0 1 19.5 10c0 5.6-7.5 10-7.5 10Z"/><path d="M12 10.5v5M9.5 13h5"/>',
     "money": '<rect x="3" y="6" width="18" height="12" rx="2"/><circle cx="12" cy="12" r="2.6"/><path d="M6.5 9.5v5M17.5 9.5v5"/>',
+    "cities": '<path d="M3 20h18"/><path d="M5 20V9l5-3v14"/><path d="M10 20V4l9 4v12"/><path d="M13 10h3M13 13h3M13 16h3M7 12h1M7 15h1"/>',
+    "pin": '<path d="M12 21s-6.5-6.2-6.5-11.2a6.5 6.5 0 0 1 13 0C18.5 14.8 12 21 12 21Z"/><circle cx="12" cy="9.8" r="2.3"/>',
+    "transit": '<rect x="5" y="3.5" width="14" height="13" rx="3"/><path d="M5 11h14M8.5 20l1.5-3.5M15.5 20 14 16.5"/><circle cx="8.8" cy="13.8" r=".9"/><circle cx="15.2" cy="13.8" r=".9"/>',
+    "star": '<path d="m12 4 2.4 4.9 5.4.8-3.9 3.8.9 5.4L12 16.4 7.2 18.9l.9-5.4-3.9-3.8 5.4-.8Z"/>',
+    "info": '<circle cx="12" cy="12" r="8.5"/><path d="M12 11v5M12 8h.01"/>',
 }
 MARK = ('<svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="var(--spruce)"/>'
         '<path d="M10 22 21 11M13.5 10.5H21.5V18.5" fill="none" stroke="var(--on-spruce)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>'
@@ -79,7 +100,12 @@ AC_PAGE = ' aria-current="page"'
 AC_TRUE = ' aria-current="true"'
 
 def load():
-    return {c: json.loads((ROOT / "content" / f"{c}.json").read_text(encoding="utf-8")) for c in LANG_ORDER}
+    out = {}
+    for c in LANG_ORDER:
+        L = json.loads((ROOT / "content" / f"{c}.json").read_text(encoding="utf-8"))
+        L["cities"] = json.loads((ROOT / "content" / "cities" / f"{c}.json").read_text(encoding="utf-8"))
+        out[c] = L
+    return out
 
 def page_file(slug):
     if PREVIEW:
@@ -160,9 +186,10 @@ def head(L, slug, P, langs):
 
 def header(L, slug, langs):
     code, ui = L["code"], L["ui"]
-    nav = [("index", ui["home"])] + [(g, L["pages"][g]["nav"]) for g in GUIDES]
+    nav = [("index", ui["home"])] + [(g, L["pages"][g]["nav"]) for g in GUIDES] + [("cities", L["cities"]["ui"]["nav"])]
+    active = "cities" if slug in CITIES else slug
     nav_html = "".join(
-        f'<a href="{href(code, code, s)}"{AC_PAGE if s == slug else ""}>{e(t)}</a>' for s, t in nav)
+        f'<a href="{href(code, code, s)}"{AC_PAGE if s == active else ""}>{e(t)}</a>' for s, t in nav)
     langs_html = "".join(
         f'<a href="{href(code, c, slug)}" lang="{langs[c]["hreflang"]}" data-lang="{c}"{AC_TRUE if c == code else ""}>{e(langs[c]["name"])}</a>'
         for c in LANG_ORDER)
@@ -190,7 +217,8 @@ def footer(L):
     </div>
     <div>
       <p class="muted small">{e(ui['disclaimer'])}</p>
-      <p class="small"><a href="{href(code, code, 'about')}">{e(ui['about_link'])}</a> · © {year} {BRAND}</p>
+      <p class="small foot-links"><a href="{href(code, code, 'about')}">{e(ui['about_link'])}</a> · <a href="{href(code, code, 'privacy')}">{e(ui['privacy_link'])}</a> · <a href="mailto:{CONTACT_EMAIL}">{e(ui['contact_link'])}: <span dir="ltr">{CONTACT_EMAIL}</span></a></p>
+      <p class="small muted">© {year} {BRAND}</p>
     </div>
   </div>
   <div class="wrap"><p class="built-by small muted">{e(ui['built_by']).replace('{studio}', '<span dir="ltr">' + STUDIO + '</span>')}</p></div>
@@ -201,9 +229,12 @@ def footer(L):
 """
 
 def official_links(L, P):
+    if not P.get("links"):
+        return ""
     items = "".join(
         f'<li><a href="{link_url(k, L["code"])}" target="_blank" rel="noopener">{e(t)}{EXT}</a></li>' for t, k in P["links"])
-    return f'<section class="official"><h2>{e(L["ui"]["official"])}</h2><ul>{items}</ul></section>'
+    heading = L["ui"]["links_h"] if P.get("eyebrow") and P is L["pages"].get("privacy") else L["ui"]["official"]
+    return f'<section class="official"><h2>{e(heading)}</h2><ul>{items}</ul></section>'
 
 def render_index(L, langs):
     code = L["code"]
@@ -213,6 +244,7 @@ def render_index(L, langs):
     others = "".join(
         f'<a class="guide" href="{href(code, code, g)}">{icon(g)}<span class="g-title">{e(L["pages"][g]["nav"])}</span><span class="g-text">{e(L["pages"][g]["card"])}</span>{ARROW}</a>'
         for g in GUIDES[1:])
+    C = L["cities"]
     nums = "".join(f'<div class="num"><span class="n">{e(n)}</span><span class="n-label">{e(a)}</span><span class="n-text">{e(b)}</span></div>' for n, a, b in P["numbers"])
     body = f"""<main id="main">
   <section class="hero">
@@ -238,6 +270,10 @@ def render_index(L, langs):
       <a class="guide feature" href="{href(code, code, 'first-steps')}">{icon('first-steps')}<span class="g-title">{e(first['nav'])}</span><span class="g-text">{e(first['card'])}</span>{ARROW}</a>
       {others}
     </div>
+  </section>
+  <section class="wrap block">
+    <div class="block-head"><h2>{e(C['home']['h'])}</h2><p class="muted">{e(C['home']['lead'])}</p></div>
+    {city_grid(L)}
   </section>
   <section class="wrap block">
     <div class="block-head"><h2>{e(P['help_h'])}</h2></div>
@@ -277,7 +313,7 @@ def render_guide(L, slug, langs):
   <ol>{items}</ol>
   <p class="small muted check-foot"><span>{e(ui['saved'])}</span> <button type="button" class="reset">{e(ui['reset'])}</button></p>
 </section>"""
-    mid = ad_slot(f"{slug}-mid")
+    mid = ad_slot(f"{slug}-mid") if slug in GUIDES else ""
     nxt = ""
     if slug in GUIDES:
         n = GUIDES[(GUIDES.index(slug) + 1) % len(GUIDES)]
@@ -296,11 +332,83 @@ def render_guide(L, slug, langs):
     {render_sections(P)}
     {mid}
     {official_links(L, P)}
-    <p class="small muted reviewed">{e(ui['reviewed'])}</p>
+    {('<p class="small muted reviewed">' + e(ui['reviewed']) + '</p>') if slug in GUIDES else ''}
     {nxt}
   </article>
 </main>"""
     return head(L, slug, P, langs) + header(L, slug, langs) + body + footer(L)
+
+def city_grid(L):
+    code, C = L["code"], L["cities"]
+    cards = "".join(
+        f'<a class="city-card" href="{href(code, code, c)}"><span class="cc-prov">{icon("pin", "ico tiny")}{e(C["cities"][c]["prov"])}</span>'
+        f'<span class="cc-name">{e(C["cities"][c]["name"])}</span><span class="cc-text">{e(C["cities"][c]["card"])}</span>{ARROW}</a>'
+        for c in CITIES)
+    return f'<div class="city-grid">{cards}</div>'
+
+def render_cities_index(L, langs):
+    code, C = L["code"], L["cities"]
+    P = C["index"]
+    travel = "".join(f"<li>{e(t)}</li>" for t in P["travel"])
+    body = f"""<main id="main">
+  <section class="page-head">
+    <div class="wrap">
+      <p class="eyebrow">{icon("cities", "ico big")}{e(P['eyebrow'])}</p>
+      <h1>{e(P['h1'])}</h1>
+      <p class="lead">{e(P['lead'])}</p>
+    </div>
+  </section>
+  <section class="wrap block">{city_grid(L)}</section>
+  <div class="wrap">{ad_slot('cities-mid')}</div>
+  <article class="wrap narrow article">
+    <section class="sec"><h2>{e(P['travel_h'])}</h2><ul class="ticks">{travel}</ul></section>
+    <section class="official"><h2>{e(L["ui"]["official"])}</h2><ul><li><a href="{link_url('via', code)}" target="_blank" rel="noopener">{e(P['travel_link'])}{EXT}</a></li></ul></section>
+    <p class="small muted reviewed">{e(L['ui']['reviewed'])}</p>
+  </article>
+</main>"""
+    return head(L, "cities", P, langs) + header(L, "cities", langs) + body + footer(L)
+
+def render_city(L, slug, langs):
+    code, C = L["code"], L["cities"]
+    U, P = C["ui"], C["cities"][slug]
+    city_url, agency, transit_url = CITY_LINKS[slug]
+    page = {"title": P["title"], "desc": P["desc"], "h1": P["name"]}
+    transit = "".join(f"<li>{e(t)}</li>" for t in P["transit"])
+    EN = LANGS_ALL["en"]["cities"]["cities"][slug]
+    def en_tag(local, eng):
+        return "" if code in ("en", "fr") or local == eng else f'<span class="en-name" lang="en" dir="ltr">{e(eng)}</span>'
+    sights = "".join(f'<li><strong>{e(n)}</strong>{en_tag(n, EN["see"][i][0])}<span>{e(d)}</span></li>' for i, (n, d) in enumerate(P["see"]))
+    tips = "".join(f"<li>{e(t)}</li>" for t in P["tips"])
+    n = CITIES[(CITIES.index(slug) + 1) % len(CITIES)]
+    body = f"""<main id="main">
+  <section class="page-head">
+    <div class="wrap narrow">
+      <p class="eyebrow"><a href="{href(code, code, 'cities')}">{icon("cities", "ico big")}{e(U['nav'])}</a></p>
+      <h1>{e(P['name'])}{en_tag(P['name'], EN['name']).replace('en-name', 'en-name h1-en')}</h1>
+      <p class="lead">{e(P['lead'])}</p>
+      <dl class="facts">
+        <div><dt>{e(U['province'])}</dt><dd>{e(P['prov'])}</dd></div>
+        <div><dt>{e(U['timezone'])}</dt><dd>{e(P['tz'])}</dd></div>
+      </dl>
+    </div>
+  </section>
+  <article class="wrap narrow article">
+    <section class="sec"><h2>{icon("transit", "ico h-ico")}{e(U['getting_around'])}</h2><ul class="ticks">{transit}</ul><p class="small muted">{e(U['fares_note'])}</p></section>
+    <section class="sec"><h2>{icon("star", "ico h-ico")}{e(U['see_do'])}</h2><ul class="sights">{sights}</ul></section>
+    {ad_slot(slug + '-mid')}
+    <section class="sec"><h2>{icon("info", "ico h-ico")}{e(U['tips'])}</h2><ul class="ticks">{tips}</ul></section>
+    <section class="official"><h2>{e(L['ui']['official'])}</h2><ul>
+      <li><a href="{city_url}" target="_blank" rel="noopener">{e(U['city_site'].replace('{name}', P['name']))}{EXT}</a></li>
+      <li><a href="{transit_url}" target="_blank" rel="noopener">{e(U['transit_site'].replace('{agency}', agency))}{EXT}</a></li>
+    </ul></section>
+    <p class="small muted reviewed">{e(L['ui']['reviewed'])}</p>
+    <div class="next-row">
+      <a class="next" href="{href(code, code, n)}"><span class="small muted">{e(L['ui']['next'])}</span><span class="next-title">{icon("pin")}{e(C['cities'][n]['name'])}{ARROW}</span></a>
+      <a class="all-link" href="{href(code, code, 'cities')}">{e(U['all_cities'])}</a>
+    </div>
+  </article>
+</main>"""
+    return head(L, slug, page, langs) + header(L, slug, langs) + body + footer(L)
 
 def render_root(langs):
     tiles = "".join(
@@ -339,6 +447,7 @@ def render_root(langs):
     <h1>Choose your language</h1>
     <p class="lead muted">Free guides for your first months in Canada.</p>
     <div class="lang-tiles">{tiles}</div>
+    <p class="small foot-links"><a href="en/{page_file('about')}">About</a> · <a href="en/{page_file('privacy')}">Privacy Policy</a> · <a href="mailto:{CONTACT_EMAIL}">Contact: {CONTACT_EMAIL}</a></p>
     <p class="built-by small muted">Designed &amp; built by {STUDIO}</p>
   </div>
 </main>
@@ -356,8 +465,11 @@ def render_404(langs):
 <body class="root-page"><main class="root-main"><div class="wrap root-wrap"><a class="brand big" href="/">{MARK}<span>{BRAND}</span></a>
 <h1>Page not found</h1><p class="lead">{links}</p></div></main></body></html>"""
 
+LANGS_ALL = {}
+
 def build():
     langs = load()
+    LANGS_ALL.update(langs)
     if OUT.exists():
         shutil.rmtree(OUT)
     (OUT / "assets").mkdir(parents=True)
@@ -368,7 +480,14 @@ def build():
         L = langs[c]
         (OUT / c).mkdir()
         for slug in PAGES:
-            html_out = render_index(L, langs) if slug == "index" else render_guide(L, slug, langs)
+            if slug == "index":
+                html_out = render_index(L, langs)
+            elif slug == "cities":
+                html_out = render_cities_index(L, langs)
+            elif slug in CITIES:
+                html_out = render_city(L, slug, langs)
+            else:
+                html_out = render_guide(L, slug, langs)
             (OUT / c / f"{slug}.html").write_text(html_out, encoding="utf-8")
             count += 1
     (OUT / "index.html").write_text(render_root(langs), encoding="utf-8")
