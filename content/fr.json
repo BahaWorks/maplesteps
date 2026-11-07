@@ -14,12 +14,15 @@
   "reset": "Effacer ma liste",
   "saved": "Vos cases cochées sont enregistrées sur cet appareil seulement.",
   "next": "Guide suivant",
-  "about_link": "À propos et confidentialité",
+  "about_link": "À propos",
   "tagline": "Des guides gratuits pour vos premiers mois au Canada, en six langues.",
   "home": "Accueil",
   "guides": "Guides",
   "official_page": "Page officielle",
-  "built_by": "Conçu et réalisé par {studio}"
+  "built_by": "Conçu et réalisé par {studio}",
+  "privacy_link": "Politique de confidentialité",
+  "contact_link": "Nous joindre",
+  "links_h": "Liens utiles"
  },
  "pages": {
   "index": {
@@ -430,7 +433,7 @@
   },
   "about": {
    "nav": "À propos",
-   "title": "À propos de MapleSteps et confidentialité",
+   "title": "À propos de MapleSteps | MapleSteps",
    "desc": "Qui gère MapleSteps, comment le site est financé et comment nous protégeons votre vie privée.",
    "eyebrow": "À propos",
    "h1": "À propos de MapleSteps",
@@ -445,12 +448,55 @@
      "p": "MapleSteps est gratuit grâce à la publicité. Certaines pages peuvent contenir des liens d'affiliation. Si vous achetez par l'un d'eux, nous pouvons recevoir une petite commission, sans frais pour vous. Nous recommandons seulement ce qui, selon nous, aide les nouveaux arrivants."
     },
     {
-     "h": "Confidentialité",
-     "p": "Aucun compte n'est nécessaire. Les cases cochées de la liste sont enregistrées seulement dans votre navigateur. Nous pouvons utiliser des services de publicité et d'analyse de tiers, dont Google, qui utilisent des témoins (cookies) pour afficher et mesurer les annonces. Vous pouvez gérer la personnalisation des annonces dans vos paramètres publicitaires Google."
-    },
-    {
      "h": "Nous joindre",
      "p": "Vous avez trouvé une erreur ou avez une suggestion ? Écrivez à hello@maplesteps.ca."
+    }
+   ],
+   "links": []
+  },
+  "privacy": {
+   "nav": "Politique de confidentialité",
+   "title": "Politique de confidentialité | MapleSteps",
+   "desc": "Comment MapleSteps traite vos renseignements, les témoins (cookies) et la publicité, dont Google AdSense, et comment refuser les annonces personnalisées.",
+   "eyebrow": "Confidentialité",
+   "h1": "Politique de confidentialité",
+   "lead": "Dernière mise à jour : 7 novembre 2026. Cette politique explique quels renseignements sont recueillis lorsque vous visitez maplesteps.ca et comment ils sont utilisés.",
+   "sections": [
+    {
+     "h": "Qui nous sommes",
+     "p": "MapleSteps (maplesteps.ca) est un site indépendant qui publie des guides gratuits pour les nouveaux arrivants au Canada. Ce n'est pas un site du gouvernement."
+    },
+    {
+     "h": "Renseignements recueillis",
+     "p": "Vous pouvez utiliser MapleSteps sans créer de compte ni nous donner de renseignements personnels. Si vous nous écrivez, nous recevons votre adresse courriel et votre message, et nous les utilisons seulement pour vous répondre."
+    },
+    {
+     "h": "Votre liste et votre choix de langue",
+     "p": "Les cases cochées de la liste des premières étapes et votre choix de langue sont enregistrés seulement dans votre navigateur (stockage local). Ils ne nous sont pas transmis. Vous pouvez les effacer en tout temps avec le bouton « Effacer ma liste » ou dans les paramètres de votre navigateur."
+    },
+    {
+     "h": "Témoins et publicité",
+     "p": "MapleSteps est gratuit grâce à la publicité. Des fournisseurs tiers, dont Google, utilisent des témoins (cookies) pour diffuser des annonces en fonction de vos visites antérieures sur ce site ou sur d'autres sites. Les témoins publicitaires de Google permettent à Google et à ses partenaires de vous présenter des annonces en fonction de vos visites sur ce site et sur d'autres sites Internet."
+    },
+    {
+     "h": "Refuser les annonces personnalisées",
+     "p": "Vous pouvez désactiver la publicité personnalisée dans les paramètres des annonces de Google. Vous pouvez aussi refuser l'utilisation de témoins par d'autres fournisseurs à des fins de publicité personnalisée sur youradchoices.ca/fr (Canada) ou aboutads.info. Dans certaines régions, dont l'Espace économique européen et le Royaume-Uni, votre consentement vous sera demandé avant l'affichage d'annonces personnalisées."
+    },
+    {
+     "h": "Hébergement et statistiques",
+     "p": "Le site est hébergé par Cloudflare, qui traite des données techniques de base, comme les adresses IP, pour afficher les pages et protéger le site contre les attaques. Nous pourrions utiliser des outils de statistiques respectueux de la vie privée pour compter les visites. Nous ne vendons pas de renseignements personnels."
+    },
+    {
+     "h": "Liens vers d'autres sites",
+     "p": "Nos guides renvoient à des sites gouvernementaux et à d'autres sites. Ces sites ont leurs propres politiques de confidentialité; nous vous invitons à les consulter."
+    },
+    {
+     "h": "Enfants",
+     "p": "MapleSteps s'adresse aux adultes. Nous ne recueillons pas sciemment de renseignements personnels auprès d'enfants."
+    },
+    {
+     "h": "Modifications et contact",
+     "p": "Nous pouvons mettre à jour cette politique de temps à autre. La date en haut de la page indique la version la plus récente. Pour toute question sur votre vie privée, écrivez à hello@maplesteps.ca."
     }
    ],
    "links": [
@@ -461,6 +507,14 @@
     [
      "Comment Google utilise les informations des sites partenaires",
      "partnersites"
+    ],
+    [
+     "Choix de pub (Canada)",
+     "youradchoices"
+    ],
+    [
+     "Désinscription de la Digital Advertising Alliance",
+     "aboutads"
     ]
    ]
   }
