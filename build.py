@@ -17,7 +17,9 @@ REVIEWED = "2026-11-06"
 LANG_ORDER = ["en", "fr", "ar", "zh", "hi", "fa"]
 GUIDES = ["first-steps", "housing", "work", "health", "money"]
 CITIES = ["toronto", "montreal", "vancouver", "calgary", "ottawa", "edmonton", "winnipeg", "halifax"]
-PAGES = ["index"] + GUIDES + ["about", "privacy", "cities"] + CITIES
+ARTICLES = ["health-card", "bank-account", "drivers-licence", "first-winter"]
+ARTICLE_ICONS = {"health-card": "health", "bank-account": "money", "drivers-licence": "first-steps", "first-winter": "info"}
+PAGES = ["index"] + GUIDES + ["about", "privacy", "cities"] + CITIES + ["articles"] + [f"articles/{a}" for a in ARTICLES]
 CONTACT_EMAIL = "hello@maplesteps.ca"
 # city slug -> (official city website, transit agency name, transit website)
 CITY_LINKS = {
@@ -64,6 +66,19 @@ LINKS = {
     "partnersites": {"en": "https://policies.google.com/technologies/partner-sites"},
     "youradchoices": {"en": "https://youradchoices.ca/en/", "fr": "https://youradchoices.ca/fr/"},
     "aboutads": {"en": "https://www.aboutads.info/choices"},
+    "ohip": {"en": "https://www.ontario.ca/page/apply-ohip-and-get-health-card", "fr": "https://www.ontario.ca/fr/page/demande-de-carte-sante-et-dassurance-sante"},
+    "bcmsp": {"en": "https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/msp"},
+    "ramq": {"en": "https://www.ramq.gouv.qc.ca/en", "fr": "https://www.ramq.gouv.qc.ca/fr"},
+    "ahcip": {"en": "https://www.alberta.ca/ahcip"},
+    "fcac_open": {"en": "https://www.canada.ca/en/financial-consumer-agency/services/banking/opening-bank-account.html"},
+    "cdic": {"en": "https://www.cdic.ca/", "fr": "https://www.sadc.ca/"},
+    "drivetest": {"en": "https://www.drivetest.ca/licences/licence-exchanges/licence_exchange.html"},
+    "icbc": {"en": "https://www.icbc.com/driver-licensing"},
+    "saaq": {"en": "https://saaq.gouv.qc.ca/en/", "fr": "https://saaq.gouv.qc.ca/"},
+    "abdl": {"en": "https://www.alberta.ca/exchange-non-alberta-licences"},
+    "weather": {"en": "https://weather.gc.ca", "fr": "https://meteo.gc.ca"},
+    "windchill": {"en": "https://www.canada.ca/content/dam/eccc/migration/main/meteo-weather/80b0f2af-9697-4bee-ab17-d401ebba5b4b/windchill_factsheet_en.pdf"},
+    "climate": {"en": "https://www.canada.ca/en/immigration-refugees-citizenship/services/settle-canada/land-climate.html"},
     "via": {"en": "https://www.viarail.ca/en", "fr": "https://www.viarail.ca/fr"},
 }
 
@@ -104,23 +119,35 @@ def load():
     for c in LANG_ORDER:
         L = json.loads((ROOT / "content" / f"{c}.json").read_text(encoding="utf-8"))
         L["cities"] = json.loads((ROOT / "content" / "cities" / f"{c}.json").read_text(encoding="utf-8"))
+        L["articles"] = json.loads((ROOT / "content" / "articles" / f"{c}.json").read_text(encoding="utf-8"))
         out[c] = L
     return out
 
+CUR = {"slug": "index"}
+V = "1"
+
 def page_file(slug):
+    if slug == "articles":
+        return "articles/index.html" if PREVIEW else "articles/"
     if PREVIEW:
         return f"{slug}.html"
     return "./" if slug == "index" else slug
 
+def up():
+    return "../" if ("/" in CUR["slug"] or CUR["slug"] == "articles") else ""
+
 def href(from_lang, to_lang, slug):
-    target = page_file(slug)
     if from_lang == to_lang:
-        return target
+        if not PREVIEW and slug == "index":
+            return up() + "./" if not up() else up()
+        return up() + page_file(slug)
     if PREVIEW:
-        return f"../{to_lang}/{target}"
-    return f"../{to_lang}/" + ("" if slug == "index" else slug)
+        return f"{up()}../{to_lang}/{page_file(slug)}"
+    return f"{up()}../{to_lang}/" + ("" if slug == "index" else page_file(slug))
 
 def canonical(lang, slug):
+    if slug == "articles":
+        return f"{SITE_URL}/{lang}/articles/"
     return f"{SITE_URL}/{lang}/" + ("" if slug == "index" else slug)
 
 def link_url(key, lang):
@@ -173,12 +200,12 @@ def head(L, slug, P, langs):
 <meta property="og:image" content="{SITE_URL}/assets/og.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#1d5a48">
-<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="../assets/icon-512.png">
+<link rel="icon" href="{up()}../assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="{up()}../assets/icon-512.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?{BRAND_FONT}&{fam}&display=swap">
-<link rel="stylesheet" href="../assets/style.css">
+<link rel="stylesheet" href="{up()}../assets/style.css?v={V}">
 <style>:root{{--font-display:{disp},'Bricolage Grotesque',system-ui,sans-serif;--font-body:{body},system-ui,-apple-system,'Segoe UI',sans-serif;--tracking:{tracking};--lh:{lh}}}</style>
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
 <!-- Google AdSense: once approved, paste your AdSense <script> tag here, on every page (it's in build.py). -->
@@ -186,8 +213,8 @@ def head(L, slug, P, langs):
 
 def header(L, slug, langs):
     code, ui = L["code"], L["ui"]
-    nav = [("index", ui["home"])] + [(g, L["pages"][g]["nav"]) for g in GUIDES] + [("cities", L["cities"]["ui"]["nav"])]
-    active = "cities" if slug in CITIES else slug
+    nav = [("index", ui["home"])] + [(g, L["pages"][g]["nav"]) for g in GUIDES] + [("cities", L["cities"]["ui"]["nav"]), ("articles", L["articles"]["ui"]["nav"])]
+    active = "cities" if slug in CITIES else ("articles" if slug.startswith("articles") else slug)
     nav_html = "".join(
         f'<a href="{href(code, code, s)}"{AC_PAGE if s == active else ""}>{e(t)}</a>' for s, t in nav)
     langs_html = "".join(
@@ -223,7 +250,7 @@ def footer(L):
   </div>
   <div class="wrap"><p class="built-by small muted">{e(ui['built_by']).replace('{studio}', '<span dir="ltr">' + STUDIO + '</span>')}</p></div>
 </footer>
-<script src="../assets/app.js" defer></script>
+<script src="{up()}../assets/app.js?v={V}" defer></script>
 </body>
 </html>
 """
@@ -270,6 +297,10 @@ def render_index(L, langs):
       <a class="guide feature" href="{href(code, code, 'first-steps')}">{icon('first-steps')}<span class="g-title">{e(first['nav'])}</span><span class="g-text">{e(first['card'])}</span>{ARROW}</a>
       {others}
     </div>
+  </section>
+  <section class="wrap block">
+    <div class="block-head"><h2>{e(L['articles']['home']['h'])}</h2><p class="muted">{e(L['articles']['home']['lead'])}</p></div>
+    {article_list(L)}
   </section>
   <section class="wrap block">
     <div class="block-head"><h2>{e(C['home']['h'])}</h2><p class="muted">{e(C['home']['lead'])}</p></div>
@@ -319,6 +350,10 @@ def render_guide(L, slug, langs):
         n = GUIDES[(GUIDES.index(slug) + 1) % len(GUIDES)]
         nxt = f'<a class="next" href="{href(code, code, n)}"><span class="small muted">{e(ui["next"])}</span><span class="next-title">{icon(n)}{e(L["pages"][n]["nav"])}{ARROW}</span></a>'
     ico = icon(slug, "ico big") if slug in ICONS else ""
+    rel_arts = [a for a in ARTICLES if L["articles"]["items"][a]["related"] == slug]
+    if rel_arts:
+        lis = "".join(f'<li><a href="{href(code, code, "articles/" + a)}">{e(L["articles"]["items"][a]["h1"])}</a></li>' for a in rel_arts)
+        nxt = f'<section class="more-arts"><h2>{e(L["articles"]["ui"]["nav"])}</h2><ul>{lis}</ul></section>' + nxt
     body = f"""<main id="main">
   <section class="page-head">
     <div class="wrap narrow">
@@ -410,6 +445,62 @@ def render_city(L, slug, langs):
 </main>"""
     return head(L, slug, page, langs) + header(L, slug, langs) + body + footer(L)
 
+def article_list(L):
+    code, A = L["code"], L["articles"]
+    cards = "".join(
+        f'<a class="art-card" href="{href(code, code, "articles/" + a)}">{icon(ARTICLE_ICONS[a])}'
+        f'<span class="g-title">{e(A["items"][a]["h1"])}</span><span class="g-text">{e(A["items"][a]["summary"])}</span>'
+        f'<span class="art-more">{e(A["ui"]["read"])}{ARROW}</span></a>' for a in ARTICLES)
+    return f'<div class="art-grid">{cards}</div>'
+
+def render_articles_index(L, langs):
+    code, A = L["code"], L["articles"]
+    P = A["index"]
+    body = f"""<main id="main">
+  <section class="page-head"><div class="wrap">
+    <p class="eyebrow">{icon("first-steps", "ico big")}{e(P['eyebrow'])}</p>
+    <h1>{e(P['h1'])}</h1><p class="lead">{e(P['lead'])}</p>
+  </div></section>
+  <section class="wrap block">{article_list(L)}</section>
+  <div class="wrap">{ad_slot('articles-mid')}</div>
+</main>"""
+    return head(L, "articles", P, langs) + header(L, "articles", langs) + body + footer(L)
+
+def render_article(L, slug, langs):
+    code, A = L["code"], L["articles"]
+    key = slug.split("/", 1)[1]
+    P = A["items"][key]
+    page = {"title": P["title"], "desc": P["desc"], "h1": P["h1"]}
+    toc = "".join(f'<li><a href="#s{i+1}">{e(s["h"])}</a></li>' for i, s in enumerate(P["sections"]))
+    secs = []
+    for i, s in enumerate(P["sections"]):
+        inner = ('<ul class="ticks">' + "".join(f"<li>{e(x)}</li>" for x in s["items"]) + "</ul>") if "items" in s else f'<p>{e(s["p"])}</p>'
+        secs.append(f'<section class="sec" id="s{i+1}"><h2>{e(s["h"])}</h2>{inner}</section>')
+        if i == 1:
+            secs.append(ad_slot(key + "-mid"))
+    rel = P["related"]
+    rel_name = L["cities"]["ui"]["nav"] if rel == "cities" else L["pages"][rel]["nav"]
+    rel_icon = "cities" if rel == "cities" else rel
+    others = [a for a in ARTICLES if a != key]
+    more = "".join(f'<li><a href="{href(code, code, "articles/" + a)}">{e(A["items"][a]["h1"])}</a></li>' for a in others)
+    body = f"""<main id="main">
+  <section class="page-head"><div class="wrap narrow">
+    <p class="eyebrow"><a href="{href(code, code, 'articles')}">{icon(ARTICLE_ICONS[key], "ico big")}{e(A['ui']['nav'])}</a></p>
+    <h1>{e(P['h1'])}</h1>
+    <p class="lead">{e(P['lead'])}</p>
+    <p class="small muted">{e(A['ui']['updated'])}</p>
+  </div></section>
+  <article class="wrap narrow article">
+    <nav class="toc" aria-label="{e(A['ui']['in_this'])}"><p class="toc-h">{e(A['ui']['in_this'])}</p><ol>{toc}</ol></nav>
+    {"".join(secs)}
+    {official_links(L, P)}
+    <p class="small muted reviewed">{e(L['ui']['reviewed'])}</p>
+    <a class="next" href="{href(code, code, rel)}"><span class="small muted">{e(A['ui']['related'])}</span><span class="next-title">{icon(rel_icon)}{e(rel_name)}{ARROW}</span></a>
+    <section class="more-arts"><h2>{e(A['ui']['more'])}</h2><ul>{more}</ul></section>
+  </article>
+</main>"""
+    return head(L, slug, page, langs) + header(L, slug, langs) + body + footer(L)
+
 def render_root(langs):
     tiles = "".join(
         f'<a class="lang-tile" href="{c}/{"index.html" if PREVIEW else ""}" lang="{langs[c]["hreflang"]}" dir="{langs[c]["dir"]}" data-lang="{c}">'
@@ -437,7 +528,7 @@ def render_root(langs):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?{fams}&display=swap">
-<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/style.css?v={V}">
 <style>:root{{--font-display:'Bricolage Grotesque',system-ui,sans-serif;--font-body:'Noto Sans','Noto Sans Arabic','Vazirmatn','Noto Sans SC','Noto Sans Devanagari',system-ui,sans-serif;--tracking:-0.025em;--lh:1.6}}</style>
 </head>
 <body class="root-page">
@@ -451,7 +542,7 @@ def render_root(langs):
     <p class="built-by small muted">Designed &amp; built by {STUDIO}</p>
   </div>
 </main>
-<script src="assets/app.js" defer></script>
+<script src="assets/app.js?v={V}" defer></script>
 </body>
 </html>
 """
@@ -460,14 +551,23 @@ def render_404(langs):
     links = " · ".join(f'<a href="/{c}/" lang="{langs[c]["hreflang"]}">{e(langs[c]["name"])}</a>' for c in LANG_ORDER)
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Page not found · {BRAND}</title><meta name="robots" content="noindex">
-<link rel="stylesheet" href="/assets/style.css">
+<link rel="stylesheet" href="/assets/style.css?v={V}">
 <style>:root{{--font-display:system-ui,sans-serif;--font-body:system-ui,sans-serif;--tracking:0;--lh:1.6}}</style></head>
 <body class="root-page"><main class="root-main"><div class="wrap root-wrap"><a class="brand big" href="/">{MARK}<span>{BRAND}</span></a>
 <h1>Page not found</h1><p class="lead">{links}</p></div></main></body></html>"""
 
 LANGS_ALL = {}
 
+def asset_version():
+    import hashlib
+    h = hashlib.md5()
+    for n in ("style.css", "app.js"):
+        h.update((ROOT / "assets" / n).read_bytes())
+    return h.hexdigest()[:8]
+
 def build():
+    global V
+    V = asset_version()
     langs = load()
     LANGS_ALL.update(langs)
     if OUT.exists():
@@ -479,16 +579,23 @@ def build():
     for c in LANG_ORDER:
         L = langs[c]
         (OUT / c).mkdir()
+        (OUT / c / "articles").mkdir()
         for slug in PAGES:
+            CUR["slug"] = slug
             if slug == "index":
                 html_out = render_index(L, langs)
             elif slug == "cities":
                 html_out = render_cities_index(L, langs)
             elif slug in CITIES:
                 html_out = render_city(L, slug, langs)
+            elif slug == "articles":
+                html_out = render_articles_index(L, langs)
+            elif slug.startswith("articles/"):
+                html_out = render_article(L, slug, langs)
             else:
                 html_out = render_guide(L, slug, langs)
-            (OUT / c / f"{slug}.html").write_text(html_out, encoding="utf-8")
+            dest = OUT / c / ("articles/index.html" if slug == "articles" else f"{slug}.html")
+            dest.write_text(html_out, encoding="utf-8")
             count += 1
     (OUT / "index.html").write_text(render_root(langs), encoding="utf-8")
     if not PREVIEW:
