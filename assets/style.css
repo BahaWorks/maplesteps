@@ -291,3 +291,4 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 .more-arts h2 { font-size: 1.15rem; }
 .more-arts ul { margin: 0; padding-inline-start: 20px; display: grid; gap: 6px; }
 @media (max-width: 700px) { .art-grid { grid-template-columns: 1fr; } }
+.sec[id] { scroll-margin-top: calc(env(safe-area-inset-top, 0px) + 120px); }
