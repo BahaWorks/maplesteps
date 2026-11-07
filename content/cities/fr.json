@@ -1,0 +1,260 @@
+{
+ "ui": {
+  "nav": "Villes",
+  "province": "Province",
+  "timezone": "Fuseau horaire",
+  "getting_around": "Se déplacer",
+  "see_do": "Lieux et attraits",
+  "tips": "Bon à savoir pour les nouveaux arrivants",
+  "city_site": "Site officiel de la Ville de {name}",
+  "transit_site": "{agency} : trajets, plans et tarifs",
+  "all_cities": "Tous les guides des villes",
+  "read": "Lire le guide de {name}",
+  "fares_note": "Les tarifs et les trajets changent souvent : vérifiez le site du transport en commun avant de partir."
+ },
+ "home": {
+  "h": "Guides des villes",
+  "lead": "Se déplacer, lieux à visiter et conseils locaux pour huit des plus grandes villes du Canada."
+ },
+ "index": {
+  "title": "Guides des villes canadiennes pour nouveaux arrivants | MapleSteps",
+  "desc": "Guides pour nouveaux arrivants à Toronto, Montréal, Vancouver, Calgary, Ottawa, Edmonton, Winnipeg et Halifax : transport en commun, lieux à visiter et conseils locaux.",
+  "eyebrow": "Villes",
+  "h1": "Guides des grandes villes du Canada",
+  "lead": "Chaque ville fonctionne un peu différemment. Découvrez comment vous déplacer, quoi visiter et ce qu'il faut savoir avant d'arriver.",
+  "travel_h": "Voyager d'une ville à l'autre",
+  "travel": [
+   "Le Canada est immense. Un vol Toronto–Vancouver dure environ 4 h 30 à 5 h, et le pays compte six fuseaux horaires.",
+   "VIA Rail offre des trains de passagers partout au pays. La ligne la plus fréquentée relie Windsor, Toronto, Ottawa, Montréal et Québec.",
+   "Des autocars relient de nombreuses villes. Les compagnies et les trajets varient selon la province : comparez avant de réserver.",
+   "Conduire l'hiver demande de la prudence. Les pneus d'hiver sont obligatoires au Québec du 1er décembre au 15 mars, et sur de nombreuses routes de la Colombie-Britannique du 1er octobre au 30 avril.",
+   "Réservez tôt pour les fêtes comme Noël, la fête du Canada (1er juillet) et les longs week-ends, quand les prix augmentent."
+  ],
+  "travel_link": "VIA Rail Canada : trains partout au Canada"
+ },
+ "cities": {
+  "toronto": {
+   "name": "Toronto",
+   "prov": "Ontario",
+   "tz": "Heure de l'Est",
+   "card": "La plus grande ville du Canada, avec le métro de la TTC, les tramways et le réseau régional GO.",
+   "title": "Guide de Toronto pour nouveaux arrivants : transport, lieux et conseils",
+   "desc": "Guide de Toronto pour nouveaux arrivants : la TTC, PRESTO et GO Transit, la Tour CN et les îles de Toronto, et des conseils pratiques pour s'installer.",
+   "lead": "Toronto est la plus grande ville du Canada et l'une des plus diversifiées au monde. Environ la moitié de ses habitants sont nés hors du Canada : vous entendrez beaucoup de langues chaque jour.",
+   "transit": [
+    "La TTC exploite le métro, les tramways et les autobus de la ville. La ligne 5 Eglinton, un nouveau train léger, a ouvert en février 2026.",
+    "Payez avec une carte PRESTO, ou en touchant le lecteur avec une carte de crédit, de débit ou votre téléphone.",
+    "Les trains et autobus GO Transit relient Toronto à Mississauga, Brampton, Hamilton, Oshawa et d'autres villes voisines.",
+    "Le train UP Express relie la gare Union, au centre-ville, à l'aéroport Pearson en environ 25 minutes.",
+    "Avec le programme One Fare, vous payez une seule fois en passant de la TTC à GO Transit et à plusieurs réseaux voisins."
+   ],
+   "see": [
+    ["Tour CN", "Le symbole de la ville, avec une vue sur le lac Ontario depuis le sommet."],
+    ["Îles de Toronto", "À quelques minutes de traversier du centre-ville : plages, pistes cyclables et vue sur la ville."],
+    ["Musée royal de l'Ontario", "Le plus grand musée de culture mondiale et d'histoire naturelle du Canada."],
+    ["Marché St. Lawrence", "Un marché historique avec produits frais, boulangeries et cuisines du monde."],
+    ["Distillery District", "Rues piétonnes, bâtiments de brique restaurés, boutiques et marché de Noël populaire."],
+    ["Parc High", "Un grand parc de l'ouest de la ville, avec sentiers, jardins et cerisiers en fleurs au printemps."]
+   ],
+   "tips": [
+    "Les loyers sont élevés au centre-ville. Beaucoup de nouveaux arrivants vivent à Scarborough, North York, Etobicoke ou dans des villes voisines comme Mississauga et Brampton.",
+    "La carte de la Bibliothèque publique de Toronto est gratuite : Internet, ordinateurs, groupes de conversation en anglais et programmes pour nouveaux arrivants.",
+    "Les hivers sont froids, mais plus doux que dans les Prairies. Les étés sont chauds et humides."
+   ]
+  },
+  "montreal": {
+   "name": "Montréal",
+   "prov": "Québec",
+   "tz": "Heure de l'Est",
+   "card": "Une ville francophone avec le métro de la STM, le REM et le Vieux-Montréal historique.",
+   "title": "Guide de Montréal pour nouveaux arrivants : transport, lieux et conseils",
+   "desc": "Guide de Montréal pour nouveaux arrivants : le métro de la STM et la carte OPUS, le REM, le mont Royal et le Vieux-Montréal, et des conseils sur le français et les règles du Québec.",
+   "lead": "Montréal est la plus grande ville du Québec et l'une des plus grandes villes francophones du monde. Elle est connue pour ses festivals, sa cuisine et des loyers plus bas qu'à Toronto ou Vancouver.",
+   "transit": [
+    "La STM exploite le métro (quatre lignes de couleur) et les autobus de la ville.",
+    "Chargez vos titres sur une carte OPUS, offerte dans les stations de métro.",
+    "Le REM est un train léger automatisé qui ouvre par étapes; de nouvelles antennes et la station de l'aéroport sont encore en travaux.",
+    "Les trains et autobus d'exo desservent les banlieues autour de Montréal.",
+    "L'hiver, le réseau piétonnier souterrain (RÉSO) relie stations de métro, centres commerciaux et bureaux du centre-ville."
+   ],
+   "see": [
+    ["Parc du Mont-Royal", "La montagne au cœur de la ville, avec sentiers et belvédère sur le centre-ville."],
+    ["Vieux-Montréal", "Rues pavées, Vieux-Port et bâtiments du 17e au 19e siècle."],
+    ["Basilique Notre-Dame", "Une église célèbre pour son intérieur richement décoré."],
+    ["Marché Jean-Talon", "L'un des plus grands marchés publics en plein air d'Amérique du Nord."],
+    ["Jardin botanique de Montréal", "De grands jardins thématiques, dont les jardins de Chine et du Japon."],
+    ["Parc olympique", "Le stade et la tour construits pour les Jeux olympiques d'été de 1976."]
+   ],
+   "tips": [
+    "Le français est la langue commune au travail et dans les services publics. Des cours de français gratuits sont offerts par Francisation Québec.",
+    "Le Québec a son propre système d'immigration et sa propre assurance maladie (RAMQ). Certaines règles diffèrent du reste du Canada.",
+    "Beaucoup de baux se terminent le 30 juin et le 1er juillet est le grand jour du déménagement : planifiez tôt."
+   ]
+  },
+  "vancouver": {
+   "name": "Vancouver",
+   "prov": "Colombie-Britannique",
+   "tz": "Heure du Pacifique",
+   "card": "Une ville de la côte ouest entre montagnes et océan, desservie par le SkyTrain, le SeaBus et les autobus.",
+   "title": "Guide de Vancouver pour nouveaux arrivants : transport, lieux et conseils",
+   "desc": "Guide de Vancouver pour nouveaux arrivants : TransLink, le SkyTrain et la carte Compass, le parc Stanley et Granville Island, et des conseils sur le logement et la météo.",
+   "lead": "Vancouver est située entre l'océan Pacifique et la chaîne Côtière. Elle a les hivers les plus doux des grandes villes canadiennes et d'importantes communautés chinoise, sud-asiatique et iranienne.",
+   "transit": [
+    "TransLink exploite le SkyTrain (lignes Expo, Millennium et Canada), les autobus, le traversier SeaBus et le train West Coast Express.",
+    "Payez avec une carte Compass, ou en touchant le lecteur avec une carte de crédit ou votre téléphone.",
+    "La ligne Canada relie le centre-ville à Richmond et à l'aéroport international de Vancouver.",
+    "Le tarif du SkyTrain et du SeaBus dépend du nombre de zones traversées. L'autobus coûte toujours une zone."
+   ],
+   "see": [
+    ["Parc Stanley", "Un immense parc à côté du centre-ville, avec la promenade Seawall pour marcher et rouler à vélo."],
+    ["Granville Island", "Un marché public, des ateliers d'artistes et de petits théâtres sous le pont."],
+    ["Gastown", "Le plus vieux quartier de la ville, avec sa célèbre horloge à vapeur."],
+    ["Parc du pont suspendu Capilano", "Un long pont au-dessus d'un canyon à North Vancouver (entrée payante)."],
+    ["Mont Grouse", "Ski l'hiver et randonnée l'été, tout près de la ville."],
+    ["English Bay", "Une plage populaire, surtout au coucher du soleil."]
+   ],
+   "tips": [
+    "Les loyers de Vancouver sont parmi les plus élevés du Canada. Beaucoup de nouveaux arrivants vivent à Surrey, Burnaby, Richmond ou Coquitlam.",
+    "Les hivers sont doux mais très pluvieux. Un bon imperméable compte plus qu'un gros manteau.",
+    "Randonnée, vélo et plages sont tout près et souvent gratuits."
+   ]
+  },
+  "calgary": {
+   "name": "Calgary",
+   "prov": "Alberta",
+   "tz": "Heure des Rocheuses",
+   "card": "Une ville ensoleillée des Prairies près des Rocheuses, où a lieu le Stampede de Calgary.",
+   "title": "Guide de Calgary pour nouveaux arrivants : transport, lieux et conseils",
+   "desc": "Guide de Calgary pour nouveaux arrivants : Calgary Transit et le CTrain, la Tour de Calgary et le Stampede, les excursions à Banff, et des conseils sur les taxes et la météo.",
+   "lead": "Calgary est une ville en forte croissance au pied des Rocheuses. C'est un centre de l'énergie, de la technologie et des affaires, et l'une des villes les plus ensoleillées du Canada.",
+   "transit": [
+    "Calgary Transit exploite le CTrain (lignes Rouge et Bleue) et un grand réseau d'autobus.",
+    "Achetez vos titres avec l'application My Fare ou aux distributrices du CTrain, et consultez calgarytransit.com pour les options de paiement à jour.",
+    "Les autobus de la ligne 300 relient le centre-ville à l'aéroport international de Calgary.",
+    "La ville est très étendue et beaucoup de gens ont une voiture. Si vous comptez sur le transport en commun, logez près d'une station du CTrain."
+   ],
+   "see": [
+    ["Stampede de Calgary", "Un rodéo et festival de 10 jours chaque juillet, l'un des plus grands au monde."],
+    ["Tour de Calgary", "Une tour du centre-ville avec un belvédère au plancher de verre."],
+    ["Parc Prince's Island", "Une île-parc sur la rivière Bow, lieu de festivals l'été."],
+    ["Heritage Park", "Un grand village historique vivant sur la vie dans l'Ouest canadien."],
+    ["Zoo de Calgary", "Un zoo et jardin botanique près du centre-ville."],
+    ["Parc national Banff", "À environ 1 h 30 en voiture à l'ouest : lacs de montagne et randonnées."]
+   ],
+   "tips": [
+    "L'Alberta n'a pas de taxe de vente provinciale. Vous payez seulement la TPS fédérale de 5 % sur la plupart des achats.",
+    "Les hivers sont froids, mais les vents chauds du chinook peuvent faire monter la température pendant quelques jours.",
+    "Beaucoup d'emplois demandent une voiture. Vérifiez l'accès au transport en commun avant de choisir un logement."
+   ]
+  },
+  "ottawa": {
+   "name": "Ottawa",
+   "prov": "Ontario",
+   "tz": "Heure de l'Est",
+   "card": "La capitale bilingue du Canada, avec l'O-Train, les musées nationaux et le canal Rideau.",
+   "title": "Guide d'Ottawa pour nouveaux arrivants : transport, lieux et conseils",
+   "desc": "Guide d'Ottawa pour nouveaux arrivants : OC Transpo et l'O-Train, la colline du Parlement et le canal Rideau, les musées nationaux et des conseils sur les emplois bilingues.",
+   "lead": "Ottawa est la capitale du Canada. Elle se trouve à la frontière de l'Ontario et du Québec : on y entend l'anglais et le français, et le gouvernement fédéral est le plus grand employeur.",
+   "transit": [
+    "OC Transpo exploite l'O-Train et les autobus. La ligne 1 traverse le centre-ville d'est en ouest, et les lignes 2 et 4 vont du nord au sud; la ligne 4 dessert l'aéroport.",
+    "Payez avec une carte PRESTO ou avec les autres options indiquées sur octranspo.com.",
+    "Gatineau, de l'autre côté de la rivière au Québec, a son propre réseau : la STO.",
+    "De nombreux sentiers le long du canal et des rivières sont parfaits pour le vélo l'été."
+   ],
+   "see": [
+    ["Colline du Parlement", "Le siège du gouvernement du Canada. Visites guidées gratuites (réservez à l'avance)."],
+    ["Canal Rideau", "Site du patrimoine mondial de l'UNESCO. Une partie devient une patinoire l'hiver quand la glace le permet."],
+    ["Marché By", "L'un des plus vieux marchés du Canada, avec boutiques, restaurants et cuisine de rue."],
+    ["Musée des beaux-arts du Canada", "Le musée national d'art, connu pour sa grande araignée à l'entrée."],
+    ["Musée canadien de l'histoire", "À Gatineau, avec une vue sur le Parlement de l'autre côté de la rivière."],
+    ["Parc de la Gatineau", "Lacs, forêts et sentiers à quelques minutes du centre-ville."]
+   ],
+   "tips": [
+    "Beaucoup d'emplois au gouvernement fédéral exigent l'anglais et le français. Les cours de langue gratuits peuvent aider.",
+    "Les hivers sont froids et enneigés. Le Bal de Neige, en février, célèbre la saison avec des sculptures de glace.",
+    "Si vous habitez à Gatineau, ce sont les règles du Québec qui s'appliquent pour la santé, la conduite et l'école."
+   ]
+  },
+  "edmonton": {
+   "name": "Edmonton",
+   "prov": "Alberta",
+   "tz": "Heure des Rocheuses",
+   "card": "La capitale de l'Alberta, avec le TLR, une immense vallée-parc et le West Edmonton Mall.",
+   "title": "Guide d'Edmonton pour nouveaux arrivants : transport, lieux et conseils",
+   "desc": "Guide d'Edmonton pour nouveaux arrivants : Edmonton Transit Service, le TLR et la carte Arc, la vallée de la rivière et le West Edmonton Mall, et des conseils pour l'hiver.",
+   "lead": "Edmonton est la capitale de l'Alberta et un grand centre du gouvernement, de la santé, de l'éducation et de l'énergie. Le logement y coûte généralement moins cher qu'à Toronto ou Vancouver.",
+   "transit": [
+    "Edmonton Transit Service (ETS) exploite le TLR (lignes Capital, Metro et Valley) et les autobus.",
+    "Payez avec une carte Arc, qui fonctionne aussi sur plusieurs réseaux voisins. Consultez edmonton.ca pour les options de paiement à jour.",
+    "La vallée de la rivière compte de nombreux sentiers pour la marche et le vélo l'été, et le ski de fond l'hiver."
+   ],
+   "see": [
+    ["Vallée de la rivière Saskatchewan Nord", "L'un des plus grands réseaux de parcs urbains reliés en Amérique du Nord."],
+    ["West Edmonton Mall", "L'un des plus grands centres commerciaux d'Amérique du Nord, avec parc aquatique et patinoire."],
+    ["Musée royal de l'Alberta", "L'histoire naturelle et humaine de l'Alberta, au centre-ville."],
+    ["Conservatoire Muttart", "Quatre pyramides de verre abritant des plantes de différents climats."],
+    ["Fort Edmonton Park", "Un grand parc historique sur le passé de la ville."],
+    ["Parc national Elk Island", "À environ 45 minutes à l'est, connu pour ses troupeaux de bisons."]
+   ],
+   "tips": [
+    "Les hivers sont longs et très froids. Achetez un manteau chaud, des bottes et des gants avant décembre.",
+    "L'Alberta n'a pas de taxe de vente provinciale.",
+    "Le festival de musique folk et le festival de théâtre Fringe sont les grands moments de l'été."
+   ]
+  },
+  "winnipeg": {
+   "name": "Winnipeg",
+   "prov": "Manitoba",
+   "tz": "Heure du Centre",
+   "card": "Une ville accueillante des Prairies, avec La Fourche, le musée des droits de la personne et des logements abordables.",
+   "title": "Guide de Winnipeg pour nouveaux arrivants : transport, lieux et conseils",
+   "desc": "Guide de Winnipeg pour nouveaux arrivants : Winnipeg Transit et son nouveau réseau, La Fourche et le Musée canadien pour les droits de la personne, et des conseils pour l'hiver.",
+   "lead": "Winnipeg est la capitale du Manitoba, près du centre du Canada. Elle compte une grande communauté philippine, des communautés africaines et indiennes en croissance, et des logements moins chers que dans les plus grandes villes.",
+   "transit": [
+    "Winnipeg Transit exploite les autobus de la ville, dont des lignes rapides. Un nouveau réseau de lignes fréquentes a été lancé en juin 2025.",
+    "Beaucoup d'usagers paient avec une carte Peggo. Le système de paiement est en cours de modernisation : consultez winnipegtransit.com.",
+    "La ville est plate, ce qui rend le vélo facile l'été."
+   ],
+   "see": [
+    ["La Fourche", "Le lieu de rencontre de deux rivières, avec un marché, des sentiers et une patinoire l'hiver."],
+    ["Musée canadien pour les droits de la personne", "Un musée national sur les droits de la personne au Canada et dans le monde."],
+    ["Parc et zoo Assiniboine", "Un grand parc et un zoo connu pour ses ours polaires."],
+    ["Quartier de la Bourse", "Des bâtiments historiques du début des années 1900, des galeries et des restaurants."],
+    ["Monnaie royale canadienne", "L'usine qui fabrique toutes les pièces de monnaie du Canada, avec visites guidées."],
+    ["Festival du Voyageur", "Le plus grand festival d'hiver de l'Ouest canadien, chaque février."]
+   ],
+   "tips": [
+    "Les hivers sont parmi les plus froids des grandes villes du monde. De bons vêtements d'hiver sont indispensables.",
+    "Folklorama, en août, est un grand festival multiculturel avec des pavillons de nombreux pays.",
+    "Le Manitoba a son propre programme d'immigration : le Programme des candidats du Manitoba."
+   ]
+  },
+  "halifax": {
+   "name": "Halifax",
+   "prov": "Nouvelle-Écosse",
+   "tz": "Heure de l'Atlantique",
+   "card": "Une ville portuaire de l'Atlantique, avec traversiers vers Dartmouth et le musée de l'immigration du Quai 21.",
+   "title": "Guide d'Halifax pour nouveaux arrivants : transport, lieux et conseils",
+   "desc": "Guide d'Halifax pour nouveaux arrivants : autobus et traversiers d'Halifax Transit, la Citadelle et le Quai 21, l'excursion à Peggy's Cove et des conseils pour s'installer.",
+   "lead": "Halifax est la plus grande ville du Canada atlantique, bâtie autour de l'un des plus grands ports naturels du monde. Elle est plus petite et plus calme que les grandes villes, avec une communauté de nouveaux arrivants en croissance.",
+   "transit": [
+    "Halifax Transit exploite les autobus et les traversiers qui relient Halifax et Dartmouth.",
+    "Payez en argent comptant (montant exact) ou avec l'application HFXGO. Le paiement par carte est en cours d'implantation : consultez halifax.ca.",
+    "Le traversier fait partie du réseau et c'est l'une des plus belles façons de voir le port."
+   ],
+   "see": [
+    ["Musée canadien de l'immigration du Quai 21", "Le lieu d'arrivée d'environ un million d'immigrants au Canada entre 1928 et 1971."],
+    ["Citadelle d'Halifax", "Un fort en forme d'étoile sur une colline, avec démonstrations historiques l'été."],
+    ["Front de mer d'Halifax", "Une longue promenade avec boutiques, restaurants et vue sur le port."],
+    ["Jardins publics d'Halifax", "Des jardins victoriens au centre-ville, ouverts du printemps à l'automne."],
+    ["Parc Point Pleasant", "Des sentiers en forêt au bout sud de la ville, au bord de l'océan."],
+    ["Peggy's Cove", "Un célèbre village de pêcheurs et son phare, à environ 45 minutes."]
+   ],
+   "tips": [
+    "ISANS (Immigrant Services Association of Nova Scotia) est le principal organisme d'établissement gratuit.",
+    "La météo change vite près de l'océan. L'hiver apporte neige, pluie et vents forts.",
+    "Les loyers ont augmenté rapidement. Commencez à chercher un logement tôt."
+   ]
+  }
+ }
+}

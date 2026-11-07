@@ -1,0 +1,260 @@
+{
+ "ui": {
+  "nav": "Cities",
+  "province": "Province",
+  "timezone": "Time zone",
+  "getting_around": "Getting around",
+  "see_do": "Landmarks and attractions",
+  "tips": "Good to know for newcomers",
+  "city_site": "City of {name} official website",
+  "transit_site": "{agency}: routes, maps and fares",
+  "all_cities": "All city guides",
+  "read": "Read the {name} guide",
+  "fares_note": "Fares and routes change often, so check the transit website before you travel."
+ },
+ "home": {
+  "h": "City guides",
+  "lead": "Getting around, places to see and local tips for eight of Canada's biggest cities."
+ },
+ "index": {
+  "title": "Canadian city guides for newcomers | MapleSteps",
+  "desc": "Newcomer guides to Toronto, Montreal, Vancouver, Calgary, Ottawa, Edmonton, Winnipeg and Halifax: public transit, landmarks, attractions and local tips.",
+  "eyebrow": "Cities",
+  "h1": "Guides to Canada's major cities",
+  "lead": "Each city works a little differently. Learn how to get around, what to see, and what newcomers should know before they arrive.",
+  "travel_h": "Travelling between cities",
+  "travel": [
+   "Canada is very large. Toronto to Vancouver is about a 4.5 to 5 hour flight, and the country spans six time zones.",
+   "VIA Rail runs passenger trains across the country. The busiest route links Windsor, Toronto, Ottawa, Montreal and Quebec City.",
+   "Intercity buses connect many cities and towns. Companies and routes differ by province, so compare options before you book.",
+   "Driving in winter needs care. Quebec requires winter tires from December 1 to March 15, and British Columbia requires them on many highways from October 1 to April 30.",
+   "Book trains and flights early for holidays such as Christmas, Canada Day (July 1) and long weekends, when prices rise."
+  ],
+  "travel_link": "VIA Rail Canada: trains across Canada"
+ },
+ "cities": {
+  "toronto": {
+   "name": "Toronto",
+   "prov": "Ontario",
+   "tz": "Eastern Time",
+   "card": "Canada's largest city, with the TTC subway, streetcars and the GO regional network.",
+   "title": "Toronto guide for newcomers: transit, landmarks and tips",
+   "desc": "A newcomer's guide to Toronto: the TTC, PRESTO and GO Transit, top landmarks like the CN Tower and Toronto Islands, and practical tips for settling in.",
+   "lead": "Toronto is Canada's largest city and one of the most diverse in the world. About half of its residents were born outside Canada, so you will hear many languages every day.",
+   "transit": [
+    "The TTC runs the subway, streetcars and buses inside the city. Line 5 Eglinton, a new light rail line, opened in February 2026.",
+    "Pay with a PRESTO card, or tap a credit card, debit card or phone at the fare reader.",
+    "GO Transit trains and buses connect Toronto with Mississauga, Brampton, Hamilton, Oshawa and other nearby cities.",
+    "The UP Express train links Union Station downtown with Pearson Airport in about 25 minutes.",
+    "With the One Fare program, you pay once when you transfer between the TTC, GO Transit and several nearby transit systems."
+   ],
+   "see": [
+    ["CN Tower", "The city's best-known landmark, with views over Lake Ontario from the top."],
+    ["Toronto Islands", "A short ferry ride from downtown, with beaches, bike paths and skyline views."],
+    ["Royal Ontario Museum", "Canada's largest museum of world culture and natural history."],
+    ["St. Lawrence Market", "A historic food market with produce, bakeries and food from many cultures."],
+    ["Distillery District", "Car-free streets of restored brick buildings, shops and a popular winter market."],
+    ["High Park", "A large park in the west end with trails, gardens and cherry blossoms in spring."]
+   ],
+   "tips": [
+    "Rent is high downtown. Many newcomers live in Scarborough, North York, Etobicoke or nearby cities like Mississauga and Brampton.",
+    "A Toronto Public Library card is free. Libraries offer free internet, computers, English practice groups and newcomer programs.",
+    "Winters are cold but milder than in the Prairies. Summers are hot and humid."
+   ]
+  },
+  "montreal": {
+   "name": "Montreal",
+   "prov": "Quebec",
+   "tz": "Eastern Time",
+   "card": "A French-speaking city with the STM métro, the REM light rail and historic Old Montreal.",
+   "title": "Montreal guide for newcomers: transit, landmarks and tips",
+   "desc": "A newcomer's guide to Montreal: the STM métro and OPUS card, the REM, landmarks like Mount Royal and Old Montreal, and tips about French and Quebec rules.",
+   "lead": "Montreal is Quebec's largest city and one of the biggest French-speaking cities in the world. It is known for its festivals, food and lower rents than Toronto or Vancouver.",
+   "transit": [
+    "The STM runs the métro (four colour-coded lines) and the city's buses.",
+    "Load fares on an OPUS card, available at métro stations.",
+    "The REM is an automated light rail network that is opening in stages, with new branches and an airport station still being completed.",
+    "exo commuter trains and buses serve the suburbs around Montreal.",
+    "In winter, the underground pedestrian network (RÉSO) links métro stations, malls and offices downtown."
+   ],
+   "see": [
+    ["Mount Royal Park", "The mountain in the middle of the city, with trails and a lookout over downtown."],
+    ["Old Montreal", "Cobblestone streets, the Old Port and buildings from the 1600s to the 1800s."],
+    ["Notre-Dame Basilica", "A famous church known for its richly decorated interior."],
+    ["Jean-Talon Market", "One of North America's largest open-air markets."],
+    ["Montreal Botanical Garden", "Large themed gardens, including Chinese and Japanese gardens."],
+    ["Olympic Park", "The stadium and tower built for the 1976 Summer Olympics."]
+   ],
+   "tips": [
+    "French is the common language at work and in government services. Free French classes are available through Francisation Québec.",
+    "Quebec has its own immigration system and its own health insurance (RAMQ). Some rules differ from the rest of Canada.",
+    "Many leases in Quebec end on June 30, and July 1 is the main moving day, so plan your move early."
+   ]
+  },
+  "vancouver": {
+   "name": "Vancouver",
+   "prov": "British Columbia",
+   "tz": "Pacific Time",
+   "card": "A west coast city between mountains and ocean, served by SkyTrain, SeaBus and buses.",
+   "title": "Vancouver guide for newcomers: transit, landmarks and tips",
+   "desc": "A newcomer's guide to Vancouver: TransLink, SkyTrain and the Compass Card, landmarks like Stanley Park and Granville Island, and tips on housing and weather.",
+   "lead": "Vancouver sits between the Pacific Ocean and the Coast Mountains. It has the mildest winters of any major Canadian city and large Chinese, South Asian and Persian communities.",
+   "transit": [
+    "TransLink runs SkyTrain (Expo, Millennium and Canada lines), buses, the SeaBus ferry and the West Coast Express train.",
+    "Pay with a Compass Card, or tap a credit card or phone at the fare gates and on buses.",
+    "The Canada Line connects downtown with Richmond and Vancouver International Airport.",
+    "Fares on SkyTrain and SeaBus depend on how many zones you cross. Buses always cost one zone."
+   ],
+   "see": [
+    ["Stanley Park", "A huge park beside downtown, with the Seawall path for walking and cycling."],
+    ["Granville Island", "A public market, artists' studios and small theatres under the bridge."],
+    ["Gastown", "The city's oldest neighbourhood, with its well-known steam clock."],
+    ["Capilano Suspension Bridge Park", "A long bridge high above a river canyon in North Vancouver (paid entry)."],
+    ["Grouse Mountain", "Skiing in winter and hiking in summer, close to the city."],
+    ["English Bay", "A popular beach, especially at sunset."]
+   ],
+   "tips": [
+    "Vancouver has some of the highest rents in Canada. Many newcomers live in Surrey, Burnaby, Richmond or Coquitlam.",
+    "Winters are mild but very rainy. A good raincoat matters more than a heavy parka.",
+    "Hiking, cycling and beaches are close by and mostly free."
+   ]
+  },
+  "calgary": {
+   "name": "Calgary",
+   "prov": "Alberta",
+   "tz": "Mountain Time",
+   "card": "A sunny prairie city near the Rocky Mountains, home of the Calgary Stampede.",
+   "title": "Calgary guide for newcomers: transit, landmarks and tips",
+   "desc": "A newcomer's guide to Calgary: Calgary Transit and the CTrain, landmarks like the Calgary Tower and Stampede, Banff day trips and tips on taxes and weather.",
+   "lead": "Calgary is a fast-growing city on the edge of the Rocky Mountains. It is a centre for energy, technology and business, and gets more sunny days than most Canadian cities.",
+   "transit": [
+    "Calgary Transit runs the CTrain light rail (Red and Blue lines) and a large bus network.",
+    "Buy fares with the My Fare app or at CTrain ticket machines, and check calgarytransit.com for the latest payment options.",
+    "Route 300 buses connect downtown with Calgary International Airport.",
+    "Calgary is spread out, so many residents also use a car. Plan your home near a CTrain station if you rely on transit."
+   ],
+   "see": [
+    ["Calgary Stampede", "A 10-day rodeo and festival every July, one of the largest in the world."],
+    ["Calgary Tower", "A downtown tower with a glass-floor lookout."],
+    ["Prince's Island Park", "A downtown island park on the Bow River, used for summer festivals."],
+    ["Heritage Park", "A large living-history village showing life in western Canada."],
+    ["Calgary Zoo", "A zoo and botanical garden near downtown."],
+    ["Banff National Park", "About 1.5 hours west by car, with mountain lakes and hiking."]
+   ],
+   "tips": [
+    "Alberta has no provincial sales tax. You pay only the 5% federal GST on most purchases.",
+    "Winters are cold, but warm chinook winds can raise temperatures quickly for a few days.",
+    "Many jobs need a car. Look at transit access before you choose where to live."
+   ]
+  },
+  "ottawa": {
+   "name": "Ottawa",
+   "prov": "Ontario",
+   "tz": "Eastern Time",
+   "card": "Canada's bilingual capital, with the O-Train, national museums and the Rideau Canal.",
+   "title": "Ottawa guide for newcomers: transit, landmarks and tips",
+   "desc": "A newcomer's guide to Ottawa: OC Transpo and the O-Train, landmarks like Parliament Hill and the Rideau Canal, national museums and tips on bilingual jobs.",
+   "lead": "Ottawa is Canada's capital. It sits on the border of Ontario and Quebec, so you hear both English and French, and the federal government is the largest employer.",
+   "transit": [
+    "OC Transpo runs the O-Train and buses. Line 1 runs east–west through downtown, and Lines 2 and 4 run north–south, with Line 4 serving the airport.",
+    "Pay with a PRESTO card or with other options listed on octranspo.com.",
+    "Gatineau, across the river in Quebec, has its own transit system, the STO.",
+    "Many paths along the canal and rivers are good for cycling in summer."
+   ],
+   "see": [
+    ["Parliament Hill", "The seat of Canada's government. Free guided tours are offered (book ahead)."],
+    ["Rideau Canal", "A UNESCO World Heritage Site. Part of it becomes a skating path in winter when ice allows."],
+    ["ByWard Market", "One of Canada's oldest markets, with shops, restaurants and street food."],
+    ["National Gallery of Canada", "Canada's national art museum, known for its giant spider sculpture outside."],
+    ["Canadian Museum of History", "Across the river in Gatineau, with views back to Parliament."],
+    ["Gatineau Park", "Lakes, forests and trails a short drive from downtown."]
+   ],
+   "tips": [
+    "Many federal government jobs ask for both English and French. Free language classes can help.",
+    "Winters are cold and snowy. Winterlude in February celebrates the season with ice sculptures.",
+    "If you live in Gatineau, Quebec rules apply for health insurance, driving and schools."
+   ]
+  },
+  "edmonton": {
+   "name": "Edmonton",
+   "prov": "Alberta",
+   "tz": "Mountain Time",
+   "card": "Alberta's capital, with LRT lines, a huge river valley park and West Edmonton Mall.",
+   "title": "Edmonton guide for newcomers: transit, landmarks and tips",
+   "desc": "A newcomer's guide to Edmonton: Edmonton Transit Service, the LRT and Arc card, landmarks like the river valley and West Edmonton Mall, and winter tips.",
+   "lead": "Edmonton is Alberta's capital and a major centre for government, health care, education and energy. Housing costs are generally lower than in Toronto or Vancouver.",
+   "transit": [
+    "Edmonton Transit Service (ETS) runs the LRT (Capital, Metro and Valley lines) and buses.",
+    "Pay with an Arc card, which also works on several nearby transit systems. Check edmonton.ca for current payment options.",
+    "The river valley has many paths for walking and cycling in summer and cross-country skiing in winter."
+   ],
+   "see": [
+    ["North Saskatchewan River Valley", "One of the largest connected urban park systems in North America."],
+    ["West Edmonton Mall", "One of the largest malls in North America, with a water park and ice rink."],
+    ["Royal Alberta Museum", "Natural and human history of Alberta, in the downtown core."],
+    ["Muttart Conservatory", "Four glass pyramids holding plants from different climates."],
+    ["Fort Edmonton Park", "A large historic park showing the city's past."],
+    ["Elk Island National Park", "About 45 minutes east, known for its bison herds."]
+   ],
+   "tips": [
+    "Winters are long and very cold. Buy a warm parka, boots and gloves before December.",
+    "Alberta has no provincial sales tax.",
+    "The Edmonton Folk Music Festival and the Fringe Theatre Festival are summer highlights."
+   ]
+  },
+  "winnipeg": {
+   "name": "Winnipeg",
+   "prov": "Manitoba",
+   "tz": "Central Time",
+   "card": "A welcoming prairie city with The Forks, the Human Rights museum and lower housing costs.",
+   "title": "Winnipeg guide for newcomers: transit, landmarks and tips",
+   "desc": "A newcomer's guide to Winnipeg: Winnipeg Transit and its new route network, landmarks like The Forks and the Canadian Museum for Human Rights, and winter tips.",
+   "lead": "Winnipeg is Manitoba's capital, near the centre of Canada. It has a large Filipino and growing African and Indian communities, and housing that costs less than in Canada's biggest cities.",
+   "transit": [
+    "Winnipeg Transit runs the city's buses, including rapid transit routes. A new network of frequent routes started in June 2025.",
+    "Many riders pay with a Peggo card. The fare system is being updated, so check winnipegtransit.com for current options.",
+    "Most of the city is flat, which makes cycling easy in summer."
+   ],
+   "see": [
+    ["The Forks", "A meeting place where two rivers join, with a market, trails and a skating trail in winter."],
+    ["Canadian Museum for Human Rights", "A national museum about human rights in Canada and the world."],
+    ["Assiniboine Park and Zoo", "A large park and a zoo known for its polar bears."],
+    ["Exchange District", "Historic early-1900s buildings, galleries and restaurants."],
+    ["Royal Canadian Mint", "The factory that makes all of Canada's coins, with public tours."],
+    ["Festival du Voyageur", "Western Canada's largest winter festival, every February."]
+   ],
+   "tips": [
+    "Winters are among the coldest of any major city in the world. Good winter clothing is essential.",
+    "Folklorama in August is a large multicultural festival with pavilions from many countries.",
+    "Manitoba has its own immigration program, the Manitoba Provincial Nominee Program."
+   ]
+  },
+  "halifax": {
+   "name": "Halifax",
+   "prov": "Nova Scotia",
+   "tz": "Atlantic Time",
+   "card": "An Atlantic harbour city with ferries to Dartmouth and the Pier 21 immigration museum.",
+   "title": "Halifax guide for newcomers: transit, landmarks and tips",
+   "desc": "A newcomer's guide to Halifax: Halifax Transit buses and ferries, landmarks like the Citadel and Pier 21, Peggy's Cove day trips and tips on settling in.",
+   "lead": "Halifax is the largest city in Atlantic Canada, built around one of the world's biggest natural harbours. It is smaller and calmer than Canada's largest cities, with a growing newcomer community.",
+   "transit": [
+    "Halifax Transit runs buses and ferries across the harbour between Halifax and Dartmouth.",
+    "Pay with exact cash or the HFXGO app. Card tap payments are being introduced, so check halifax.ca for updates.",
+    "The ferry is part of the transit system and one of the nicest ways to see the harbour."
+   ],
+   "see": [
+    ["Canadian Museum of Immigration at Pier 21", "Where about one million immigrants arrived in Canada between 1928 and 1971."],
+    ["Halifax Citadel", "A star-shaped hilltop fort with daily historic demonstrations in summer."],
+    ["Halifax Waterfront", "A long boardwalk with shops, food and harbour views."],
+    ["Halifax Public Gardens", "Victorian gardens in the middle of downtown, open spring to fall."],
+    ["Point Pleasant Park", "Forest trails at the southern tip of the city, by the ocean."],
+    ["Peggy's Cove", "A famous fishing village and lighthouse about 45 minutes away."]
+   ],
+   "tips": [
+    "ISANS (Immigrant Services Association of Nova Scotia) is the main free settlement agency.",
+    "Weather changes quickly near the ocean. Winters bring snow, rain and strong winds.",
+    "Rents have risen quickly. Start your housing search early."
+   ]
+  }
+ }
+}
