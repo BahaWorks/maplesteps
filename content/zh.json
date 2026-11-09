@@ -22,7 +22,13 @@
   "built_by": "由 {studio} 设计与开发",
   "privacy_link": "隐私政策",
   "contact_link": "联系我们",
-  "links_h": "相关链接"
+  "links_h": "相关链接",
+  "share_h": "分享本页",
+  "copy": "复制链接",
+  "copied": "链接已复制",
+  "more": "更多",
+  "email": "电子邮件",
+  "tool_try": "您实际能拿到多少工资？试试我们的免费工资计算器。"
  },
  "pages": {
   "index": {

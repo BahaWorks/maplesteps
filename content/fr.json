@@ -22,7 +22,13 @@
   "built_by": "Conçu et réalisé par {studio}",
   "privacy_link": "Politique de confidentialité",
   "contact_link": "Nous joindre",
-  "links_h": "Liens utiles"
+  "links_h": "Liens utiles",
+  "share_h": "Partager cette page",
+  "copy": "Copier le lien",
+  "copied": "Lien copié",
+  "more": "Plus",
+  "email": "Courriel",
+  "tool_try": "Combien vous restera-t-il vraiment? Essayez notre calculateur de salaire gratuit."
  },
  "pages": {
   "index": {

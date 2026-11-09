@@ -22,7 +22,13 @@
   "built_by": "Designed & built by {studio}",
   "privacy_link": "Privacy Policy",
   "contact_link": "Contact",
-  "links_h": "Useful links"
+  "links_h": "Useful links",
+  "share_h": "Share this page",
+  "copy": "Copy link",
+  "copied": "Link copied",
+  "more": "More",
+  "email": "Email",
+  "tool_try": "How much will you actually take home? Try our free pay calculator."
  },
  "pages": {
   "index": {
