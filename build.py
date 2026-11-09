@@ -8,18 +8,20 @@ Usage:
 Edit SITE_URL below once you own your domain, then rebuild.
 """
 import json, sys, shutil, html
+from urllib.parse import quote
 from pathlib import Path
 
 SITE_URL = "https://maplesteps.ca"   # <-- change to your real domain
 BRAND = "MapleSteps"
 STUDIO = "BahaWorks"
-REVIEWED = "2026-11-06"
+REVIEWED = "2026-11-09"
 LANG_ORDER = ["en", "fr", "ar", "zh", "hi", "fa"]
 GUIDES = ["first-steps", "housing", "work", "health", "money"]
 CITIES = ["toronto", "montreal", "vancouver", "calgary", "ottawa", "edmonton", "winnipeg", "halifax"]
 ARTICLES = ["health-card", "bank-account", "drivers-licence", "first-winter"]
 ARTICLE_ICONS = {"health-card": "health", "bank-account": "money", "drivers-licence": "first-steps", "first-winter": "info"}
-PAGES = ["index"] + GUIDES + ["about", "privacy", "cities"] + CITIES + ["articles"] + [f"articles/{a}" for a in ARTICLES]
+CALC = "pay-calculator"
+PAGES = ["index"] + GUIDES + ["about", "privacy", "cities"] + CITIES + ["articles"] + [f"articles/{a}" for a in ARTICLES] + [CALC]
 CONTACT_EMAIL = "hello@maplesteps.ca"
 # city slug -> (official city website, transit agency name, transit website)
 CITY_LINKS = {
@@ -80,6 +82,9 @@ LINKS = {
     "windchill": {"en": "https://www.canada.ca/content/dam/eccc/migration/main/meteo-weather/80b0f2af-9697-4bee-ab17-d401ebba5b4b/windchill_factsheet_en.pdf"},
     "climate": {"en": "https://www.canada.ca/en/immigration-refugees-citizenship/services/settle-canada/land-climate.html"},
     "via": {"en": "https://www.viarail.ca/en", "fr": "https://www.viarail.ca/fr"},
+    "pdoc": {"en": "https://www.canada.ca/pdoc"},
+    "taxrates": {"en": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html"},
+    "rq_changes": {"en": "https://www.revenuquebec.ca/en/businesses/source-deductions-and-employer-contributions/employers-principal-changes-for-2026/"},
 }
 
 FONTS = {
@@ -120,6 +125,7 @@ def load():
         L = json.loads((ROOT / "content" / f"{c}.json").read_text(encoding="utf-8"))
         L["cities"] = json.loads((ROOT / "content" / "cities" / f"{c}.json").read_text(encoding="utf-8"))
         L["articles"] = json.loads((ROOT / "content" / "articles" / f"{c}.json").read_text(encoding="utf-8"))
+        L["tools"] = json.loads((ROOT / "content" / "tools" / f"{c}.json").read_text(encoding="utf-8"))
         out[c] = L
     return out
 
@@ -171,7 +177,11 @@ def head(L, slug, P, langs):
     xdef = f"{SITE_URL}/" if slug == "index" else canonical("en", slug)
     tracking = "-0.025em" if code in ("en", "fr") else "0"
     lh = {"ar": 1.85, "fa": 1.9, "hi": 1.8, "zh": 1.8}.get(code, 1.6)
-    if slug == "index":
+    if slug == CALC:
+        ld = {"@context": "https://schema.org", "@type": "WebApplication", "name": P["h1"], "url": canonical(code, slug),
+              "description": P["desc"], "inLanguage": L["hreflang"], "applicationCategory": "FinanceApplication",
+              "operatingSystem": "Any", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "CAD"}}
+    elif slug == "index":
         ld = {"@context": "https://schema.org", "@type": "WebSite", "name": BRAND,
               "url": canonical(code, slug), "inLanguage": L["hreflang"], "description": P["desc"]}
     else:
@@ -244,7 +254,7 @@ def footer(L):
     </div>
     <div>
       <p class="muted small">{e(ui['disclaimer'])}</p>
-      <p class="small foot-links"><a href="{href(code, code, 'about')}">{e(ui['about_link'])}</a> · <a href="{href(code, code, 'privacy')}">{e(ui['privacy_link'])}</a> · <a href="mailto:{CONTACT_EMAIL}">{e(ui['contact_link'])}: <span dir="ltr">{CONTACT_EMAIL}</span></a></p>
+      <p class="small foot-links"><a href="{href(code, code, 'about')}">{e(ui['about_link'])}</a> · <a href="{href(code, code, 'privacy')}">{e(ui['privacy_link'])}</a> · <a href="{href(code, code, CALC)}">{e(L['tools']['nav'])}</a> · <a href="mailto:{CONTACT_EMAIL}">{e(ui['contact_link'])}: <span dir="ltr">{CONTACT_EMAIL}</span></a></p>
       <p class="small muted">© {year} {BRAND}</p>
     </div>
   </div>
@@ -302,6 +312,7 @@ def render_index(L, langs):
     <div class="block-head"><h2>{e(L['articles']['home']['h'])}</h2><p class="muted">{e(L['articles']['home']['lead'])}</p></div>
     {article_list(L)}
   </section>
+  {tools_block(L)}
   <section class="wrap block">
     <div class="block-head"><h2>{e(C['home']['h'])}</h2><p class="muted">{e(C['home']['lead'])}</p></div>
     {city_grid(L)}
@@ -366,8 +377,10 @@ def render_guide(L, slug, langs):
     {checklist}
     {render_sections(P)}
     {mid}
+    {tool_cta(L) if slug in ("work", "money") else ""}
     {official_links(L, P)}
     {('<p class="small muted reviewed">' + e(ui['reviewed']) + '</p>') if slug in GUIDES else ''}
+    {share_bar(L, slug, P['title']) if slug in GUIDES else ''}
     {nxt}
   </article>
 </main>"""
@@ -437,6 +450,7 @@ def render_city(L, slug, langs):
       <li><a href="{transit_url}" target="_blank" rel="noopener">{e(U['transit_site'].replace('{agency}', agency))}{EXT}</a></li>
     </ul></section>
     <p class="small muted reviewed">{e(L['ui']['reviewed'])}</p>
+    {share_bar(L, slug, P['title'])}
     <div class="next-row">
       <a class="next" href="{href(code, code, n)}"><span class="small muted">{e(L['ui']['next'])}</span><span class="next-title">{icon("pin")}{e(C['cities'][n]['name'])}{ARROW}</span></a>
       <a class="all-link" href="{href(code, code, 'cities')}">{e(U['all_cities'])}</a>
@@ -495,11 +509,90 @@ def render_article(L, slug, langs):
     {"".join(secs)}
     {official_links(L, P)}
     <p class="small muted reviewed">{e(L['ui']['reviewed'])}</p>
+    {tool_cta(L) if rel in ("work", "money") else ""}
+    {share_bar(L, slug, P['title'])}
     <a class="next" href="{href(code, code, rel)}"><span class="small muted">{e(A['ui']['related'])}</span><span class="next-title">{icon(rel_icon)}{e(rel_name)}{ARROW}</span></a>
     <section class="more-arts"><h2>{e(A['ui']['more'])}</h2><ul>{more}</ul></section>
   </article>
 </main>"""
     return head(L, slug, page, langs) + header(L, slug, langs) + body + footer(L)
+
+NEWTAB = ' target="_blank" rel="noopener"'
+NETCLS = ' class="c-net"'
+SHARE_ICO = '<svg class="ico tiny" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5.5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="18.5" r="2.5"/><path d="m8.2 10.8 7.6-4.1M8.2 13.2l7.6 4.1"/></svg>'
+
+def share_bar(L, slug, title):
+    ui = L["ui"]
+    url = canonical(L["code"], slug)
+    u, t = quote(url, safe=""), quote(title, safe="")
+    links = [
+        ("WhatsApp", f"https://wa.me/?text={t}%20{u}", "wa"),
+        ("Facebook", f"https://www.facebook.com/sharer/sharer.php?u={u}", ""),
+        ("Telegram", f"https://t.me/share/url?url={u}&text={t}", ""),
+        ("X", f"https://x.com/intent/post?url={u}&text={t}", ""),
+        (ui["email"], f"mailto:?subject={t}&body={u}", ""),
+    ]
+    btns = "".join(f'<a class="sh {c}" href="{e(h)}"{"" if h.startswith("mailto") else NEWTAB}>{e(n)}</a>' for n, h, c in links)
+    return (f'<section class="share" aria-label="{e(ui["share_h"])}"><p class="share-h">{SHARE_ICO}{e(ui["share_h"])}</p><div class="share-row">{btns}'
+            f'<button type="button" class="sh copy" data-url="{e(url)}" data-done="{e(ui["copied"])}">{e(ui["copy"])}</button>'
+            f'<button type="button" class="sh native" hidden data-url="{e(url)}" data-title="{e(title)}">{e(ui["more"])}</button></div></section>')
+
+def tool_cta(L):
+    code = L["code"]
+    return f'<a class="tool-cta" href="{href(code, code, CALC)}">{icon("money")}<span>{e(L["ui"]["tool_try"])}</span>{ARROW}</a>'
+
+def tools_block(L):
+    code, T = L["code"], L["tools"]
+    return f"""<section class="wrap block">
+    <div class="block-head"><h2>{e(T['home_h'])}</h2><p class="muted">{e(T['home_lead'])}</p></div>
+    <a class="guide feature tool" href="{href(code, code, CALC)}">{icon('money')}<span class="g-title">{e(T['h1'])}</span><span class="g-text">{e(T['card'])}</span>{ARROW}</a>
+  </section>"""
+
+NUM_LOCALE = {"en": "en-CA", "fr": "fr-CA", "ar": "en-CA", "zh": "zh-CN", "hi": "hi-IN-u-nu-latn", "fa": "en-CA"}
+
+def render_calc(L, langs):
+    code, T = L["code"], L["tools"]
+    provs = "".join(f'<option value="{k}">{e(v)}</option>' for k, v in T["provs"].items())
+    pers = "".join(f'<option value="{k}"{" selected" if k == "year" else ""}>{e(v)}</option>' for k, v in T["per"].items())
+    outs = "".join(f'<div class="c-out"><span class="c-num" data-out="{k}">–</span><span class="c-lab">{e(v)}</span></div>' for k, v in T["r_per"].items())
+    rows = "".join(f'<tr data-row="{k}"{NETCLS if k == "net" else ""}><th scope="row">{e(v)}</th><td data-y="{k}">–</td><td data-m="{k}">–</td></tr>' for k, v in T["rows"].items())
+    i18n = json.dumps({"avg": T["avg"], "empty": T["empty"]}, ensure_ascii=False).replace("</", "<\\/")
+    page = {"title": T["title"], "desc": T["desc"], "h1": T["h1"]}
+    secs = render_sections(T)
+    body = f"""<main id="main">
+  <section class="page-head"><div class="wrap narrow">
+    <p class="eyebrow">{icon("money", "ico big")}{e(T['eyebrow'])}</p>
+    <h1>{e(T['h1'])}</h1>
+    <p class="lead">{e(T['lead'])}</p>
+  </div></section>
+  <article class="wrap narrow article">
+    <section class="calc" data-locale="{NUM_LOCALE[code]}">
+      <form class="c-form" onsubmit="return false">
+        <label class="c-field"><span>{e(T['f_prov'])}</span><select name="prov">{provs}</select></label>
+        <div class="c-pair">
+          <label class="c-field"><span>{e(T['f_pay'])}</span><input name="pay" type="text" inputmode="decimal" autocomplete="off" dir="ltr" placeholder="60000"></label>
+          <label class="c-field"><span>{e(T['f_per'])}</span><select name="per">{pers}</select></label>
+        </div>
+        <label class="c-field c-hours" hidden><span>{e(T['f_hours'])}</span><input name="hours" type="text" inputmode="decimal" value="40" dir="ltr"></label>
+      </form>
+      <div class="c-result" aria-live="polite">
+        <p class="c-h">{e(T['r_h'])}</p>
+        <div class="c-outs">{outs}</div>
+        <p class="c-avg small muted">{e(T['empty'])}</p>
+        <table class="c-table"><thead><tr><td></td><th scope="col">{e(T['col_year'])}</th><th scope="col">{e(T['per']['month'])}</th></tr></thead><tbody>{rows}</tbody></table>
+      </div>
+      <p class="small muted c-note">{e(T['note'])}</p>
+      <script type="application/json" class="c-i18n">{i18n}</script>
+    </section>
+    {secs}
+    {ad_slot('calc-mid')}
+    {official_links(L, T)}
+    <p class="small muted reviewed">{e(L['ui']['reviewed'])}</p>
+    {share_bar(L, CALC, T['title'])}
+  </article>
+</main>
+<script src="{up()}../assets/pay.js?v={V}" defer></script>"""
+    return head(L, CALC, page, langs) + header(L, CALC, langs) + body + footer(L)
 
 def render_root(langs):
     tiles = "".join(
@@ -561,7 +654,7 @@ LANGS_ALL = {}
 def asset_version():
     import hashlib
     h = hashlib.md5()
-    for n in ("style.css", "app.js"):
+    for n in ("style.css", "app.js", "pay.js"):
         h.update((ROOT / "assets" / n).read_bytes())
     return h.hexdigest()[:8]
 
@@ -592,6 +685,8 @@ def build():
                 html_out = render_articles_index(L, langs)
             elif slug.startswith("articles/"):
                 html_out = render_article(L, slug, langs)
+            elif slug == CALC:
+                html_out = render_calc(L, langs)
             else:
                 html_out = render_guide(L, slug, langs)
             dest = OUT / c / ("articles/index.html" if slug == "articles" else f"{slug}.html")
