@@ -1,0 +1,289 @@
+{
+ "ui": {
+  "nav": "Articles",
+  "updated": "Updated November 2026",
+  "read": "Read article",
+  "related": "Related guide",
+  "all": "All articles",
+  "in_this": "In this article",
+  "more": "More articles"
+ },
+ "home": {
+  "h": "Latest articles",
+  "lead": "Step-by-step answers to the questions newcomers ask most."
+ },
+ "index": {
+  "title": "Articles for newcomers to Canada | MapleSteps",
+  "desc": "Practical, step-by-step articles for newcomers to Canada: health cards, bank accounts, driver's licences and your first winter.",
+  "eyebrow": "Articles",
+  "h1": "Articles for newcomers",
+  "lead": "Detailed answers to common questions, with the exact steps and the official pages to use."
+ },
+ "items": {
+  "health-card": {
+   "related": "health",
+   "title": "How to get your provincial health card as a newcomer | MapleSteps",
+   "desc": "How newcomers get a provincial health card in Canada: who qualifies, waiting periods by province, what to bring, and how to stay covered while you wait.",
+   "h1": "How to get your provincial health card",
+   "summary": "Who qualifies, which provinces make you wait, what to bring, and how to stay covered in the meantime.",
+   "lead": "In Canada, public health insurance is run by each province and territory. Your health card lets you see a doctor or go to hospital without paying for medically necessary care. Apply in the first days after you arrive.",
+   "sections": [
+    {
+     "h": "Who can get a health card",
+     "items": [
+      "Permanent residents and Canadian citizens who live in the province",
+      "Many work permit holders, depending on the province and how long the permit lasts",
+      "Some international students, depending on the province (others must buy school health insurance)",
+      "Protected persons and resettled refugees"
+     ]
+    },
+    {
+     "h": "Waiting periods",
+     "items": [
+      "Ontario has no waiting period. Coverage can start as soon as you are eligible and apply.",
+      "Most other provinces, including British Columbia, Quebec and Alberta, can make newcomers wait up to about three months.",
+      "During the wait you pay for any care yourself, and a hospital visit can cost thousands of dollars.",
+      "Buy private newcomer or visitor health insurance to cover this gap. Some plans must be bought within a few days of arrival, so do it early."
+     ]
+    },
+    {
+     "h": "What to bring",
+     "items": [
+      "Your immigration document: Confirmation of Permanent Residence (COPR), PR card or valid work or study permit",
+      "Proof of your address in the province, such as a lease, bank statement or utility bill",
+      "A second ID with your name and signature, such as your passport",
+      "Each province publishes its exact list. Check it before you go, because Ontario, for example, asks for three original documents."
+     ]
+    },
+    {
+     "h": "Where to apply",
+     "items": [
+      "Ontario: in person at a ServiceOntario centre",
+      "British Columbia: online with Health Insurance BC",
+      "Quebec: with the RAMQ (Régie de l'assurance maladie du Québec)",
+      "Alberta: at a registry agent office or online",
+      "Other provinces: on the provincial health ministry website"
+     ]
+    },
+    {
+     "h": "Refugees and refugee claimants",
+     "p": "Resettled refugees and refugee claimants who are not yet covered by their province may get temporary coverage from the federal government through the Interim Federal Health Program (IFHP). Ask your settlement worker or the clinic to check your eligibility."
+    }
+   ],
+   "links": [
+    [
+     "Health care for newcomers (IRCC)",
+     "healthcare"
+    ],
+    [
+     "Ontario: apply for OHIP",
+     "ohip"
+    ],
+    [
+     "British Columbia: Medical Services Plan",
+     "bcmsp"
+    ],
+    [
+     "Quebec: RAMQ",
+     "ramq"
+    ],
+    [
+     "Alberta: Health Care Insurance Plan",
+     "ahcip"
+    ]
+   ]
+  },
+  "bank-account": {
+   "related": "money",
+   "title": "Opening your first Canadian bank account as a newcomer | MapleSteps",
+   "desc": "How newcomers open a bank account in Canada: your rights, the ID you need, newcomer account offers, deposit insurance and how to avoid fees and scams.",
+   "h1": "Opening your first Canadian bank account",
+   "summary": "Your rights, the ID you need, what newcomer packages offer, and how your money is protected.",
+   "lead": "A Canadian bank account is one of the first things you need. Employers pay salaries by direct deposit, landlords often want rent by e-transfer, and the government pays benefits into your account.",
+   "sections": [
+    {
+     "h": "You have the right to an account",
+     "items": [
+      "You don't need a job, a credit history or money to deposit to open a personal bank account.",
+      "You don't need to be a Canadian citizen or permanent resident, but you may need to go to a branch in person.",
+      "A bank can refuse only for specific reasons, such as fraud. If it refuses, it must tell you in writing and explain how to complain."
+     ]
+    },
+    {
+     "h": "The ID you need",
+     "items": [
+      "Option 1: two original documents from the bank's list, for example your passport and your Confirmation of Permanent Residence or permit.",
+      "Option 2: one document with your name and date of birth, plus a person in good standing (for example an existing customer) who confirms who you are.",
+      "Bring originals, not copies. Your Social Insurance Number (SIN) is needed for accounts that earn interest."
+     ]
+    },
+    {
+     "h": "Choosing an account",
+     "items": [
+      "Most big banks and many credit unions offer newcomer packages, often with no monthly fee for the first year and a starter credit card.",
+      "Check what happens after the first year: the monthly fee, the number of free transactions, and e-transfer charges.",
+      "A chequing account is for daily spending. A savings account earns a little interest.",
+      "Online banks often have no monthly fees, but may have fewer services for newcomers."
+     ]
+    },
+    {
+     "h": "Your money is protected",
+     "items": [
+      "Deposits at member banks are insured by the Canada Deposit Insurance Corporation (CDIC) up to $100,000 per category, per bank.",
+      "Categories include accounts in your own name, joint accounts, TFSAs and RRSPs. Credit unions are protected by provincial insurers.",
+      "Never share your PIN, online banking password or one-time codes. Banks never ask for them by phone or text."
+     ]
+    },
+    {
+     "h": "Sending money home",
+     "p": "Bank wire transfers can be expensive. Compare the total cost, including the exchange rate, with money transfer services before you send. Always use a licensed company and never send money to someone you only know online."
+    }
+   ],
+   "links": [
+    [
+     "Opening a bank account (FCAC)",
+     "fcac_open"
+    ],
+    [
+     "Deposit insurance (CDIC)",
+     "cdic"
+    ],
+    [
+     "How money works in Canada (IRCC)",
+     "money"
+    ]
+   ]
+  },
+  "drivers-licence": {
+   "related": "first-steps",
+   "title": "Getting your driver's licence as a newcomer to Canada | MapleSteps",
+   "desc": "How newcomers get a driver's licence in Canada: exchanging a foreign licence, getting credit for experience, Ontario's 60-day rule, and car insurance tips.",
+   "h1": "Getting your driver's licence in Canada",
+   "summary": "Exchanging your foreign licence, getting credit for experience, and why you need to act within weeks.",
+   "lead": "Each province issues its own driver's licences, and the rules for newcomers differ. Some countries' licences can be exchanged directly; others mean taking tests. Start early, because your foreign licence is only valid for a short time once you live here.",
+   "sections": [
+    {
+     "h": "Act quickly",
+     "items": [
+      "In Ontario, new residents must apply for an Ontario licence within 60 days. After that, the foreign licence can no longer be used.",
+      "Other provinces have similar time limits, often around 90 days. Check your province's rule as soon as you arrive."
+     ]
+    },
+    {
+     "h": "Exchange agreements (Ontario example)",
+     "items": [
+      "Ontario exchanges licences from other provinces, U.S. states and some countries, including Australia, France, Germany, Ireland, Japan, South Korea, Switzerland, Taiwan, Ukraine and the United Kingdom.",
+      "For a full G licence, you need proof of at least two years of driving experience within the last three years.",
+      "Without enough proof, you get a beginner licence and go through Ontario's graduated licensing steps."
+     ]
+    },
+    {
+     "h": "If your country has no agreement",
+     "items": [
+      "You can get credit for up to 12 months of experience, which can shorten the beginner stage.",
+      "In Ontario, from July 1, 2026, drivers in this group take the G2 road test, then the G road test at least 12 months later.",
+      "You still take the written knowledge test and a vision test."
+     ]
+    },
+    {
+     "h": "Prove your experience",
+     "items": [
+      "Get a letter of authentication from your home country's licensing office, embassy or consulate.",
+      "In Ontario it must be issued within the last six months and show your first licence date, class, status and expiry date.",
+      "Documents not in English or French need a translation by a recognized translator. Bring originals, because the office may keep them."
+     ]
+    },
+    {
+     "h": "Car insurance",
+     "p": "Insurance is mandatory and can be very expensive for drivers with no Canadian history. Ask insurers whether they accept a letter from your home-country insurer showing your claims-free years, and compare several quotes before you buy a car."
+    }
+   ],
+   "links": [
+    [
+     "Driving in Canada (IRCC)",
+     "driving"
+    ],
+    [
+     "Ontario: exchange a licence (DriveTest)",
+     "drivetest"
+    ],
+    [
+     "British Columbia: ICBC licensing",
+     "icbc"
+    ],
+    [
+     "Quebec: SAAQ",
+     "saaq"
+    ],
+    [
+     "Alberta: driver's licences",
+     "abdl"
+    ]
+   ]
+  },
+  "first-winter": {
+   "related": "cities",
+   "title": "Your first Canadian winter: what to buy and what to skip | MapleSteps",
+   "desc": "A newcomer's guide to the first Canadian winter: how to dress in layers, what boots and coats to buy, wind chill safety, saving money and staying well.",
+   "h1": "Your first Canadian winter",
+   "summary": "How to dress for the cold, what's worth buying, what you can skip, and how to stay safe and well.",
+   "lead": "Canadian winters are long and, in most cities, very cold. With the right clothing, life carries on normally: buses run, children go to school and people go outside. The secret is layers, not one huge coat.",
+   "sections": [
+    {
+     "h": "Dress in three layers",
+     "items": [
+      "Base layer: thin thermal top and leggings that keep moisture away from your skin. Avoid cotton, which stays wet.",
+      "Middle layer: a fleece or wool sweater to hold warmth.",
+      "Outer layer: a windproof, waterproof coat that covers your hips. A hood helps a lot.",
+      "Layers let you take one off indoors, where buildings are warm."
+     ]
+    },
+    {
+     "h": "What's worth buying",
+     "items": [
+      "Insulated, waterproof boots with good grip. Wet, cold feet ruin a winter day, and sidewalks get icy.",
+      "A warm hat that covers your ears, a scarf or neck warmer, and insulated gloves or mittens (mittens are warmer).",
+      "Wool socks, two or three pairs.",
+      "If you drive: winter tires, an ice scraper and a snow brush. Quebec requires winter tires by law from December 1 to March 15."
+     ]
+    },
+    {
+     "h": "What you can skip or buy cheaply",
+     "items": [
+      "Expensive designer parkas: a mid-priced coat with layers underneath is enough for most cities.",
+      "Buy children's winter gear secondhand. They outgrow it every year.",
+      "Thrift stores and online marketplaces sell good coats and boots for much less, especially in the fall.",
+      "Ask your settlement agency about free winter clothing programs. Many communities run coat drives."
+     ]
+    },
+    {
+     "h": "Understand wind chill",
+     "items": [
+      "Weather forecasts show a temperature and a wind chill, which is how cold it feels on your skin.",
+      "Environment Canada warns that frostbite risk rises quickly when the wind chill is below -27.",
+      "On very cold days, cover exposed skin and limit time outside. Watch for white or numb patches on fingers, ears and nose.",
+      "Check the forecast on the Government of Canada weather site or app each morning."
+     ]
+    },
+    {
+     "h": "Stay well in the dark months",
+     "p": "Days are short from November to February. Go outside in daylight when you can, stay active, and keep in touch with friends and family. Feeling low in winter is common. If it lasts, talk to a doctor, or call or text 988 if you are in crisis."
+    }
+   ],
+   "links": [
+    [
+     "Weather forecasts (Government of Canada)",
+     "weather"
+    ],
+    [
+     "Wind chill and frostbite (Environment Canada)",
+     "windchill"
+    ],
+    [
+     "Land and climate (IRCC)",
+     "climate"
+    ]
+   ]
+  }
+ }
+}

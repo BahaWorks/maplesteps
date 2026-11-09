@@ -1,0 +1,289 @@
+{
+ "ui": {
+  "nav": "Articles",
+  "updated": "Mis à jour en novembre 2026",
+  "read": "Lire l'article",
+  "related": "Guide lié",
+  "all": "Tous les articles",
+  "in_this": "Dans cet article",
+  "more": "Autres articles"
+ },
+ "home": {
+  "h": "Derniers articles",
+  "lead": "Des réponses étape par étape aux questions que les nouveaux arrivants posent le plus."
+ },
+ "index": {
+  "title": "Articles pour les nouveaux arrivants au Canada | MapleSteps",
+  "desc": "Des articles pratiques, étape par étape, pour les nouveaux arrivants au Canada : carte santé, compte bancaire, permis de conduire et premier hiver.",
+  "eyebrow": "Articles",
+  "h1": "Articles pour les nouveaux arrivants",
+  "lead": "Des réponses détaillées aux questions fréquentes, avec les étapes exactes et les pages officielles à utiliser."
+ },
+ "items": {
+  "health-card": {
+   "related": "health",
+   "title": "Obtenir sa carte santé provinciale en tant que nouvel arrivant | MapleSteps",
+   "desc": "Comment les nouveaux arrivants obtiennent leur carte santé au Canada : qui est admissible, délais d'attente par province, documents à apporter et comment rester couvert en attendant.",
+   "h1": "Obtenir sa carte santé provinciale",
+   "summary": "Qui est admissible, quelles provinces imposent un délai, quoi apporter et comment rester couvert en attendant.",
+   "lead": "Au Canada, l'assurance maladie publique est gérée par chaque province et territoire. Votre carte santé vous permet de voir un médecin ou d'aller à l'hôpital sans payer les soins médicalement nécessaires. Faites la demande dès les premiers jours.",
+   "sections": [
+    {
+     "h": "Qui peut obtenir une carte santé",
+     "items": [
+      "Les résidents permanents et les citoyens canadiens qui habitent la province",
+      "Beaucoup de titulaires d'un permis de travail, selon la province et la durée du permis",
+      "Certains étudiants étrangers, selon la province (les autres doivent prendre l'assurance de leur établissement)",
+      "Les personnes protégées et les réfugiés réinstallés"
+     ]
+    },
+    {
+     "h": "Délais d'attente",
+     "items": [
+      "L'Ontario n'a pas de délai d'attente. La couverture peut commencer dès que vous êtes admissible et faites la demande.",
+      "La plupart des autres provinces, dont la Colombie-Britannique, le Québec et l'Alberta, peuvent imposer un délai allant jusqu'à environ trois mois.",
+      "Pendant ce délai, vous payez vous-même les soins, et une visite à l'hôpital peut coûter des milliers de dollars.",
+      "Prenez une assurance santé privée pour nouveaux arrivants ou visiteurs. Certaines doivent être achetées dans les jours suivant l'arrivée : faites-le tôt."
+     ]
+    },
+    {
+     "h": "Quoi apporter",
+     "items": [
+      "Votre document d'immigration : Confirmation de résidence permanente (CRP), carte de RP ou permis de travail ou d'études valide",
+      "Une preuve d'adresse dans la province, comme un bail, un relevé bancaire ou une facture",
+      "Une deuxième pièce d'identité avec votre nom et votre signature, comme votre passeport",
+      "Chaque province publie sa liste exacte. Vérifiez-la avant d'y aller : l'Ontario, par exemple, demande trois documents originaux."
+     ]
+    },
+    {
+     "h": "Où faire la demande",
+     "items": [
+      "Ontario : en personne dans un centre ServiceOntario",
+      "Colombie-Britannique : en ligne auprès de Health Insurance BC",
+      "Québec : auprès de la RAMQ (Régie de l'assurance maladie du Québec)",
+      "Alberta : dans un bureau d'agent d'immatriculation (registry) ou en ligne",
+      "Autres provinces : sur le site du ministère de la Santé provincial"
+     ]
+    },
+    {
+     "h": "Réfugiés et demandeurs d'asile",
+     "p": "Les réfugiés réinstallés et les demandeurs d'asile qui ne sont pas encore couverts par leur province peuvent obtenir une couverture temporaire du gouvernement fédéral grâce au Programme fédéral de santé intérimaire (PFSI). Demandez à votre intervenant en établissement ou à la clinique de vérifier votre admissibilité."
+    }
+   ],
+   "links": [
+    [
+     "Soins de santé pour les nouveaux arrivants (IRCC)",
+     "healthcare"
+    ],
+    [
+     "Ontario : demander l'Assurance-santé (OHIP)",
+     "ohip"
+    ],
+    [
+     "Colombie-Britannique : Medical Services Plan",
+     "bcmsp"
+    ],
+    [
+     "Québec : RAMQ",
+     "ramq"
+    ],
+    [
+     "Alberta : régime d'assurance-maladie",
+     "ahcip"
+    ]
+   ]
+  },
+  "bank-account": {
+   "related": "money",
+   "title": "Ouvrir son premier compte bancaire au Canada | MapleSteps",
+   "desc": "Comment les nouveaux arrivants ouvrent un compte bancaire au Canada : vos droits, les pièces d'identité, les offres pour nouveaux arrivants, l'assurance-dépôts et comment éviter frais et fraudes.",
+   "h1": "Ouvrir son premier compte bancaire au Canada",
+   "summary": "Vos droits, les pièces d'identité requises, les offres pour nouveaux arrivants et la protection de votre argent.",
+   "lead": "Un compte bancaire canadien est l'une des premières choses dont vous aurez besoin. Les employeurs versent les salaires par dépôt direct, les propriétaires demandent souvent le loyer par virement Interac et le gouvernement verse les prestations dans votre compte.",
+   "sections": [
+    {
+     "h": "Vous avez droit à un compte",
+     "items": [
+      "Vous n'avez pas besoin d'emploi, d'historique de crédit ni d'argent à déposer pour ouvrir un compte personnel.",
+      "Vous n'avez pas besoin d'être citoyen ou résident permanent, mais vous devrez peut-être aller en succursale.",
+      "Une banque ne peut refuser que pour des raisons précises, comme la fraude. Si elle refuse, elle doit vous l'indiquer par écrit et expliquer comment porter plainte."
+     ]
+    },
+    {
+     "h": "Les pièces d'identité requises",
+     "items": [
+      "Option 1 : deux documents originaux de la liste de la banque, par exemple votre passeport et votre Confirmation de résidence permanente ou permis.",
+      "Option 2 : un document avec votre nom et votre date de naissance, et une personne de bonne réputation (par exemple un client de la banque) qui confirme votre identité.",
+      "Apportez des originaux, pas des copies. Votre numéro d'assurance sociale (NAS) est requis pour les comptes qui rapportent des intérêts."
+     ]
+    },
+    {
+     "h": "Choisir un compte",
+     "items": [
+      "La plupart des grandes banques et beaucoup de caisses offrent des forfaits pour nouveaux arrivants, souvent sans frais mensuels la première année et avec une première carte de crédit.",
+      "Vérifiez ce qui se passe après la première année : frais mensuels, nombre de transactions gratuites et frais de virement Interac.",
+      "Le compte chèques sert aux dépenses quotidiennes; le compte d'épargne rapporte un peu d'intérêt.",
+      "Les banques en ligne n'ont souvent pas de frais mensuels, mais offrent parfois moins de services aux nouveaux arrivants."
+     ]
+    },
+    {
+     "h": "Votre argent est protégé",
+     "items": [
+      "Les dépôts dans les banques membres sont assurés par la Société d'assurance-dépôts du Canada (SADC) jusqu'à 100 000 $ par catégorie, par banque.",
+      "Les catégories comprennent les comptes à votre nom, les comptes conjoints, le CELI et le REER. Les caisses populaires et coopératives de crédit sont protégées par des assureurs provinciaux.",
+      "Ne communiquez jamais votre NIP, votre mot de passe ni vos codes à usage unique. Les banques ne les demandent jamais par téléphone ou par texto."
+     ]
+    },
+    {
+     "h": "Envoyer de l'argent à l'étranger",
+     "p": "Les virements bancaires internationaux peuvent coûter cher. Comparez le coût total, y compris le taux de change, avec les services de transfert d'argent avant d'envoyer. Utilisez toujours une entreprise autorisée et n'envoyez jamais d'argent à quelqu'un que vous connaissez seulement en ligne."
+    }
+   ],
+   "links": [
+    [
+     "Ouvrir un compte bancaire (ACFC)",
+     "fcac_open"
+    ],
+    [
+     "Assurance-dépôts (SADC)",
+     "cdic"
+    ],
+    [
+     "Comment fonctionne l'argent au Canada (IRCC)",
+     "money"
+    ]
+   ]
+  },
+  "drivers-licence": {
+   "related": "first-steps",
+   "title": "Obtenir son permis de conduire en tant que nouvel arrivant | MapleSteps",
+   "desc": "Comment les nouveaux arrivants obtiennent un permis de conduire au Canada : échange d'un permis étranger, reconnaissance de l'expérience, règle des 60 jours en Ontario et conseils d'assurance.",
+   "h1": "Obtenir son permis de conduire au Canada",
+   "summary": "Échanger votre permis étranger, faire reconnaître votre expérience et pourquoi agir en quelques semaines.",
+   "lead": "Chaque province délivre ses propres permis, et les règles pour les nouveaux arrivants varient. Les permis de certains pays s'échangent directement; d'autres exigent des examens. Commencez tôt : votre permis étranger n'est valide que peu de temps une fois installé.",
+   "sections": [
+    {
+     "h": "Agissez vite",
+     "items": [
+      "En Ontario, les nouveaux résidents doivent demander un permis ontarien dans les 60 jours. Après, le permis étranger ne peut plus être utilisé.",
+      "Les autres provinces ont des délais semblables, souvent d'environ 90 jours (au Québec, la SAAQ a ses propres règles). Vérifiez dès votre arrivée."
+     ]
+    },
+    {
+     "h": "Ententes d'échange (exemple de l'Ontario)",
+     "items": [
+      "L'Ontario échange les permis des autres provinces, des États américains et de certains pays, dont l'Allemagne, l'Australie, la Corée du Sud, la France, l'Irlande, le Japon, le Royaume-Uni, la Suisse, Taïwan et l'Ukraine.",
+      "Pour un permis G complet, il faut prouver au moins deux ans d'expérience de conduite au cours des trois dernières années.",
+      "Sans preuve suffisante, vous obtenez un permis de débutant et suivez le système graduel de l'Ontario."
+     ]
+    },
+    {
+     "h": "Si votre pays n'a pas d'entente",
+     "items": [
+      "Vous pouvez obtenir jusqu'à 12 mois de crédit d'expérience, ce qui raccourcit l'étape de débutant.",
+      "En Ontario, depuis le 1er juillet 2026, ces conducteurs passent l'examen pratique G2, puis l'examen G au moins 12 mois plus tard.",
+      "Vous passez quand même l'examen théorique et un test de la vue."
+     ]
+    },
+    {
+     "h": "Prouvez votre expérience",
+     "items": [
+      "Obtenez une lettre d'authentification du bureau des permis de votre pays, de l'ambassade ou du consulat.",
+      "En Ontario, elle doit dater de moins de six mois et indiquer la date du premier permis, la classe, le statut et la date d'expiration.",
+      "Les documents qui ne sont ni en anglais ni en français doivent être traduits par un traducteur reconnu. Apportez les originaux : le bureau peut les garder."
+     ]
+    },
+    {
+     "h": "Assurance auto",
+     "p": "L'assurance est obligatoire et peut coûter très cher aux conducteurs sans historique canadien. Demandez aux assureurs s'ils acceptent une lettre de votre assureur d'origine indiquant vos années sans sinistre, et comparez plusieurs soumissions avant d'acheter une voiture."
+    }
+   ],
+   "links": [
+    [
+     "Conduire au Canada (IRCC)",
+     "driving"
+    ],
+    [
+     "Ontario : échanger un permis (DriveTest)",
+     "drivetest"
+    ],
+    [
+     "Colombie-Britannique : permis ICBC",
+     "icbc"
+    ],
+    [
+     "Québec : SAAQ",
+     "saaq"
+    ],
+    [
+     "Alberta : permis de conduire",
+     "abdl"
+    ]
+   ]
+  },
+  "first-winter": {
+   "related": "cities",
+   "title": "Votre premier hiver canadien : quoi acheter et quoi éviter | MapleSteps",
+   "desc": "Guide du premier hiver canadien pour nouveaux arrivants : s'habiller en couches, quelles bottes et quel manteau acheter, refroidissement éolien, économies et bien-être.",
+   "h1": "Votre premier hiver canadien",
+   "summary": "Comment s'habiller pour le froid, ce qui vaut la peine d'acheter, ce qu'on peut éviter et comment rester en sécurité.",
+   "lead": "Les hivers canadiens sont longs et, dans la plupart des villes, très froids. Avec les bons vêtements, la vie continue normalement : les autobus roulent, les enfants vont à l'école et on sort dehors. Le secret, ce sont les couches, pas un énorme manteau.",
+   "sections": [
+    {
+     "h": "Habillez-vous en trois couches",
+     "items": [
+      "Première couche : un haut et un collant thermiques minces qui éloignent l'humidité de la peau. Évitez le coton, qui reste mouillé.",
+      "Couche intermédiaire : une laine polaire ou un chandail de laine pour garder la chaleur.",
+      "Couche extérieure : un manteau coupe-vent et imperméable qui couvre les hanches. Un capuchon aide beaucoup.",
+      "Les couches permettent d'en enlever une à l'intérieur, où il fait chaud."
+     ]
+    },
+    {
+     "h": "Ce qui vaut la peine",
+     "items": [
+      "Des bottes isolées et imperméables avec une bonne adhérence. Les pieds mouillés gâchent une journée, et les trottoirs deviennent glacés.",
+      "Une tuque qui couvre les oreilles, un foulard ou cache-cou, et des gants ou mitaines isolés (les mitaines sont plus chaudes).",
+      "Des bas de laine, deux ou trois paires.",
+      "Si vous conduisez : pneus d'hiver, grattoir et balai à neige. Au Québec, les pneus d'hiver sont obligatoires du 1er décembre au 15 mars."
+     ]
+    },
+    {
+     "h": "Ce que vous pouvez éviter ou acheter à bas prix",
+     "items": [
+      "Les parkas de marque très chers : un manteau de prix moyen avec des couches dessous suffit dans la plupart des villes.",
+      "Achetez l'équipement d'hiver des enfants usagé : ils grandissent chaque année.",
+      "Les friperies et les sites de petites annonces vendent de bons manteaux et bottes bien moins cher, surtout à l'automne.",
+      "Demandez à votre organisme d'établissement s'il existe des programmes de vêtements d'hiver gratuits. Beaucoup de communautés organisent des collectes de manteaux."
+     ]
+    },
+    {
+     "h": "Comprendre le refroidissement éolien",
+     "items": [
+      "Les prévisions indiquent la température et le refroidissement éolien, c'est-à-dire le froid ressenti sur la peau.",
+      "Environnement Canada avertit que le risque d'engelures augmente rapidement quand le refroidissement éolien descend sous -27.",
+      "Par grand froid, couvrez la peau exposée et limitez le temps dehors. Surveillez les plaques blanches ou engourdies sur les doigts, les oreilles et le nez.",
+      "Consultez chaque matin la météo sur le site ou l'application du gouvernement du Canada."
+     ]
+    },
+    {
+     "h": "Prendre soin de soi pendant les mois sombres",
+     "p": "Les jours sont courts de novembre à février. Sortez à la lumière du jour quand vous le pouvez, restez actif et gardez le contact avec vos proches. Se sentir déprimé en hiver est courant. Si cela dure, parlez-en à un médecin, ou appelez ou textez le 988 en cas de crise."
+    }
+   ],
+   "links": [
+    [
+     "Prévisions météo (gouvernement du Canada)",
+     "weather"
+    ],
+    [
+     "Refroidissement éolien et engelures (Environnement Canada)",
+     "windchill"
+    ],
+    [
+     "Territoire et climat (IRCC)",
+     "climate"
+    ]
+   ]
+  }
+ }
+}
