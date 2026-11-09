@@ -1,0 +1,96 @@
+{
+ "nav": "Calculateur de salaire",
+ "title": "Calculateur de salaire net au Canada (2026)",
+ "desc": "Estimez votre salaire net en 2026 après l'impôt, le RPC ou le RRQ et l'AE en Ontario, au Québec, en Colombie-Britannique, en Alberta, au Manitoba et en Nouvelle-Écosse. Gratuit, en six langues.",
+ "eyebrow": "Outil gratuit",
+ "h1": "Calculateur de salaire net",
+ "lead": "Entrez votre salaire annuel ou votre taux horaire pour voir à peu près combien vous recevrez dans votre compte bancaire après l'impôt et les retenues sur la paie en 2026.",
+ "f_prov": "Province où vous travaillez",
+ "f_pay": "Votre salaire avant retenues ($)",
+ "f_per": "Versé",
+ "per": {
+  "year": "Par année",
+  "month": "Par mois",
+  "biweek": "Toutes les 2 semaines",
+  "week": "Par semaine",
+  "hour": "Par heure"
+ },
+ "f_hours": "Heures par semaine",
+ "provs": {
+  "ON": "Ontario",
+  "QC": "Québec",
+  "BC": "Colombie-Britannique",
+  "AB": "Alberta",
+  "MB": "Manitoba",
+  "NS": "Nouvelle-Écosse"
+ },
+ "r_h": "Votre salaire net estimé",
+ "r_per": {
+  "year": "par année",
+  "month": "par mois",
+  "biweek": "toutes les 2 semaines",
+  "week": "par semaine"
+ },
+ "rows": {
+  "gross": "Salaire brut",
+  "fed": "Impôt fédéral",
+  "prov": "Impôt provincial",
+  "cpp": "Régime de pensions du Canada (RPC)",
+  "qpp": "Régime de rentes du Québec (RRQ)",
+  "ei": "Assurance-emploi (AE)",
+  "qpip": "Régime québécois d'assurance parentale (RQAP)",
+  "net": "Salaire net"
+ },
+ "col_year": "Par année",
+ "col_period": "Par paie",
+ "avg": "Environ {pct} de votre salaire va à l'impôt et aux cotisations.",
+ "empty": "Entrez un montant pour voir votre estimation.",
+ "note": "Estimation pour 2026 qui tient compte seulement des crédits de base auxquels tout employé a droit. Votre salaire réel peut varier de quelques pour cent. Le calcul se fait dans votre navigateur; rien de ce que vous entrez n'est envoyé ni enregistré.",
+ "sections": [
+  {
+   "h": "Comment ça fonctionne",
+   "items": [
+    "Votre employeur retient sur chaque paie l'impôt, les cotisations au régime de retraite (RPC, ou RRQ au Québec) et l'assurance-emploi (AE).",
+    "L'impôt sur le revenu comporte deux parties, fédérale et provinciale. Les deux augmentent par paliers à mesure que votre revenu augmente.",
+    "Le calculateur utilise les taux d'imposition de 2026 et le montant personnel de base, ce qui veut dire que la première partie de votre revenu n'est pas imposée.",
+    "Au Québec, vous payez aussi des cotisations au Régime québécois d'assurance parentale, et votre impôt fédéral est réduit de 16,5 %."
+   ]
+  },
+  {
+   "h": "Ce que l'estimation ne comprend pas",
+   "items": [
+    "Les autres crédits d'impôt, comme les frais de scolarité, les frais médicaux ou les frais de garde d'enfants",
+    "Les cotisations à un REER ou à un CELIAPP, les cotisations syndicales et les avantages sociaux, qui modifient votre paie",
+    "Les prestations que vous pourriez recevoir, comme l'Allocation canadienne pour enfants ou le crédit pour la TPS/TVH",
+    "Les provinces et territoires qui ne figurent pas ici; pour ceux-ci, utilisez le calculateur officiel de l'ARC"
+   ]
+  },
+  {
+   "h": "Conseils pour les nouveaux arrivants",
+   "items": [
+    "Remplissez un formulaire TD1 (et TP-1015.3 au Québec) quand vous commencez un emploi pour que votre employeur retienne le bon montant d'impôt",
+    "Produisez une déclaration de revenus chaque printemps, même si votre revenu est faible; vous pourriez recevoir un remboursement et avoir droit à des prestations",
+    "Si vous avez commencé à travailler en cours d'année, votre employeur a peut-être retenu plus d'impôt que vous n'en devez, ce qui peut vous donner droit à un remboursement",
+    "Vérifiez votre talon de paie : il doit indiquer le salaire brut, chaque retenue et votre salaire net"
+   ]
+  }
+ ],
+ "links": [
+  [
+   "Calculateur en ligne des retenues sur la paie de l'ARC",
+   "pdoc"
+  ],
+  [
+   "ARC : taux d'imposition fédéraux et provinciaux 2026",
+   "taxrates"
+  ],
+  [
+   "Revenu Québec : principaux changements pour 2026",
+   "rq_changes"
+  ]
+ ],
+ "home_h": "Outils gratuits",
+ "home_lead": "Des réponses rapides aux questions d'argent que les nouveaux arrivants posent le plus souvent.",
+ "card": "Entrez votre salaire ou votre taux horaire et voyez ce qui vous reste après l'impôt dans votre province.",
+ "cta": "Ouvrir le calculateur"
+}

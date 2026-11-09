@@ -1,0 +1,96 @@
+{
+ "nav": "Pay calculator",
+ "title": "Take-home pay calculator for Canada (2026)",
+ "desc": "Estimate your 2026 take-home pay after income tax, CPP or QPP and EI in Ontario, Quebec, BC, Alberta, Manitoba and Nova Scotia. Free, in six languages.",
+ "eyebrow": "Free tool",
+ "h1": "Take-home pay calculator",
+ "lead": "Enter your salary or hourly wage to see roughly how much reaches your bank account after tax and payroll deductions in 2026.",
+ "f_prov": "Province where you work",
+ "f_pay": "Your pay before deductions ($)",
+ "f_per": "Paid",
+ "per": {
+  "year": "Per year",
+  "month": "Per month",
+  "biweek": "Every 2 weeks",
+  "week": "Per week",
+  "hour": "Per hour"
+ },
+ "f_hours": "Hours per week",
+ "provs": {
+  "ON": "Ontario",
+  "QC": "Quebec",
+  "BC": "British Columbia",
+  "AB": "Alberta",
+  "MB": "Manitoba",
+  "NS": "Nova Scotia"
+ },
+ "r_h": "Your estimated take-home pay",
+ "r_per": {
+  "year": "per year",
+  "month": "per month",
+  "biweek": "every 2 weeks",
+  "week": "per week"
+ },
+ "rows": {
+  "gross": "Gross pay",
+  "fed": "Federal income tax",
+  "prov": "Provincial income tax",
+  "cpp": "Canada Pension Plan (CPP)",
+  "qpp": "Quebec Pension Plan (QPP)",
+  "ei": "Employment Insurance (EI)",
+  "qpip": "Quebec Parental Insurance Plan (QPIP)",
+  "net": "Take-home pay"
+ },
+ "col_year": "Per year",
+ "col_period": "Per pay",
+ "avg": "About {pct} of your pay goes to tax and contributions.",
+ "empty": "Enter an amount to see your estimate.",
+ "note": "Estimate for 2026 using only the basic credits every employee gets. Your real pay can differ by a few percent. The calculation runs in your browser; nothing you type is sent or saved.",
+ "sections": [
+  {
+   "h": "How it works",
+   "items": [
+    "Your employer takes income tax, pension contributions (CPP, or QPP in Quebec) and Employment Insurance (EI) from every paycheque.",
+    "Income tax has two parts, federal and provincial. Both go up in steps as you earn more.",
+    "The calculator uses 2026 tax rates and the basic personal amount, which means the first part of your income is not taxed.",
+    "In Quebec, you also pay Quebec Parental Insurance Plan premiums, and your federal tax is reduced by 16.5%."
+   ]
+  },
+  {
+   "h": "What this estimate leaves out",
+   "items": [
+    "Other tax credits, such as tuition, medical expenses or child care",
+    "RRSP or FHSA contributions, union dues and workplace benefits, which change your pay",
+    "Benefits you may receive, such as the Canada Child Benefit or the GST/HST credit",
+    "Provinces and territories not listed here; use the CRA's official calculator for those"
+   ]
+  },
+  {
+   "h": "Tips for newcomers",
+   "items": [
+    "Fill in a TD1 form when you start a job so your employer takes the right amount of tax",
+    "File a tax return every spring, even with low income; you may get money back and qualify for benefits",
+    "If you started working part way through the year, your employer may have taken more tax than you owe, so you may get a refund",
+    "Check your pay stub: it should show gross pay, each deduction and your net pay"
+   ]
+  }
+ ],
+ "links": [
+  [
+   "CRA Payroll Deductions Online Calculator",
+   "pdoc"
+  ],
+  [
+   "CRA: 2026 federal and provincial tax rates",
+   "taxrates"
+  ],
+  [
+   "Revenu Québec: 2026 changes for Quebec payroll",
+   "rq_changes"
+  ]
+ ],
+ "home_h": "Free tools",
+ "home_lead": "Quick answers to the money questions newcomers ask most.",
+ "card": "Enter your salary or hourly wage and see what you keep after tax in your province.",
+ "cta": "Open the calculator"
+}
