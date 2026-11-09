@@ -24,6 +24,23 @@
   var det = document.querySelector('details.lang');
   if (det) document.addEventListener('click', function (ev) { if (!det.contains(ev.target)) det.open = false; });
 
+  // Share buttons: copy link + the phone's own share sheet (WeChat, Messages, etc.).
+  document.querySelectorAll('.share .copy').forEach(function (b) {
+    var label = b.textContent;
+    b.addEventListener('click', function () {
+      var url = b.getAttribute('data-url');
+      function done() { b.textContent = b.getAttribute('data-done'); b.classList.add('ok'); setTimeout(function () { b.textContent = label; b.classList.remove('ok'); }, 2200); }
+      if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(url).then(done, function () { window.prompt('', url); });
+      else window.prompt('', url);
+    });
+  });
+  if (navigator.share) document.querySelectorAll('.share .native').forEach(function (b) {
+    b.hidden = false;
+    b.addEventListener('click', function () {
+      navigator.share({ title: b.getAttribute('data-title'), url: b.getAttribute('data-url') }).catch(function () {});
+    });
+  });
+
   // Checklist progress, saved per device.
   var list = document.querySelector('.checklist');
   if (!list) return;
