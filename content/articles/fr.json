@@ -95,9 +95,9 @@
   },
   "bank-account": {
    "related": "money",
-   "title": "Ouvrir son premier compte bancaire au Canada | MapleSteps",
-   "desc": "Comment les nouveaux arrivants ouvrent un compte bancaire au Canada : vos droits, les pièces d'identité, les offres pour nouveaux arrivants, l'assurance-dépôts et comment éviter frais et fraudes.",
-   "h1": "Ouvrir son premier compte bancaire au Canada",
+   "title": "Ouvrir un compte bancaire au Canada : guide pour nouveaux arrivants | MapleSteps",
+   "desc": "Comment ouvrir un compte bancaire au Canada quand on est nouvel arrivant : vos droits, les pièces d'identité, les comptes gratuits la première année, l'assurance-dépôts et comment éviter frais et fraudes.",
+   "h1": "Ouvrir un compte bancaire au Canada",
    "summary": "Vos droits, les pièces d'identité requises, les offres pour nouveaux arrivants et la protection de votre argent.",
    "lead": "Un compte bancaire canadien est l'une des premières choses dont vous aurez besoin. Les employeurs versent les salaires par dépôt direct, les propriétaires demandent souvent le loyer par virement Interac et le gouvernement verse les prestations dans votre compte.",
    "sections": [
@@ -121,6 +121,7 @@
      "h": "Choisir un compte",
      "items": [
       "La plupart des grandes banques et beaucoup de caisses offrent des forfaits pour nouveaux arrivants, souvent sans frais mensuels la première année et avec une première carte de crédit.",
+      "Depuis le 1er décembre 2025, la plupart des grandes banques doivent offrir aux nouveaux arrivants un compte sans frais pendant leur première année au Canada, et tout le monde peut obtenir un compte à faible coût d'au plus 4 $ par mois.",
       "Vérifiez ce qui se passe après la première année : frais mensuels, nombre de transactions gratuites et frais de virement Interac.",
       "Le compte chèques sert aux dépenses quotidiennes; le compte d'épargne rapporte un peu d'intérêt.",
       "Les banques en ligne n'ont souvent pas de frais mensuels, mais offrent parfois moins de services aux nouveaux arrivants."
@@ -282,6 +283,85 @@
     [
      "Territoire et climat (IRCC)",
      "climate"
+    ]
+   ]
+  },
+  "switch-banks": {
+   "related": "money",
+   "title": "Changer de banque au Canada quand votre offre de nouvel arrivant se termine | MapleSteps",
+   "desc": "Votre forfait bancaire gratuit pour nouveaux arrivants se termine? Vérifiez la date, obtenez un compte gratuit ou à 4 $, comparez les banques sans frais et changez de banque étape par étape.",
+   "h1": "Votre offre bancaire pour nouveaux arrivants se termine : comment éviter les frais ou changer de banque",
+   "sub": "Que faire de 6 à 12 mois après l'ouverture de votre premier compte",
+   "summary": "Vérifiez quand votre période gratuite se termine, demandez un forfait moins cher ou transférez votre argent étape par étape sans paiement manqué.",
+   "lead": "Beaucoup de forfaits bancaires pour nouveaux arrivants sont gratuits la première année. Ensuite, des frais mensuels s'appliquent, souvent sans grand avertissement. Voici comment garder vos coûts bas, que vous restiez à votre banque ou que vous en changiez.",
+   "sections": [
+    {
+     "h": "Sachez quand votre offre se termine",
+     "items": [
+      "Relisez la lettre de bienvenue ou la convention de compte reçue à l'ouverture. La plupart des forfaits pour nouveaux arrivants durent environ 12 mois.",
+      "Après l'offre, le compte passe généralement à un forfait ordinaire, qui peut coûter de 10 $ à 30 $ environ par mois.",
+      "Programmez un rappel un mois avant la date de fin et vérifiez si de nouveaux frais mensuels apparaissent sur votre relevé."
+     ]
+    },
+    {
+     "h": "Demandez d'abord un forfait moins cher à votre banque",
+     "items": [
+      "Depuis le 1er décembre 2025, la plupart des grandes banques doivent offrir à tous un compte de chèques à faible coût d'au plus 4 $ par mois, avec au moins 18 opérations de débit et sans solde minimum.",
+      "Ces banques doivent aussi offrir un compte sans frais aux nouveaux arrivants pendant leur première année au Canada, aux étudiants, aux jeunes, aux aînés qui reçoivent le Supplément de revenu garanti et aux bénéficiaires d'un REEI.",
+      "Demandez si le maintien d'un solde minimum éliminerait vos frais mensuels, et de quel montant il s'agit.",
+      "Changer de compte dans la même banque est généralement plus simple que changer de banque, et les règles sur les comptes à faible coût prévoient qu'il n'y a pas de frais pour ce changement."
+     ]
+    },
+    {
+     "h": "Comparez les autres options",
+     "items": [
+      "Les banques en ligne n'ont souvent pas de frais mensuels, mais offrent parfois moins de succursales et de services aux nouveaux arrivants.",
+      "Les caisses populaires et coopératives de crédit appartiennent à leurs membres. Beaucoup offrent des comptes à frais réduits et un service personnalisé.",
+      "Comparez les frais que vous paierez vraiment : virements Interac, retraits au guichet, cartes utilisées à l'étranger et envois d'argent à l'étranger.",
+      "Vérifiez qu'une banque est membre de la SADC, ou qu'une caisse est couverte par l'assureur-dépôts de sa province."
+     ]
+    },
+    {
+     "h": "Changer de banque, étape par étape",
+     "items": [
+      "Ouvrez d'abord le nouveau compte. Ne fermez pas l'ancien avant que tout ait été transféré.",
+      "Donnez les coordonnées du nouveau compte à votre employeur pour le dépôt direct et mettez à jour vos renseignements bancaires auprès de l'Agence du revenu du Canada pour vos remboursements et prestations.",
+      "Dressez la liste de vos paiements préautorisés (loyer, téléphone, Internet, assurances, gym, abonnements) et transférez-les un à un.",
+      "Cessez d'émettre des chèques sur l'ancien compte et attendez que tous ceux que vous avez faits soient encaissés.",
+      "Surveillez les deux comptes pendant un mois ou deux. Quand il ne reste rien, transférez le solde, fermez l'ancien compte et demandez une confirmation écrite."
+     ]
+    },
+    {
+     "h": "Points à surveiller",
+     "items": [
+      "Certaines banques facturent des frais si vous fermez un compte peu après l'avoir ouvert. Renseignez-vous avant de le fermer.",
+      "Si vous avez reçu une prime en argent, vérifiez ses conditions. Fermer le compte trop tôt peut vous obliger à la rembourser.",
+      "Un paiement prélevé sur un compte vide ou fermé peut entraîner des frais pour provision insuffisante (NSF).",
+      "Les comptes bancaires n'influencent pas votre cote de crédit, mais les cartes de crédit, oui. Si votre forfait comprenait une carte de crédit sans frais annuels, la garder ouverte peut aider votre historique de crédit.",
+      "Ne communiquez jamais votre NIP, vos mots de passe ou vos codes à usage unique, même à quelqu'un qui dit vous aider à changer de banque."
+     ]
+    },
+    {
+     "h": "Changements à venir",
+     "p": "Dans le budget de 2025, le gouvernement fédéral a annoncé qu'il collaborera avec les banques pour simplifier le transfert d'un compte de chèques vers une autre institution et qu'il examinera des frais comme ceux des virements Interac et des guichets automatiques. Aucune date n'a encore été fixée : consultez l'Agence de la consommation en matière financière du Canada pour les mises à jour."
+    }
+   ],
+   "links": [
+    [
+     "Comptes à faible coût et sans frais (ACFC, en anglais)",
+     "lowcost"
+    ],
+    [
+     "Dépôt direct des paiements de l'ARC (en anglais)",
+     "cra_dd"
+    ],
+    [
+     "Fermer un compte bancaire (GetSmarterAboutMoney, en anglais)",
+     "close_acct"
+    ],
+    [
+     "Assurance-dépôts (SADC)",
+     "cdic"
     ]
    ]
   }

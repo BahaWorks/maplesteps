@@ -18,8 +18,8 @@ REVIEWED = "2026-11-09"
 LANG_ORDER = ["en", "fr", "ar", "zh", "hi", "fa"]
 GUIDES = ["first-steps", "housing", "work", "health", "money"]
 CITIES = ["toronto", "montreal", "vancouver", "calgary", "ottawa", "edmonton", "winnipeg", "halifax"]
-ARTICLES = ["health-card", "bank-account", "drivers-licence", "first-winter"]
-ARTICLE_ICONS = {"health-card": "health", "bank-account": "money", "drivers-licence": "first-steps", "first-winter": "info"}
+ARTICLES = ["switch-banks", "health-card", "bank-account", "drivers-licence", "first-winter"]
+ARTICLE_ICONS = {"switch-banks": "money", "health-card": "health", "bank-account": "money", "drivers-licence": "first-steps", "first-winter": "info"}
 CALC = "pay-calculator"
 PAGES = ["index"] + GUIDES + ["about", "privacy", "cities"] + CITIES + ["articles"] + [f"articles/{a}" for a in ARTICLES] + [CALC]
 CONTACT_EMAIL = "hello@maplesteps.ca"
@@ -74,6 +74,9 @@ LINKS = {
     "ahcip": {"en": "https://www.alberta.ca/ahcip"},
     "fcac_open": {"en": "https://www.canada.ca/en/financial-consumer-agency/services/banking/opening-bank-account.html"},
     "cdic": {"en": "https://www.cdic.ca/", "fr": "https://www.sadc.ca/"},
+    "lowcost": {"en": "https://www.canada.ca/en/financial-consumer-agency/services/industry/laws-regulations/low-cost-no-cost-accounts"},
+    "cra_dd": {"en": "https://www.canada.ca/en/revenue-agency/services/about-canada-revenue-agency-cra/direct-deposit/individuals.html"},
+    "close_acct": {"en": "https://www.getsmarteraboutmoney.ca/learning-path/bank-accounts/how-to-close-a-bank-account/"},
     "drivetest": {"en": "https://www.drivetest.ca/licences/licence-exchanges/licence_exchange.html"},
     "icbc": {"en": "https://www.icbc.com/driver-licensing"},
     "saaq": {"en": "https://saaq.gouv.qc.ca/en/", "fr": "https://saaq.gouv.qc.ca/"},
@@ -501,6 +504,7 @@ def render_article(L, slug, langs):
   <section class="page-head"><div class="wrap narrow">
     <p class="eyebrow"><a href="{href(code, code, 'articles')}">{icon(ARTICLE_ICONS[key], "ico big")}{e(A['ui']['nav'])}</a></p>
     <h1>{e(P['h1'])}</h1>
+    {('<p class="h1-sub">' + e(P['sub']) + '</p>') if P.get('sub') else ''}
     <p class="lead">{e(P['lead'])}</p>
     <p class="small muted">{e(A['ui']['updated'])}</p>
   </div></section>

@@ -49,12 +49,30 @@
     "With the One Fare program, you pay once when you transfer between the TTC, GO Transit and several nearby transit systems."
    ],
    "see": [
-    ["CN Tower", "The city's best-known landmark, with views over Lake Ontario from the top."],
-    ["Toronto Islands", "A short ferry ride from downtown, with beaches, bike paths and skyline views."],
-    ["Royal Ontario Museum", "Canada's largest museum of world culture and natural history."],
-    ["St. Lawrence Market", "A historic food market with produce, bakeries and food from many cultures."],
-    ["Distillery District", "Car-free streets of restored brick buildings, shops and a popular winter market."],
-    ["High Park", "A large park in the west end with trails, gardens and cherry blossoms in spring."]
+    [
+     "CN Tower",
+     "The city's best-known landmark, with views over Lake Ontario from the top."
+    ],
+    [
+     "Toronto Islands",
+     "A short ferry ride from downtown, with beaches, bike paths and skyline views."
+    ],
+    [
+     "Royal Ontario Museum",
+     "Canada's largest museum of world culture and natural history."
+    ],
+    [
+     "St. Lawrence Market",
+     "A historic food market with produce, bakeries and food from many cultures."
+    ],
+    [
+     "Distillery District",
+     "Car-free streets of restored brick buildings, shops and a popular winter market."
+    ],
+    [
+     "High Park",
+     "A large park in the west end with trails, gardens and cherry blossoms in spring."
+    ]
    ],
    "tips": [
     "Rent is high downtown. Many newcomers live in Scarborough, North York, Etobicoke or nearby cities like Mississauga and Brampton.",
@@ -78,12 +96,30 @@
     "In winter, the underground pedestrian network (RÉSO) links métro stations, malls and offices downtown."
    ],
    "see": [
-    ["Mount Royal Park", "The mountain in the middle of the city, with trails and a lookout over downtown."],
-    ["Old Montreal", "Cobblestone streets, the Old Port and buildings from the 1600s to the 1800s."],
-    ["Notre-Dame Basilica", "A famous church known for its richly decorated interior."],
-    ["Jean-Talon Market", "One of North America's largest open-air markets."],
-    ["Montreal Botanical Garden", "Large themed gardens, including Chinese and Japanese gardens."],
-    ["Olympic Park", "The stadium and tower built for the 1976 Summer Olympics."]
+    [
+     "Mount Royal Park",
+     "The mountain in the middle of the city, with trails and a lookout over downtown."
+    ],
+    [
+     "Old Montreal",
+     "Cobblestone streets, the Old Port and buildings from the 1600s to the 1800s."
+    ],
+    [
+     "Notre-Dame Basilica",
+     "A famous church known for its richly decorated interior."
+    ],
+    [
+     "Jean-Talon Market",
+     "One of North America's largest open-air markets."
+    ],
+    [
+     "Montreal Botanical Garden",
+     "Large themed gardens, including Chinese and Japanese gardens."
+    ],
+    [
+     "Olympic Park",
+     "The stadium and tower built for the 1976 Summer Olympics."
+    ]
    ],
    "tips": [
     "French is the common language at work and in government services. Free French classes are available through Francisation Québec.",
@@ -106,12 +142,30 @@
     "Fares on SkyTrain and SeaBus depend on how many zones you cross. Buses always cost one zone."
    ],
    "see": [
-    ["Stanley Park", "A huge park beside downtown, with the Seawall path for walking and cycling."],
-    ["Granville Island", "A public market, artists' studios and small theatres under the bridge."],
-    ["Gastown", "The city's oldest neighbourhood, with its well-known steam clock."],
-    ["Capilano Suspension Bridge Park", "A long bridge high above a river canyon in North Vancouver (paid entry)."],
-    ["Grouse Mountain", "Skiing in winter and hiking in summer, close to the city."],
-    ["English Bay", "A popular beach, especially at sunset."]
+    [
+     "Stanley Park",
+     "A huge park beside downtown, with the Seawall path for walking and cycling."
+    ],
+    [
+     "Granville Island",
+     "A public market, artists' studios and small theatres under the bridge."
+    ],
+    [
+     "Gastown",
+     "The city's oldest neighbourhood, with its well-known steam clock."
+    ],
+    [
+     "Capilano Suspension Bridge Park",
+     "A long bridge high above a river canyon in North Vancouver (paid entry)."
+    ],
+    [
+     "Grouse Mountain",
+     "Skiing in winter and hiking in summer, close to the city."
+    ],
+    [
+     "English Bay",
+     "A popular beach, especially at sunset."
+    ]
    ],
    "tips": [
     "Vancouver has some of the highest rents in Canada. Many newcomers live in Surrey, Burnaby, Richmond or Coquitlam.",
@@ -134,12 +188,30 @@
     "Calgary is spread out, so many residents also use a car. Plan your home near a CTrain station if you rely on transit."
    ],
    "see": [
-    ["Calgary Stampede", "A 10-day rodeo and festival every July, one of the largest in the world."],
-    ["Calgary Tower", "A downtown tower with a glass-floor lookout."],
-    ["Prince's Island Park", "A downtown island park on the Bow River, used for summer festivals."],
-    ["Heritage Park", "A large living-history village showing life in western Canada."],
-    ["Calgary Zoo", "A zoo and botanical garden near downtown."],
-    ["Banff National Park", "About 1.5 hours west by car, with mountain lakes and hiking."]
+    [
+     "Calgary Stampede",
+     "A 10-day rodeo and festival every July, one of the largest in the world."
+    ],
+    [
+     "Calgary Tower",
+     "A downtown tower with a glass-floor lookout."
+    ],
+    [
+     "Prince's Island Park",
+     "A downtown island park on the Bow River, used for summer festivals."
+    ],
+    [
+     "Heritage Park",
+     "A large living-history village showing life in western Canada."
+    ],
+    [
+     "Calgary Zoo",
+     "A zoo and botanical garden near downtown."
+    ],
+    [
+     "Banff National Park",
+     "About 1.5 hours west by car, with mountain lakes and hiking."
+    ]
    ],
    "tips": [
     "Alberta has no provincial sales tax. You pay only the 5% federal GST on most purchases.",
@@ -162,12 +234,30 @@
     "Many paths along the canal and rivers are good for cycling in summer."
    ],
    "see": [
-    ["Parliament Hill", "The seat of Canada's government. Free guided tours are offered (book ahead)."],
-    ["Rideau Canal", "A UNESCO World Heritage Site. Part of it becomes a skating path in winter when ice allows."],
-    ["ByWard Market", "One of Canada's oldest markets, with shops, restaurants and street food."],
-    ["National Gallery of Canada", "Canada's national art museum, known for its giant spider sculpture outside."],
-    ["Canadian Museum of History", "Across the river in Gatineau, with views back to Parliament."],
-    ["Gatineau Park", "Lakes, forests and trails a short drive from downtown."]
+    [
+     "Parliament Hill",
+     "The seat of Canada's government. Free guided tours are offered (book ahead)."
+    ],
+    [
+     "Rideau Canal",
+     "A UNESCO World Heritage Site. Part of it becomes a skating path in winter when ice allows."
+    ],
+    [
+     "ByWard Market",
+     "One of Canada's oldest markets, with shops, restaurants and street food."
+    ],
+    [
+     "National Gallery of Canada",
+     "Canada's national art museum, known for its giant spider sculpture outside."
+    ],
+    [
+     "Canadian Museum of History",
+     "Across the river in Gatineau, with views back to Parliament."
+    ],
+    [
+     "Gatineau Park",
+     "Lakes, forests and trails a short drive from downtown."
+    ]
    ],
    "tips": [
     "Many federal government jobs ask for both English and French. Free language classes can help.",
@@ -180,7 +270,7 @@
    "prov": "Alberta",
    "tz": "Mountain Time",
    "card": "Alberta's capital, with LRT lines, a huge river valley park and West Edmonton Mall.",
-   "title": "Edmonton guide for newcomers: transit, landmarks and tips",
+   "title": "Edmonton, Alberta's capital: newcomer guide to transit, landmarks and tips",
    "desc": "A newcomer's guide to Edmonton: Edmonton Transit Service, the LRT and Arc card, landmarks like the river valley and West Edmonton Mall, and winter tips.",
    "lead": "Edmonton is Alberta's capital and a major centre for government, health care, education and energy. Housing costs are generally lower than in Toronto or Vancouver.",
    "transit": [
@@ -189,12 +279,30 @@
     "The river valley has many paths for walking and cycling in summer and cross-country skiing in winter."
    ],
    "see": [
-    ["North Saskatchewan River Valley", "One of the largest connected urban park systems in North America."],
-    ["West Edmonton Mall", "One of the largest malls in North America, with a water park and ice rink."],
-    ["Royal Alberta Museum", "Natural and human history of Alberta, in the downtown core."],
-    ["Muttart Conservatory", "Four glass pyramids holding plants from different climates."],
-    ["Fort Edmonton Park", "A large historic park showing the city's past."],
-    ["Elk Island National Park", "About 45 minutes east, known for its bison herds."]
+    [
+     "North Saskatchewan River Valley",
+     "One of the largest connected urban park systems in North America."
+    ],
+    [
+     "West Edmonton Mall",
+     "One of the largest malls in North America, with a water park and ice rink."
+    ],
+    [
+     "Royal Alberta Museum",
+     "Natural and human history of Alberta, in the downtown core."
+    ],
+    [
+     "Muttart Conservatory",
+     "Four glass pyramids holding plants from different climates."
+    ],
+    [
+     "Fort Edmonton Park",
+     "A large historic park showing the city's past."
+    ],
+    [
+     "Elk Island National Park",
+     "About 45 minutes east, known for its bison herds."
+    ]
    ],
    "tips": [
     "Winters are long and very cold. Buy a warm parka, boots and gloves before December.",
@@ -216,12 +324,30 @@
     "Most of the city is flat, which makes cycling easy in summer."
    ],
    "see": [
-    ["The Forks", "A meeting place where two rivers join, with a market, trails and a skating trail in winter."],
-    ["Canadian Museum for Human Rights", "A national museum about human rights in Canada and the world."],
-    ["Assiniboine Park and Zoo", "A large park and a zoo known for its polar bears."],
-    ["Exchange District", "Historic early-1900s buildings, galleries and restaurants."],
-    ["Royal Canadian Mint", "The factory that makes all of Canada's coins, with public tours."],
-    ["Festival du Voyageur", "Western Canada's largest winter festival, every February."]
+    [
+     "The Forks",
+     "A meeting place where two rivers join, with a market, trails and a skating trail in winter."
+    ],
+    [
+     "Canadian Museum for Human Rights",
+     "A national museum about human rights in Canada and the world."
+    ],
+    [
+     "Assiniboine Park and Zoo",
+     "A large park and a zoo known for its polar bears."
+    ],
+    [
+     "Exchange District",
+     "Historic early-1900s buildings, galleries and restaurants."
+    ],
+    [
+     "Royal Canadian Mint",
+     "The factory that makes all of Canada's coins, with public tours."
+    ],
+    [
+     "Festival du Voyageur",
+     "Western Canada's largest winter festival, every February."
+    ]
    ],
    "tips": [
     "Winters are among the coldest of any major city in the world. Good winter clothing is essential.",
@@ -243,12 +369,30 @@
     "The ferry is part of the transit system and one of the nicest ways to see the harbour."
    ],
    "see": [
-    ["Canadian Museum of Immigration at Pier 21", "Where about one million immigrants arrived in Canada between 1928 and 1971."],
-    ["Halifax Citadel", "A star-shaped hilltop fort with daily historic demonstrations in summer."],
-    ["Halifax Waterfront", "A long boardwalk with shops, food and harbour views."],
-    ["Halifax Public Gardens", "Victorian gardens in the middle of downtown, open spring to fall."],
-    ["Point Pleasant Park", "Forest trails at the southern tip of the city, by the ocean."],
-    ["Peggy's Cove", "A famous fishing village and lighthouse about 45 minutes away."]
+    [
+     "Canadian Museum of Immigration at Pier 21",
+     "Where about one million immigrants arrived in Canada between 1928 and 1971."
+    ],
+    [
+     "Halifax Citadel",
+     "A star-shaped hilltop fort with daily historic demonstrations in summer."
+    ],
+    [
+     "Halifax Waterfront",
+     "A long boardwalk with shops, food and harbour views."
+    ],
+    [
+     "Halifax Public Gardens",
+     "Victorian gardens in the middle of downtown, open spring to fall."
+    ],
+    [
+     "Point Pleasant Park",
+     "Forest trails at the southern tip of the city, by the ocean."
+    ],
+    [
+     "Peggy's Cove",
+     "A famous fishing village and lighthouse about 45 minutes away."
+    ]
    ],
    "tips": [
     "ISANS (Immigrant Services Association of Nova Scotia) is the main free settlement agency.",
