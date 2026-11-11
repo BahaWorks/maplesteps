@@ -121,6 +121,7 @@
      "h": "Choosing an account",
      "items": [
       "Most big banks and many credit unions offer newcomer packages, often with no monthly fee for the first year and a starter credit card.",
+      "Since December 1, 2025, most large banks must offer newcomers a no-cost account for their first year in Canada, and anyone can get a low-cost account for $4 a month or less.",
       "Check what happens after the first year: the monthly fee, the number of free transactions, and e-transfer charges.",
       "A chequing account is for daily spending. A savings account earns a little interest.",
       "Online banks often have no monthly fees, but may have fewer services for newcomers."
@@ -282,6 +283,85 @@
     [
      "Land and climate (IRCC)",
      "climate"
+    ]
+   ]
+  },
+  "switch-banks": {
+   "related": "money",
+   "title": "How to switch banks in Canada when your newcomer offer ends | MapleSteps",
+   "desc": "Your free newcomer bank package is ending? How to check the date, get a free or $4 account, compare no-fee banks, and switch banks in Canada step by step.",
+   "h1": "Your newcomer bank offer is ending: how to avoid fees or switch banks",
+   "sub": "What to do 6 to 12 months after opening your first account",
+   "summary": "Check when your free period ends, ask for a cheaper plan, or move your money step by step without missed payments.",
+   "lead": "Many newcomer bank packages are free for the first year. After that, monthly fees start, often without much warning. Here is how to keep your costs low, whether you stay with your bank or move.",
+   "sections": [
+    {
+     "h": "Find out when your offer ends",
+     "items": [
+      "Look at the welcome letter or account agreement from when you opened the account. Most newcomer packages last about 12 months.",
+      "After the offer ends, the account usually moves to a regular plan, which can cost about $10 to $30 a month.",
+      "Set a reminder one month before the end date, and check your statement for a new monthly fee line."
+     ]
+    },
+    {
+     "h": "Ask your bank for a cheaper plan first",
+     "items": [
+      "Since December 1, 2025, most large banks must offer anyone a low-cost chequing account for $4 a month or less, with at least 18 debit transactions and no minimum balance.",
+      "The same banks must offer a no-cost account to newcomers in their first year in Canada, students, youth, seniors receiving the Guaranteed Income Supplement and RDSP beneficiaries.",
+      "Ask whether keeping a minimum balance would waive your monthly fee, and how much it is.",
+      "Changing to another account at the same bank is usually simpler than switching banks, and low-cost account rules say there is no fee for it."
+     ]
+    },
+    {
+     "h": "Compare other options",
+     "items": [
+      "Online banks often have no monthly fee, but may have fewer branches and services for newcomers.",
+      "Credit unions are member-owned local institutions. Many offer low-fee accounts and personal service.",
+      "Compare the costs you will really pay: e-transfers, ATM withdrawals, cards used abroad and sending money home.",
+      "Check that a bank is a CDIC member, or that a credit union is covered by its provincial deposit insurer."
+     ]
+    },
+    {
+     "h": "How to switch banks, step by step",
+     "items": [
+      "Open the new account first. Don't close the old one until everything has moved.",
+      "Give your new account details to your employer for direct deposit, and update your banking information with the Canada Revenue Agency for tax refunds and benefits.",
+      "Make a list of pre-authorized payments, such as rent, phone, internet, insurance, gym and subscriptions, and move each one.",
+      "Stop writing cheques from the old account and wait until any cheques you wrote have been cashed.",
+      "Watch both accounts for a month or two. When nothing is left, move the remaining money and close the old account, and ask for written confirmation."
+     ]
+    },
+    {
+     "h": "What to watch for",
+     "items": [
+      "Some banks charge a fee if you close an account soon after opening it. Ask before you close.",
+      "If you received a cash bonus, check its conditions. Closing the account too early can mean paying it back.",
+      "A payment taken from an empty or closed account can lead to a non-sufficient funds (NSF) fee.",
+      "Bank accounts do not affect your credit score, but credit cards do. If your newcomer package included a credit card with no annual fee, keeping it open can help your credit history.",
+      "Never share your PIN, passwords or one-time codes, even with someone who says they are helping you switch."
+     ]
+    },
+    {
+     "h": "Coming changes",
+     "p": "In Budget 2025, the federal government said it will work with banks to make moving a chequing account to another institution simpler and will review fees such as e-transfer and ATM charges. No dates have been set yet, so check the Financial Consumer Agency of Canada for updates."
+    }
+   ],
+   "links": [
+    [
+     "Low-cost and no-cost accounts (FCAC)",
+     "lowcost"
+    ],
+    [
+     "Direct deposit for CRA payments",
+     "cra_dd"
+    ],
+    [
+     "How to close a bank account (GetSmarterAboutMoney)",
+     "close_acct"
+    ],
+    [
+     "Deposit insurance (CDIC)",
+     "cdic"
     ]
    ]
   }

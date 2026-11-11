@@ -339,3 +339,5 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
   .c-pair { grid-template-columns: minmax(0, 1fr); }
   .c-table { font-size: 0.88rem; }
 }
+
+.h1-sub { font-size: clamp(1.05rem, 1rem + 0.3vw, 1.2rem); font-weight: 600; color: var(--muted); margin-top: -4px; }

@@ -49,12 +49,30 @@
     "Avec le programme One Fare, vous payez une seule fois en passant de la TTC à GO Transit et à plusieurs réseaux voisins."
    ],
    "see": [
-    ["Tour CN", "Le symbole de la ville, avec une vue sur le lac Ontario depuis le sommet."],
-    ["Îles de Toronto", "À quelques minutes de traversier du centre-ville : plages, pistes cyclables et vue sur la ville."],
-    ["Musée royal de l'Ontario", "Le plus grand musée de culture mondiale et d'histoire naturelle du Canada."],
-    ["Marché St. Lawrence", "Un marché historique avec produits frais, boulangeries et cuisines du monde."],
-    ["Distillery District", "Rues piétonnes, bâtiments de brique restaurés, boutiques et marché de Noël populaire."],
-    ["Parc High", "Un grand parc de l'ouest de la ville, avec sentiers, jardins et cerisiers en fleurs au printemps."]
+    [
+     "Tour CN",
+     "Le symbole de la ville, avec une vue sur le lac Ontario depuis le sommet."
+    ],
+    [
+     "Îles de Toronto",
+     "À quelques minutes de traversier du centre-ville : plages, pistes cyclables et vue sur la ville."
+    ],
+    [
+     "Musée royal de l'Ontario",
+     "Le plus grand musée de culture mondiale et d'histoire naturelle du Canada."
+    ],
+    [
+     "Marché St. Lawrence",
+     "Un marché historique avec produits frais, boulangeries et cuisines du monde."
+    ],
+    [
+     "Distillery District",
+     "Rues piétonnes, bâtiments de brique restaurés, boutiques et marché de Noël populaire."
+    ],
+    [
+     "Parc High",
+     "Un grand parc de l'ouest de la ville, avec sentiers, jardins et cerisiers en fleurs au printemps."
+    ]
    ],
    "tips": [
     "Les loyers sont élevés au centre-ville. Beaucoup de nouveaux arrivants vivent à Scarborough, North York, Etobicoke ou dans des villes voisines comme Mississauga et Brampton.",
@@ -78,12 +96,30 @@
     "L'hiver, le réseau piétonnier souterrain (RÉSO) relie stations de métro, centres commerciaux et bureaux du centre-ville."
    ],
    "see": [
-    ["Parc du Mont-Royal", "La montagne au cœur de la ville, avec sentiers et belvédère sur le centre-ville."],
-    ["Vieux-Montréal", "Rues pavées, Vieux-Port et bâtiments du 17e au 19e siècle."],
-    ["Basilique Notre-Dame", "Une église célèbre pour son intérieur richement décoré."],
-    ["Marché Jean-Talon", "L'un des plus grands marchés publics en plein air d'Amérique du Nord."],
-    ["Jardin botanique de Montréal", "De grands jardins thématiques, dont les jardins de Chine et du Japon."],
-    ["Parc olympique", "Le stade et la tour construits pour les Jeux olympiques d'été de 1976."]
+    [
+     "Parc du Mont-Royal",
+     "La montagne au cœur de la ville, avec sentiers et belvédère sur le centre-ville."
+    ],
+    [
+     "Vieux-Montréal",
+     "Rues pavées, Vieux-Port et bâtiments du 17e au 19e siècle."
+    ],
+    [
+     "Basilique Notre-Dame",
+     "Une église célèbre pour son intérieur richement décoré."
+    ],
+    [
+     "Marché Jean-Talon",
+     "L'un des plus grands marchés publics en plein air d'Amérique du Nord."
+    ],
+    [
+     "Jardin botanique de Montréal",
+     "De grands jardins thématiques, dont les jardins de Chine et du Japon."
+    ],
+    [
+     "Parc olympique",
+     "Le stade et la tour construits pour les Jeux olympiques d'été de 1976."
+    ]
    ],
    "tips": [
     "Le français est la langue commune au travail et dans les services publics. Des cours de français gratuits sont offerts par Francisation Québec.",
@@ -106,12 +142,30 @@
     "Le tarif du SkyTrain et du SeaBus dépend du nombre de zones traversées. L'autobus coûte toujours une zone."
    ],
    "see": [
-    ["Parc Stanley", "Un immense parc à côté du centre-ville, avec la promenade Seawall pour marcher et rouler à vélo."],
-    ["Granville Island", "Un marché public, des ateliers d'artistes et de petits théâtres sous le pont."],
-    ["Gastown", "Le plus vieux quartier de la ville, avec sa célèbre horloge à vapeur."],
-    ["Parc du pont suspendu Capilano", "Un long pont au-dessus d'un canyon à North Vancouver (entrée payante)."],
-    ["Mont Grouse", "Ski l'hiver et randonnée l'été, tout près de la ville."],
-    ["English Bay", "Une plage populaire, surtout au coucher du soleil."]
+    [
+     "Parc Stanley",
+     "Un immense parc à côté du centre-ville, avec la promenade Seawall pour marcher et rouler à vélo."
+    ],
+    [
+     "Granville Island",
+     "Un marché public, des ateliers d'artistes et de petits théâtres sous le pont."
+    ],
+    [
+     "Gastown",
+     "Le plus vieux quartier de la ville, avec sa célèbre horloge à vapeur."
+    ],
+    [
+     "Parc du pont suspendu Capilano",
+     "Un long pont au-dessus d'un canyon à North Vancouver (entrée payante)."
+    ],
+    [
+     "Mont Grouse",
+     "Ski l'hiver et randonnée l'été, tout près de la ville."
+    ],
+    [
+     "English Bay",
+     "Une plage populaire, surtout au coucher du soleil."
+    ]
    ],
    "tips": [
     "Les loyers de Vancouver sont parmi les plus élevés du Canada. Beaucoup de nouveaux arrivants vivent à Surrey, Burnaby, Richmond ou Coquitlam.",
@@ -134,12 +188,30 @@
     "La ville est très étendue et beaucoup de gens ont une voiture. Si vous comptez sur le transport en commun, logez près d'une station du CTrain."
    ],
    "see": [
-    ["Stampede de Calgary", "Un rodéo et festival de 10 jours chaque juillet, l'un des plus grands au monde."],
-    ["Tour de Calgary", "Une tour du centre-ville avec un belvédère au plancher de verre."],
-    ["Parc Prince's Island", "Une île-parc sur la rivière Bow, lieu de festivals l'été."],
-    ["Heritage Park", "Un grand village historique vivant sur la vie dans l'Ouest canadien."],
-    ["Zoo de Calgary", "Un zoo et jardin botanique près du centre-ville."],
-    ["Parc national Banff", "À environ 1 h 30 en voiture à l'ouest : lacs de montagne et randonnées."]
+    [
+     "Stampede de Calgary",
+     "Un rodéo et festival de 10 jours chaque juillet, l'un des plus grands au monde."
+    ],
+    [
+     "Tour de Calgary",
+     "Une tour du centre-ville avec un belvédère au plancher de verre."
+    ],
+    [
+     "Parc Prince's Island",
+     "Une île-parc sur la rivière Bow, lieu de festivals l'été."
+    ],
+    [
+     "Heritage Park",
+     "Un grand village historique vivant sur la vie dans l'Ouest canadien."
+    ],
+    [
+     "Zoo de Calgary",
+     "Un zoo et jardin botanique près du centre-ville."
+    ],
+    [
+     "Parc national Banff",
+     "À environ 1 h 30 en voiture à l'ouest : lacs de montagne et randonnées."
+    ]
    ],
    "tips": [
     "L'Alberta n'a pas de taxe de vente provinciale. Vous payez seulement la TPS fédérale de 5 % sur la plupart des achats.",
@@ -162,12 +234,30 @@
     "De nombreux sentiers le long du canal et des rivières sont parfaits pour le vélo l'été."
    ],
    "see": [
-    ["Colline du Parlement", "Le siège du gouvernement du Canada. Visites guidées gratuites (réservez à l'avance)."],
-    ["Canal Rideau", "Site du patrimoine mondial de l'UNESCO. Une partie devient une patinoire l'hiver quand la glace le permet."],
-    ["Marché By", "L'un des plus vieux marchés du Canada, avec boutiques, restaurants et cuisine de rue."],
-    ["Musée des beaux-arts du Canada", "Le musée national d'art, connu pour sa grande araignée à l'entrée."],
-    ["Musée canadien de l'histoire", "À Gatineau, avec une vue sur le Parlement de l'autre côté de la rivière."],
-    ["Parc de la Gatineau", "Lacs, forêts et sentiers à quelques minutes du centre-ville."]
+    [
+     "Colline du Parlement",
+     "Le siège du gouvernement du Canada. Visites guidées gratuites (réservez à l'avance)."
+    ],
+    [
+     "Canal Rideau",
+     "Site du patrimoine mondial de l'UNESCO. Une partie devient une patinoire l'hiver quand la glace le permet."
+    ],
+    [
+     "Marché By",
+     "L'un des plus vieux marchés du Canada, avec boutiques, restaurants et cuisine de rue."
+    ],
+    [
+     "Musée des beaux-arts du Canada",
+     "Le musée national d'art, connu pour sa grande araignée à l'entrée."
+    ],
+    [
+     "Musée canadien de l'histoire",
+     "À Gatineau, avec une vue sur le Parlement de l'autre côté de la rivière."
+    ],
+    [
+     "Parc de la Gatineau",
+     "Lacs, forêts et sentiers à quelques minutes du centre-ville."
+    ]
    ],
    "tips": [
     "Beaucoup d'emplois au gouvernement fédéral exigent l'anglais et le français. Les cours de langue gratuits peuvent aider.",
@@ -180,7 +270,7 @@
    "prov": "Alberta",
    "tz": "Heure des Rocheuses",
    "card": "La capitale de l'Alberta, avec le TLR, une immense vallée-parc et le West Edmonton Mall.",
-   "title": "Guide d'Edmonton pour nouveaux arrivants : transport, lieux et conseils",
+   "title": "Edmonton, capitale de l'Alberta : guide pour nouveaux arrivants",
    "desc": "Guide d'Edmonton pour nouveaux arrivants : Edmonton Transit Service, le TLR et la carte Arc, la vallée de la rivière et le West Edmonton Mall, et des conseils pour l'hiver.",
    "lead": "Edmonton est la capitale de l'Alberta et un grand centre du gouvernement, de la santé, de l'éducation et de l'énergie. Le logement y coûte généralement moins cher qu'à Toronto ou Vancouver.",
    "transit": [
@@ -189,12 +279,30 @@
     "La vallée de la rivière compte de nombreux sentiers pour la marche et le vélo l'été, et le ski de fond l'hiver."
    ],
    "see": [
-    ["Vallée de la rivière Saskatchewan Nord", "L'un des plus grands réseaux de parcs urbains reliés en Amérique du Nord."],
-    ["West Edmonton Mall", "L'un des plus grands centres commerciaux d'Amérique du Nord, avec parc aquatique et patinoire."],
-    ["Musée royal de l'Alberta", "L'histoire naturelle et humaine de l'Alberta, au centre-ville."],
-    ["Conservatoire Muttart", "Quatre pyramides de verre abritant des plantes de différents climats."],
-    ["Fort Edmonton Park", "Un grand parc historique sur le passé de la ville."],
-    ["Parc national Elk Island", "À environ 45 minutes à l'est, connu pour ses troupeaux de bisons."]
+    [
+     "Vallée de la rivière Saskatchewan Nord",
+     "L'un des plus grands réseaux de parcs urbains reliés en Amérique du Nord."
+    ],
+    [
+     "West Edmonton Mall",
+     "L'un des plus grands centres commerciaux d'Amérique du Nord, avec parc aquatique et patinoire."
+    ],
+    [
+     "Musée royal de l'Alberta",
+     "L'histoire naturelle et humaine de l'Alberta, au centre-ville."
+    ],
+    [
+     "Conservatoire Muttart",
+     "Quatre pyramides de verre abritant des plantes de différents climats."
+    ],
+    [
+     "Fort Edmonton Park",
+     "Un grand parc historique sur le passé de la ville."
+    ],
+    [
+     "Parc national Elk Island",
+     "À environ 45 minutes à l'est, connu pour ses troupeaux de bisons."
+    ]
    ],
    "tips": [
     "Les hivers sont longs et très froids. Achetez un manteau chaud, des bottes et des gants avant décembre.",
@@ -216,12 +324,30 @@
     "La ville est plate, ce qui rend le vélo facile l'été."
    ],
    "see": [
-    ["La Fourche", "Le lieu de rencontre de deux rivières, avec un marché, des sentiers et une patinoire l'hiver."],
-    ["Musée canadien pour les droits de la personne", "Un musée national sur les droits de la personne au Canada et dans le monde."],
-    ["Parc et zoo Assiniboine", "Un grand parc et un zoo connu pour ses ours polaires."],
-    ["Quartier de la Bourse", "Des bâtiments historiques du début des années 1900, des galeries et des restaurants."],
-    ["Monnaie royale canadienne", "L'usine qui fabrique toutes les pièces de monnaie du Canada, avec visites guidées."],
-    ["Festival du Voyageur", "Le plus grand festival d'hiver de l'Ouest canadien, chaque février."]
+    [
+     "La Fourche",
+     "Le lieu de rencontre de deux rivières, avec un marché, des sentiers et une patinoire l'hiver."
+    ],
+    [
+     "Musée canadien pour les droits de la personne",
+     "Un musée national sur les droits de la personne au Canada et dans le monde."
+    ],
+    [
+     "Parc et zoo Assiniboine",
+     "Un grand parc et un zoo connu pour ses ours polaires."
+    ],
+    [
+     "Quartier de la Bourse",
+     "Des bâtiments historiques du début des années 1900, des galeries et des restaurants."
+    ],
+    [
+     "Monnaie royale canadienne",
+     "L'usine qui fabrique toutes les pièces de monnaie du Canada, avec visites guidées."
+    ],
+    [
+     "Festival du Voyageur",
+     "Le plus grand festival d'hiver de l'Ouest canadien, chaque février."
+    ]
    ],
    "tips": [
     "Les hivers sont parmi les plus froids des grandes villes du monde. De bons vêtements d'hiver sont indispensables.",
@@ -243,12 +369,30 @@
     "Le traversier fait partie du réseau et c'est l'une des plus belles façons de voir le port."
    ],
    "see": [
-    ["Musée canadien de l'immigration du Quai 21", "Le lieu d'arrivée d'environ un million d'immigrants au Canada entre 1928 et 1971."],
-    ["Citadelle d'Halifax", "Un fort en forme d'étoile sur une colline, avec démonstrations historiques l'été."],
-    ["Front de mer d'Halifax", "Une longue promenade avec boutiques, restaurants et vue sur le port."],
-    ["Jardins publics d'Halifax", "Des jardins victoriens au centre-ville, ouverts du printemps à l'automne."],
-    ["Parc Point Pleasant", "Des sentiers en forêt au bout sud de la ville, au bord de l'océan."],
-    ["Peggy's Cove", "Un célèbre village de pêcheurs et son phare, à environ 45 minutes."]
+    [
+     "Musée canadien de l'immigration du Quai 21",
+     "Le lieu d'arrivée d'environ un million d'immigrants au Canada entre 1928 et 1971."
+    ],
+    [
+     "Citadelle d'Halifax",
+     "Un fort en forme d'étoile sur une colline, avec démonstrations historiques l'été."
+    ],
+    [
+     "Front de mer d'Halifax",
+     "Une longue promenade avec boutiques, restaurants et vue sur le port."
+    ],
+    [
+     "Jardins publics d'Halifax",
+     "Des jardins victoriens au centre-ville, ouverts du printemps à l'automne."
+    ],
+    [
+     "Parc Point Pleasant",
+     "Des sentiers en forêt au bout sud de la ville, au bord de l'océan."
+    ],
+    [
+     "Peggy's Cove",
+     "Un célèbre village de pêcheurs et son phare, à environ 45 minutes."
+    ]
    ],
    "tips": [
     "ISANS (Immigrant Services Association of Nova Scotia) est le principal organisme d'établissement gratuit.",
