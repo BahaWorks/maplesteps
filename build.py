@@ -73,6 +73,7 @@ LINKS = {
     "ramq": {"en": "https://www.ramq.gouv.qc.ca/en", "fr": "https://www.ramq.gouv.qc.ca/fr"},
     "ahcip": {"en": "https://www.alberta.ca/ahcip"},
     "fcac_open": {"en": "https://www.canada.ca/en/financial-consumer-agency/services/banking/opening-bank-account.html"},
+    "fcac_act": {"en": "https://itools-ioutils.fcac-acfc.gc.ca/ACT-OCC/SearchFilter-eng.aspx", "fr": "https://itools-ioutils.fcac-acfc.gc.ca/ACT-OCC/SearchFilter-fra.aspx"},
     "cdic": {"en": "https://www.cdic.ca/", "fr": "https://www.sadc.ca/"},
     "lowcost": {"en": "https://www.canada.ca/en/financial-consumer-agency/services/industry/laws-regulations/low-cost-no-cost-accounts"},
     "cra_dd": {"en": "https://www.canada.ca/en/revenue-agency/services/about-canada-revenue-agency-cra/direct-deposit/individuals.html"},
