@@ -124,7 +124,8 @@
       "Depuis le 1er décembre 2025, la plupart des grandes banques doivent offrir aux nouveaux arrivants un compte sans frais pendant leur première année au Canada, et tout le monde peut obtenir un compte à faible coût d'au plus 4 $ par mois.",
       "Vérifiez ce qui se passe après la première année : frais mensuels, nombre de transactions gratuites et frais de virement Interac.",
       "Le compte chèques sert aux dépenses quotidiennes; le compte d'épargne rapporte un peu d'intérêt.",
-      "Les banques en ligne n'ont souvent pas de frais mensuels, mais offrent parfois moins de services aux nouveaux arrivants."
+      "Les banques en ligne n'ont souvent pas de frais mensuels, mais offrent parfois moins de services aux nouveaux arrivants.",
+      "Utilisez l'outil gratuit de comparaison des comptes de l'Agence de la consommation en matière financière du Canada pour comparer côte à côte les frais mensuels, les opérations gratuites et l'intérêt offerts par les banques."
      ]
     },
     {
@@ -141,6 +142,10 @@
     }
    ],
    "links": [
+    [
+     "Comparer les frais des comptes bancaires (outil de comparaison de l'ACFC, en anglais)",
+     "fcac_act"
+    ],
     [
      "Ouvrir un compte bancaire (ACFC)",
      "fcac_open"
@@ -318,7 +323,8 @@
       "Les banques en ligne n'ont souvent pas de frais mensuels, mais offrent parfois moins de succursales et de services aux nouveaux arrivants.",
       "Les caisses populaires et coopératives de crédit appartiennent à leurs membres. Beaucoup offrent des comptes à frais réduits et un service personnalisé.",
       "Comparez les frais que vous paierez vraiment : virements Interac, retraits au guichet, cartes utilisées à l'étranger et envois d'argent à l'étranger.",
-      "Vérifiez qu'une banque est membre de la SADC, ou qu'une caisse est couverte par l'assureur-dépôts de sa province."
+      "Vérifiez qu'une banque est membre de la SADC, ou qu'une caisse est couverte par l'assureur-dépôts de sa province.",
+      "Utilisez l'outil gratuit de comparaison des comptes de l'Agence de la consommation en matière financière du Canada pour comparer côte à côte les frais mensuels, les opérations gratuites et l'intérêt offerts par les banques."
      ]
     },
     {
@@ -347,6 +353,10 @@
     }
    ],
    "links": [
+    [
+     "Comparer les frais des comptes bancaires (outil de comparaison de l'ACFC, en anglais)",
+     "fcac_act"
+    ],
     [
      "Comptes à faible coût et sans frais (ACFC, en anglais)",
      "lowcost"

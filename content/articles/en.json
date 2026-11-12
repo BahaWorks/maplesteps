@@ -124,7 +124,8 @@
       "Since December 1, 2025, most large banks must offer newcomers a no-cost account for their first year in Canada, and anyone can get a low-cost account for $4 a month or less.",
       "Check what happens after the first year: the monthly fee, the number of free transactions, and e-transfer charges.",
       "A chequing account is for daily spending. A savings account earns a little interest.",
-      "Online banks often have no monthly fees, but may have fewer services for newcomers."
+      "Online banks often have no monthly fees, but may have fewer services for newcomers.",
+      "Use the free Account Comparison Tool from the Financial Consumer Agency of Canada to compare monthly fees, free transactions and interest across banks side by side."
      ]
     },
     {
@@ -141,6 +142,10 @@
     }
    ],
    "links": [
+    [
+     "Compare bank account fees (FCAC Account Comparison Tool)",
+     "fcac_act"
+    ],
     [
      "Opening a bank account (FCAC)",
      "fcac_open"
@@ -318,7 +323,8 @@
       "Online banks often have no monthly fee, but may have fewer branches and services for newcomers.",
       "Credit unions are member-owned local institutions. Many offer low-fee accounts and personal service.",
       "Compare the costs you will really pay: e-transfers, ATM withdrawals, cards used abroad and sending money home.",
-      "Check that a bank is a CDIC member, or that a credit union is covered by its provincial deposit insurer."
+      "Check that a bank is a CDIC member, or that a credit union is covered by its provincial deposit insurer.",
+      "Use the free Account Comparison Tool from the Financial Consumer Agency of Canada to compare monthly fees, free transactions and interest across banks side by side."
      ]
     },
     {
@@ -347,6 +353,10 @@
     }
    ],
    "links": [
+    [
+     "Compare bank account fees (FCAC Account Comparison Tool)",
+     "fcac_act"
+    ],
     [
      "Low-cost and no-cost accounts (FCAC)",
      "lowcost"
