@@ -1,10 +1,10 @@
 {
  "nav": "Calculateur de salaire",
- "title": "Calculateur de salaire net au Canada (2026)",
- "desc": "Estimez votre salaire net en 2026 après l'impôt, le RPC ou le RRQ et l'AE en Ontario, au Québec, en Colombie-Britannique, en Alberta, au Manitoba et en Nouvelle-Écosse. Gratuit, en six langues.",
+ "title": "Calculateur de salaire annuel net au Canada (2026)",
+ "desc": "Calculez votre salaire annuel net en 2026 : convertissez un taux horaire en salaire annuel et voyez ce qui reste après l'impôt, le RRQ ou le RPC et l'AE au Québec, en Ontario et dans quatre autres provinces. Gratuit.",
  "eyebrow": "Outil gratuit",
  "h1": "Calculateur de salaire net",
- "lead": "Entrez votre salaire annuel ou votre taux horaire pour voir à peu près combien vous recevrez dans votre compte bancaire après l'impôt et les retenues sur la paie en 2026.",
+ "lead": "Entrez votre salaire annuel ou votre taux horaire. Le calculateur convertit le taux horaire en salaire annuel et montre à peu près combien vous recevrez dans votre compte bancaire après l'impôt et les retenues sur la paie en 2026.",
  "f_prov": "Province où vous travaillez",
  "f_pay": "Votre salaire avant retenues ($)",
  "f_per": "Versé",
