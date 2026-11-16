@@ -28,7 +28,9 @@
   "copied": "Lien copié",
   "more": "Plus",
   "email": "Courriel",
-  "tool_try": "Combien vous restera-t-il vraiment? Essayez notre calculateur de salaire gratuit."
+  "tool_try": "Combien vous restera-t-il vraiment? Essayez notre calculateur de salaire gratuit.",
+  "in_page": "Sur cette page",
+  "see_h": "Aussi sur MapleSteps"
  },
  "pages": {
   "index": {
@@ -85,7 +87,7 @@
    "nav": "Premières étapes",
    "card": "Une liste pour vos premières semaines, dans le bon ordre.",
    "title": "Premières étapes au Canada : liste pour nouveaux arrivants",
-   "desc": "Une liste étape par étape pour vos premières semaines au Canada : NAS, carte santé, compte bancaire, téléphone, services d'établissement et prestations.",
+   "desc": "Une liste étape par étape pour vos premières semaines au Canada : NAS, carte santé, compte bancaire, téléphone, services d'établissement, école, prestations et impôts.",
    "eyebrow": "Liste",
    "h1": "Vos premières semaines au Canada",
    "lead": "Cochez chaque étape au fur et à mesure. La plupart se font dans les deux premières semaines, et les intervenants en établissement peuvent vous aider gratuitement.",
@@ -153,11 +155,53 @@
    ],
    "sections": [
     {
+     "h": "Avant de commencer : les documents à apporter",
+     "p": "La plupart des rendez-vous de la première semaine demandent les mêmes documents. Gardez-les ensemble dans un dossier et apportez tout le dossier chaque fois.",
+     "items": [
+      "Votre passeport et votre Confirmation de résidence permanente, permis de travail ou permis d'études",
+      "Votre carte de résident permanent quand elle arrive par la poste (cela peut prendre plusieurs semaines)",
+      "Une preuve de votre adresse au Canada, comme un bail ou une lettre de la personne qui vous héberge",
+      "Vos actes de naissance et de mariage, traduits en français ou en anglais au besoin",
+      "Les dossiers scolaires et les carnets de vaccination de vos enfants"
+     ]
+    },
+    {
+     "h": "Votre NAS : protégez-le",
+     "p": "Votre numéro d'assurance sociale est un numéro à neuf chiffres utilisé pour le travail, les impôts et les prestations. La demande est gratuite, en ligne ou dans un bureau de Service Canada. Donnez-le à votre employeur, à votre banque et à l'Agence du revenu du Canada (ARC). Ne le donnez pas à un propriétaire ou à un magasin, et ne le partagez jamais par texto ou courriel avec quelqu'un qui vous a contacté en premier."
+    },
+    {
+     "h": "Les services d'établissement sont gratuits : utilisez-les",
+     "p": "Des organismes d'établissement financés par le gouvernement existent dans presque toutes les villes. Leur personnel peut vous aider à remplir des formulaires, trouver un logement, préparer des entrevues d'emploi, vous inscrire à des cours de langue et inscrire vos enfants à l'école. Beaucoup parlent arabe, chinois, hindi, persan et d'autres langues. Les services financés par le gouvernement fédéral sont gratuits pour les résidents permanents et les réfugiés réinstallés, et certaines provinces financent aussi des services pour les résidents temporaires."
+    },
+    {
+     "h": "Les prestations auxquelles vous pourriez avoir droit",
+     "items": [
+      "Allocation canadienne pour enfants : un paiement mensuel non imposable pour les familles avec des enfants de moins de 18 ans",
+      "Crédit pour la TPS/TVH : un paiement tous les trois mois pour les personnes à revenu faible ou modeste",
+      "Des prestations provinciales qui s'ajoutent automatiquement aux prestations fédérales dans plusieurs provinces",
+      "La première année, vous faites la demande avec des formulaires spéciaux de l'ARC pour les nouveaux arrivants. Ensuite, produire votre déclaration chaque année maintient les paiements"
+     ]
+    },
+    {
+     "h": "Votre première saison des impôts",
+     "p": "Vous produisez votre première déclaration de revenus canadienne au printemps qui suit votre arrivée, habituellement avant le 30 avril. Vous déclarez votre revenu mondial seulement à partir du jour où vous êtes devenu résident. Même avec peu ou pas de revenu, c'est important : c'est ainsi que l'ARC calcule vos prestations et que vous commencez à accumuler des droits pour les régimes d'épargne. Des comptoirs d'impôts gratuits peuvent remplir une déclaration simple pour vous."
+    },
+    {
      "h": "Bon à savoir",
      "items": [
       "Gardez un dossier avec une copie de chaque formulaire envoyé et de chaque lettre reçue.",
-      "Le gouvernement ne demande jamais de paiement en cartes-cadeaux, en cryptomonnaie ou par virement.",
-      "Quand vous déménagez, mettez votre adresse à jour auprès d'IRCC, de votre banque et de l'ARC."
+      "Les organismes gouvernementaux ne demandent jamais de paiement par carte-cadeau, cryptomonnaie ou virement télégraphique.",
+      "Quand vous déménagez, mettez à jour votre adresse auprès d'IRCC, de votre banque et de l'ARC.",
+      "Vos premiers mois sont chargés. Vous pouvez faire ces étapes une à la fois."
+     ]
+    },
+    {
+     "h": "Questions fréquentes",
+     "items": [
+      "Combien de temps faut-il pour obtenir un NAS ? En personne, avec les bons documents, vous recevez habituellement votre numéro le jour même. Une demande en ligne peut prendre plus de temps.",
+      "Puis-je faire ces démarches sans adresse permanente ? Oui, pour la plupart. Utilisez l'adresse où vous logez et mettez-la à jour quand vous déménagez.",
+      "Dois-je parler français ou anglais pour obtenir de l'aide ? Non. Les organismes d'établissement ont souvent du personnel qui parle votre langue ou peuvent trouver un interprète.",
+      "Quelle étape est la plus importante la première semaine ? Votre NAS et votre demande de carte santé, car d'autres étapes (travail, prestations et couverture) en dépendent."
      ]
     }
    ],
@@ -178,6 +222,24 @@
      "Nouveaux immigrants : gouvernement du Canada",
      "ircc"
     ]
+   ],
+   "see": [
+    [
+     "Demander votre carte santé",
+     "articles/health-card"
+    ],
+    [
+     "Ouvrir votre premier compte bancaire",
+     "articles/bank-account"
+    ],
+    [
+     "Échanger votre permis de conduire",
+     "articles/drivers-licence"
+    ],
+    [
+     "Comparer les villes canadiennes",
+     "cities"
+    ]
    ]
   },
   "housing": {
@@ -187,42 +249,69 @@
    "desc": "Comment trouver un logement à louer au Canada, ce que demandent les propriétaires, vos droits de locataire et comment éviter les fraudes.",
    "eyebrow": "Logement",
    "h1": "Trouver un logement",
-   "lead": "La plupart des nouveaux arrivants commencent par louer. Les prix et les règles dépendent de votre ville et de votre province : planifiez tôt et demandez de l'aide.",
+   "lead": "La plupart des nouveaux arrivants commencent par louer. Les prix, les dépôts et les règles varient selon la ville et la province : planifiez tôt, comparez et demandez de l'aide.",
    "sections": [
+    {
+     "h": "Commencez par un logement temporaire",
+     "p": "Beaucoup de nouveaux arrivants réservent une chambre meublée, une location à court terme ou logent chez de la famille pendant les premières semaines. Cela vous laisse le temps de connaître les quartiers, d'ouvrir un compte bancaire et de visiter des logements en personne avant de signer un bail d'un an."
+    },
     {
      "h": "Où chercher",
      "items": [
-      "Annonces de location en ligne et groupes communautaires locaux",
+      "Les annonces de location en ligne et les groupes communautaires locaux",
       "Votre organisme d'établissement, qui connaît parfois des propriétaires accueillants",
-      "Location de courte durée ou logement temporaire pendant vos recherches",
-      "Chambres en colocation, moins chères dans les villes coûteuses"
+      "Les sociétés de gestion immobilière, qui louent souvent plusieurs logements dans le même immeuble",
+      "Les chambres en colocation, beaucoup moins chères dans les villes coûteuses comme Toronto et Vancouver",
+      "Les affiches « À louer » dans le quartier qui vous intéresse"
      ]
     },
     {
-     "h": "Ce que les propriétaires demandent souvent",
+     "h": "Ce que les propriétaires demandent habituellement",
      "items": [
-      "Une demande de location avec vos revenus ou votre offre d'emploi",
-      "Des références d'anciens propriétaires ou employeurs",
-      "Une vérification de crédit. Sans historique canadien, montrez vos relevés bancaires pour prouver que vous pouvez payer",
-      "Un dépôt. Ce qui est permis dépend de votre province"
+      "Une demande de location avec votre revenu ou votre offre d'emploi",
+      "Des références d'anciens propriétaires ou employeurs, y compris dans votre pays d'origine",
+      "Une vérification de crédit. Sans crédit canadien, proposez des relevés bancaires, une lettre d'emploi ou un garant",
+      "Un dépôt. Ce qu'un propriétaire peut légalement demander dépend de votre province"
      ]
     },
     {
-     "h": "Connaître vos droits",
+     "h": "Dépôts : les règles changent selon la province",
+     "p": "Vérifiez les règles de votre province avant de payer quoi que ce soit. Quelques exemples : en Ontario, le propriétaire peut demander un dépôt du dernier mois de loyer, mais pas de dépôt pour dommages. En Colombie-Britannique, le dépôt de garantie est limité à la moitié d'un mois de loyer. Au Québec, le propriétaire peut demander le premier mois de loyer, mais aucun autre dépôt. Si on vous demande plus que ce que la loi permet, contactez l'organisme provincial du logement."
+    },
+    {
+     "h": "Prévoyez plus que le loyer",
      "items": [
-      "Demandez un bail écrit et lisez-le avant de signer",
-      "Chaque province a ses règles et un organisme qui règle les litiges entre locataires et propriétaires",
-      "Un propriétaire ne peut pas vous refuser à cause de votre origine, de votre religion ou de votre situation familiale",
-      "Gardez un reçu pour chaque paiement"
+      "Demandez si le chauffage, l'électricité, l'eau et Internet sont inclus",
+      "L'assurance habitation pour locataires coûte peu et beaucoup de baux l'exigent. Elle protège vos biens et vous couvre si vous causez des dommages",
+      "Certains immeubles facturent en plus le stationnement, le rangement ou la buanderie",
+      "Le chauffage en hiver peut coûter cher dans les vieilles maisons s'il n'est pas inclus"
      ]
     },
     {
-     "h": "Éviter les fraudes",
+     "h": "Connaissez vos droits",
+     "items": [
+      "Demandez un bail écrit et lisez-le avant de signer. Au Québec, le bail doit être fait sur le formulaire obligatoire, et en Ontario la plupart des propriétaires doivent utiliser le bail type",
+      "Chaque province a ses propres règles et un organisme qui règle les différends, comme le Tribunal administratif du logement au Québec",
+      "Un propriétaire ne peut pas vous refuser à cause de votre race, de votre religion, de votre pays d'origine ou de votre situation familiale, y compris le fait d'avoir des enfants",
+      "Gardez un reçu pour chaque paiement et prenez des photos datées du logement à votre arrivée"
+     ]
+    },
+    {
+     "h": "Évitez les fraudes à la location",
      "items": [
       "N'envoyez jamais d'argent avant d'avoir visité le logement et rencontré le propriétaire",
-      "Méfiez-vous d'un loyer beaucoup plus bas que ceux du quartier",
-      "Ne partagez pas votre passeport ni votre NAS avant d'avoir signé un bail",
-      "Payez d'une façon qui laisse une trace, jamais en cartes-cadeaux ni en cryptomonnaie"
+      "Méfiez-vous si le loyer est beaucoup plus bas que celui des logements semblables du quartier",
+      "Ne donnez pas votre passeport ni votre NAS avant d'avoir signé le bail. Un propriétaire n'a pas besoin de votre NAS",
+      "Payez d'une façon qui laisse une trace, jamais par carte-cadeau ou cryptomonnaie"
+     ]
+    },
+    {
+     "h": "Questions fréquentes",
+     "items": [
+      "Puis-je louer sans emploi au Canada ? Oui, beaucoup de nouveaux arrivants le font. Montrez vos économies, une offre d'emploi ou un garant. Là où la loi le permet, certains propriétaires acceptent quelques mois de loyer payés d'avance.",
+      "Quelle est la durée habituelle d'un bail ? Généralement un an. Ensuite, il se renouvelle souvent aux mêmes conditions.",
+      "Le propriétaire peut-il augmenter le loyer n'importe quand ? Non. Chaque province encadre la fréquence et le montant des hausses, et un avis écrit est obligatoire.",
+      "Que faire si le propriétaire ne fait pas les réparations ? Demandez-les par écrit et gardez une copie. Sans résultat, contactez l'organisme provincial du logement ou un intervenant en établissement."
      ]
     }
    ],
@@ -239,6 +328,20 @@
      "Trouver des services gratuits pour nouveaux arrivants",
      "finder"
     ]
+   ],
+   "see": [
+    [
+     "Comparer les villes canadiennes",
+     "cities"
+    ],
+    [
+     "Bâtir votre historique de crédit",
+     "articles/credit-history"
+    ],
+    [
+     "Votre premier hiver",
+     "articles/first-winter"
+    ]
    ]
   },
   "work": {
@@ -248,42 +351,63 @@
    "desc": "Comment trouver un emploi au Canada : sites officiels, CV à la canadienne, professions réglementées et vos droits au travail.",
    "eyebrow": "Emploi",
    "h1": "Trouver un emploi au Canada",
-   "lead": "Le premier emploi au Canada vient souvent des gens que vous rencontrez. Utilisez les sites d'emploi officiels, les programmes gratuits et tous vos contacts.",
+   "lead": "Un premier emploi au Canada passe souvent par les gens que vous rencontrez. Combinez les sites d'emploi officiels, les programmes d'emploi gratuits et tous vos contacts, et commencez tôt si votre profession est réglementée.",
    "sections": [
     {
-     "h": "Où trouver des emplois",
+     "h": "Où trouver un emploi",
      "items": [
       "Guichet-Emplois, le site d'emploi gratuit du gouvernement du Canada",
-      "Les programmes d'emploi gratuits des organismes d'établissement, avec mentorat et salons de l'emploi",
-      "Le réseautage : dites à vos amis, voisins et groupes communautaires quel travail vous cherchez",
+      "Les programmes d'emploi gratuits des organismes d'établissement : mentorat, salons de l'emploi et révision de CV",
+      "Le réseautage : dites à vos amis, voisins, groupes religieux et communautaires quel travail vous cherchez",
+      "Les associations professionnelles de votre domaine, dont plusieurs ont des tarifs pour nouveaux arrivants",
       "Le bénévolat, qui donne une expérience canadienne et des références"
      ]
     },
     {
      "h": "Un CV à la canadienne",
      "items": [
-      "Une ou deux pages maximum",
-      "Pas de photo, d'âge, d'état civil ni de religion",
+      "Une ou deux pages, en commençant par votre emploi le plus récent",
+      "Sans photo, âge, état civil ni religion",
       "Montrez vos résultats avec des chiffres quand c'est possible",
-      "Écrivez une courte lettre de présentation pour chaque poste"
+      "Reprenez les mots clés de l'offre d'emploi, car beaucoup d'employeurs trient les CV avec un logiciel",
+      "Une courte lettre de présentation pour chaque poste"
      ]
     },
     {
-     "h": "Professions réglementées",
+     "h": "Les entrevues",
+     "p": "Au Canada, on vous demande souvent de décrire une fois où vous avez réglé un problème, travaillé en équipe ou géré un conflit. Préparez quelques courtes histoires : la situation, ce que vous avez fait et le résultat. Arrivez quelques minutes en avance, renseignez-vous sur l'employeur et envoyez un court courriel de remerciement après l'entrevue. Les organismes d'établissement offrent des simulations d'entrevue gratuites."
+    },
+    {
+     "h": "Les professions réglementées",
      "items": [
-      "Médecins, infirmières, ingénieurs, enseignants et beaucoup de métiers ont besoin d'un permis d'un ordre professionnel provincial",
-      "Commencez les démarches tôt, même avant d'arriver",
-      "Vous devrez peut-être faire évaluer vos diplômes",
-      "En attendant votre permis, cherchez un emploi lié à votre domaine"
+      "Médecins, infirmières, ingénieurs, enseignants, comptables et de nombreux métiers ont besoin d'un permis d'un ordre professionnel provincial",
+      "Commencez les démarches tôt, même avant votre arrivée",
+      "Vous devrez peut-être faire évaluer vos études, passer des examens ou faire un stage supervisé",
+      "Les programmes passerelles des collèges et des organismes d'établissement vous aident à retourner plus vite dans votre domaine",
+      "Pendant ce temps, cherchez des emplois connexes dans votre domaine"
      ]
+    },
+    {
+     "h": "Comprendre votre salaire",
+     "p": "Votre employeur retient sur chaque paie l'impôt sur le revenu, les cotisations au Régime de pensions du Canada (ou au Régime de rentes du Québec) et les cotisations d'assurance-emploi, et au Québec celles du RQAP. Votre salaire net est donc bien plus bas que votre salaire annuel : vérifiez le vrai montant avant d'accepter une offre. Notre calculateur de salaire gratuit l'affiche pour votre province."
     },
     {
      "h": "Vos droits au travail",
      "items": [
-      "Chaque province fixe son salaire minimum et ses normes du travail",
+      "Chaque province fixe son salaire minimum et ses règles sur les heures supplémentaires et les vacances",
       "Vous devez recevoir un relevé de paie avec vos heures et vos retenues",
       "Vous pouvez refuser un travail dangereux",
-      "Un employeur ne peut pas vous faire payer pour obtenir un emploi"
+      "Un employeur ne peut pas vous faire payer pour obtenir un emploi ni garder votre passeport",
+      "Si vous vous blessez au travail, signalez-le tout de suite. L'assurance des accidents du travail peut couvrir votre salaire et vos soins"
+     ]
+    },
+    {
+     "h": "Questions fréquentes",
+     "items": [
+      "Faut-il une expérience canadienne pour être embauché ? Beaucoup d'employeurs la préfèrent, mais ce n'est pas une obligation légale. Le bénévolat, les contrats courts et les programmes passerelles aident à l'obtenir rapidement.",
+      "Dois-je accepter d'abord un emploi hors de mon domaine ? Beaucoup de nouveaux arrivants le font pendant qu'ils réseautent et terminent leur permis. Gardez un pied dans votre domaine avec des cours, du bénévolat ou une association professionnelle.",
+      "Une évaluation des diplômes est-elle un permis d'exercice ? Non. L'évaluation compare votre diplôme à un diplôme canadien. Seul l'ordre professionnel de votre province peut vous délivrer un permis.",
+      "Que faire si on ne me paie pas ? Contactez l'organisme provincial des normes du travail (la CNESST au Québec). Vous pouvez porter plainte même si vous ne travaillez plus là."
      ]
     }
    ],
@@ -304,6 +428,16 @@
      "Trouver des services gratuits pour nouveaux arrivants",
      "finder"
     ]
+   ],
+   "see": [
+    [
+     "Comparer les villes canadiennes",
+     "cities"
+    ],
+    [
+     "Ouvrir votre premier compte bancaire",
+     "articles/bank-account"
+    ]
    ]
   },
   "health": {
@@ -313,41 +447,57 @@
    "desc": "Comment fonctionnent les soins de santé pour les nouveaux arrivants : carte santé provinciale, délais d'attente, ce qui est couvert et comment trouver un médecin.",
    "eyebrow": "Santé",
    "h1": "Les soins de santé au Canada",
-   "lead": "Chaque province et territoire gère son propre régime public d'assurance maladie. Demandez votre carte dès votre arrivée.",
+   "lead": "Chaque province et territoire gère son propre régime public d'assurance maladie. Demandez votre carte dès votre arrivée, prévoyez un éventuel délai de carence et sachez où aller selon vos besoins.",
    "sections": [
     {
      "h": "Obtenir votre carte santé",
      "items": [
-      "Inscrivez-vous au régime de votre province ou territoire dès votre arrivée",
-      "Certaines provinces ont un délai d'attente pouvant aller jusqu'à trois mois",
-      "Prenez une assurance privée pour couvrir ce délai",
-      "Les réfugiés réinstallés et les demandeurs d'asile peuvent avoir une couverture temporaire du gouvernement fédéral"
+      "Faites la demande auprès du régime de votre province ou territoire dès votre arrivée",
+      "L'Ontario n'impose pas de délai de carence à la plupart des nouveaux arrivants. Plusieurs autres provinces imposent jusqu'à trois mois d'attente",
+      "Achetez une assurance privée pour couvrir ce délai, idéalement avant d'arriver",
+      "Les réfugiés réinstallés et les demandeurs d'asile peuvent recevoir une couverture temporaire du gouvernement fédéral",
+      "Apportez votre carte à chaque rendez-vous et renouvelez-la avant son expiration"
      ]
     },
     {
      "h": "Ce qui est couvert",
      "items": [
-      "Les visites médicales et les soins à l'hôpital médicalement nécessaires",
-      "Habituellement non couverts pour la plupart des adultes : soins dentaires, lunettes et beaucoup de médicaments",
+      "Les visites médicales et les soins hospitaliers médicalement nécessaires",
+      "Habituellement non couverts pour la plupart des adultes : soins dentaires, lunettes, physiothérapie et de nombreux médicaments",
       "Les assurances collectives des employeurs couvrent souvent ces frais",
       "Certaines provinces ont des programmes pour les enfants, les aînés et les familles à faible revenu"
      ]
     },
     {
-     "h": "Obtenir des soins",
+     "h": "Où aller pour vous faire soigner",
      "items": [
-      "Inscrivez-vous pour avoir un médecin de famille. Il y a souvent une liste d'attente",
-      "Utilisez les cliniques sans rendez-vous en attendant",
-      "Composez le 811 dans la plupart des provinces pour parler à une infirmière",
-      "En cas d'urgence, composez le 911 ou allez à l'urgence"
+      "Médecin de famille ou infirmière praticienne : pour les examens et le suivi. Inscrivez-vous sur la liste d'attente de votre province dès que vous avez votre carte",
+      "Cliniques sans rendez-vous : pour les problèmes non urgents en attendant un médecin de famille",
+      "Pharmaciens : dans plusieurs provinces, ils peuvent maintenant prescrire pour des problèmes mineurs comme une infection urinaire ou une conjonctivite",
+      "811 : dans la plupart des provinces, appelez pour parler à une infirmière jour et nuit",
+      "911 ou l'urgence : seulement pour les urgences comme une douleur à la poitrine, une difficulté à respirer ou une blessure grave"
      ]
+    },
+    {
+     "h": "Soins dentaires et médicaments",
+     "p": "Le Régime canadien de soins dentaires aide les résidents sans assurance dentaire dont le revenu familial est sous un certain seuil. Pour y avoir droit, vous devez avoir produit une déclaration de revenus au Canada : encore une raison de la faire chaque année. Pour les médicaments, certaines provinces ont des régimes pour les personnes à faible revenu, et le Québec exige que tout le monde ait une assurance médicaments, par le travail ou par le régime public."
     },
     {
      "h": "Santé mentale",
      "items": [
-      "Changer de pays est stressant. Demander de l'aide est normal",
+      "S'installer dans un nouveau pays est stressant. Demander de l'aide est normal",
       "Appelez ou textez le 988 en tout temps si vous pensez au suicide",
-      "Les organismes d'établissement peuvent vous orienter vers des intervenants qui parlent votre langue"
+      "Les organismes d'établissement peuvent vous orienter vers des conseillers qui parlent votre langue",
+      "Beaucoup d'employeurs offrent un programme d'aide gratuit et confidentiel pour vous et votre famille"
+     ]
+    },
+    {
+     "h": "Questions fréquentes",
+     "items": [
+      "Les soins de santé sont-ils gratuits au Canada ? Les soins médicaux et hospitaliers sont payés par votre régime provincial une fois que vous êtes couvert. Vous payez la plupart des frais dentaires, de la vue et des médicaments, sauf si vous avez une assurance.",
+      "Puis-je voir un médecin avant de recevoir ma carte ? Oui, mais vous devrez peut-être payer. Gardez vos reçus : une assurance privée pourrait vous rembourser.",
+      "Puis-je utiliser ma carte dans une autre province ? Pour un court séjour, les soins médicaux et hospitaliers sont habituellement couverts. Si vous déménagez, vous devez faire une demande dans votre nouvelle province.",
+      "Dois-je apporter mes carnets de vaccination ? Oui. Les écoles demandent ceux des enfants, et ils aident votre nouveau médecin."
      ]
     }
    ],
@@ -368,6 +518,16 @@
      "Nouveaux immigrants : gouvernement du Canada",
      "ircc"
     ]
+   ],
+   "see": [
+    [
+     "Demander votre carte santé",
+     "articles/health-card"
+    ],
+    [
+     "Votre premier hiver",
+     "articles/first-winter"
+    ]
    ]
   },
   "money": {
@@ -377,40 +537,63 @@
    "desc": "Guide pour nouveaux arrivants : ouvrir un compte bancaire, bâtir son crédit, faire ses impôts, recevoir ses prestations et éviter les fraudes.",
    "eyebrow": "Argent",
    "h1": "Banque, crédit et impôts",
-   "lead": "Quelques étapes simples facilitent beaucoup la vie : un compte bancaire, un historique de crédit et une déclaration de revenus chaque année.",
+   "lead": "Quelques démarches rapides facilitent beaucoup la vie : un compte bancaire, un historique de crédit, une déclaration de revenus chaque année et savoir repérer les fraudes.",
    "sections": [
     {
-     "h": "La banque",
+     "h": "Les services bancaires",
      "items": [
-      "La plupart des banques offrent des comptes pour nouveaux arrivants avec moins de frais la première année",
+      "La plupart des banques offrent des comptes pour nouveaux arrivants sans frais mensuels la première année",
+      "Vous avez le droit d'ouvrir un compte personnel avec une pièce d'identité valide, même sans emploi ni argent à déposer",
       "Le compte chèques sert aux dépenses quotidiennes ; le compte d'épargne sert à épargner",
-      "Comparez les frais mensuels et le nombre de transactions avant de choisir"
+      "Comparez les frais mensuels et le nombre de transactions, et vérifiez ce qui arrive à la fin de l'offre pour nouveaux arrivants",
+      "Les dépôts admissibles dans les institutions membres sont protégés jusqu'à 100 000 $ par catégorie par la Société d'assurance-dépôts du Canada"
      ]
     },
     {
      "h": "Bâtir votre crédit",
      "items": [
       "Votre historique de crédit commence à zéro au Canada",
-      "Une carte de crédit garantie est une façon simple de commencer",
-      "Payez le solde complet à temps chaque mois",
-      "Consultez votre dossier de crédit gratuitement chez Equifax et TransUnion"
+      "Une carte de crédit garantie ou pour nouveaux arrivants est un bon point de départ",
+      "Payez le solde complet à temps chaque mois et n'utilisez qu'une petite partie de votre limite",
+      "Consultez gratuitement votre dossier de crédit chez Equifax et TransUnion"
+     ]
+    },
+    {
+     "h": "Les comptes d'épargne avec avantages fiscaux",
+     "items": [
+      "Compte d'épargne libre d'impôt (CELI) : les gains et les retraits sont libres d'impôt. Vous avez des droits à partir de l'année où vous devenez résident, si vous avez 18 ans ou plus",
+      "Régime enregistré d'épargne-retraite (REER) : les cotisations réduisent votre impôt. Vos droits dépendent du revenu gagné au Canada, donc ils commencent habituellement la deuxième année",
+      "Compte d'épargne libre d'impôt pour l'achat d'une première propriété (CELIAPP) : pour épargner en vue d'une mise de fonds",
+      "Demandez les règles officielles à votre banque avant d'en ouvrir un et ne dépassez pas votre plafond"
      ]
     },
     {
      "h": "Impôts et prestations",
      "items": [
-      "Faites votre déclaration chaque année, même sans revenu, pour continuer à recevoir vos prestations",
-      "La date limite pour la plupart des gens est le 30 avril",
-      "La première année, vous pouvez demander vos prestations avant de faire votre déclaration",
-      "Des comptoirs d'impôts gratuits peuvent remplir une déclaration simple pour vous"
+      "Produisez une déclaration chaque année, même sans revenu, pour continuer à recevoir vos prestations",
+      "La date limite est le 30 avril pour la plupart des gens. Les travailleurs autonomes ont jusqu'au 15 juin pour produire, mais doivent payer avant le 30 avril",
+      "Au Québec, vous produisez aussi une déclaration provinciale auprès de Revenu Québec",
+      "La première année, vous pouvez demander les prestations avant de produire votre déclaration",
+      "Des comptoirs d'impôts gratuits peuvent remplir une déclaration simple pour vous",
+      "Inscrivez-vous au dépôt direct de l'ARC pour recevoir vos paiements plus vite"
      ]
     },
     {
-     "h": "Éviter les fraudes",
+     "h": "Évitez les fraudes",
      "items": [
-      "L'ARC ne demande jamais de paiement en cartes-cadeaux, en cryptomonnaie ou par virement à une personne",
+      "L'ARC ne demande jamais de paiement par carte-cadeau, cryptomonnaie ou virement Interac à une personne",
       "Raccrochez si on vous menace d'arrestation ou d'expulsion",
-      "En cas de doute, appelez l'ARC au numéro indiqué sur son site officiel"
+      "En cas de doute, appelez l'ARC au numéro indiqué sur son site officiel",
+      "Méfiez-vous des offres d'emploi qui vous demandent de recevoir et de transférer de l'argent"
+     ]
+    },
+    {
+     "h": "Questions fréquentes",
+     "items": [
+      "Puis-je garder mon compte bancaire dans mon pays d'origine ? Oui. Si vos comptes et biens à l'étranger dépassent 100 000 $ au total, vous devrez peut-être les déclarer dans votre déclaration de revenus canadienne.",
+      "Mon argent est-il en sécurité dans une banque canadienne ? Oui. Les dépôts admissibles dans les institutions membres sont protégés par la Société d'assurance-dépôts du Canada.",
+      "Dois-je payer de l'impôt sur l'argent que j'apporte ? En général, non. L'argent apporté au moment de votre installation n'est pas un revenu. Le revenu gagné après être devenu résident, au Canada ou à l'étranger, doit être déclaré.",
+      "Quelle est la façon la moins chère d'envoyer de l'argent à l'étranger ? Cela dépend du montant et du pays. Comparez les frais et le taux de change ensemble."
      ]
     }
    ],
@@ -438,6 +621,24 @@
     [
      "Agence de la consommation en matière financière du Canada",
      "fcac"
+    ]
+   ],
+   "see": [
+    [
+     "Ouvrir votre premier compte bancaire",
+     "articles/bank-account"
+    ],
+    [
+     "Bâtir votre historique de crédit",
+     "articles/credit-history"
+    ],
+    [
+     "Changer de banque",
+     "articles/switch-banks"
+    ],
+    [
+     "Envoyer de l'argent à l'étranger",
+     "articles/send-money"
     ]
    ]
   },
