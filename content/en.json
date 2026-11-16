@@ -28,7 +28,9 @@
   "copied": "Link copied",
   "more": "More",
   "email": "Email",
-  "tool_try": "How much will you actually take home? Try our free pay calculator."
+  "tool_try": "How much will you actually take home? Try our free pay calculator.",
+  "in_page": "On this page",
+  "see_h": "Also on MapleSteps"
  },
  "pages": {
   "index": {
@@ -85,7 +87,7 @@
    "nav": "First steps",
    "card": "A checklist for your first weeks, in the right order.",
    "title": "First steps in Canada: newcomer checklist",
-   "desc": "A step-by-step checklist for your first weeks in Canada: SIN, health card, bank account, phone, settlement services and benefits.",
+   "desc": "A step-by-step checklist for your first weeks in Canada: SIN, health card, bank account, phone, settlement services, school, benefits and taxes.",
    "eyebrow": "Checklist",
    "h1": "Your first weeks in Canada",
    "lead": "Tick off each step as you go. Most can be done in your first two weeks, and settlement workers can help with any of them for free.",
@@ -153,11 +155,53 @@
    ],
    "sections": [
     {
+     "h": "Before you start: what to carry",
+     "p": "Most first-week appointments ask for the same few documents. Keep them together in one folder and bring the whole folder each time.",
+     "items": [
+      "Your passport and your Confirmation of Permanent Residence, work permit or study permit",
+      "Your permanent resident card once it arrives by mail (it can take several weeks)",
+      "Proof of your Canadian address, such as a lease or a letter from the person you stay with",
+      "Birth and marriage certificates, translated into English or French if needed",
+      "School records and vaccination records for your children"
+     ]
+    },
+    {
+     "h": "Your SIN: guard it carefully",
+     "p": "Your Social Insurance Number is a nine-digit number used for work, taxes and benefits. Applying is free, online or at a Service Canada office. Give it to your employer, your bank and the Canada Revenue Agency (CRA). Do not give it to a landlord or a store, and never share it by text or email with someone who contacted you first."
+    },
+    {
+     "h": "Settlement services are free. Use them",
+     "p": "Government-funded settlement agencies exist in almost every city. Staff can help you fill in forms, find housing, prepare for job interviews, enrol in language classes and register your children for school. Many speak Arabic, Chinese, Hindi, Persian and other languages. Services funded by the federal government are free for permanent residents and resettled refugees, and some provinces fund services for temporary residents too."
+    },
+    {
+     "h": "Benefits you may be able to get",
+     "items": [
+      "Canada child benefit: a monthly, tax-free payment for families with children under 18",
+      "GST/HST credit: a payment every three months for people with low or modest income",
+      "Provincial benefits that come automatically with the federal ones in many provinces",
+      "In your first year, you apply with special CRA forms for newcomers. After that, filing your tax return every year keeps the payments coming"
+     ]
+    },
+    {
+     "h": "Your first tax season",
+     "p": "You file your first Canadian tax return in the spring after you arrive, usually by April 30. You report your world income only from the day you became a resident. Even with little or no income, filing matters: it is how the CRA calculates your benefits and how you start building room for savings plans. Free tax clinics can file a simple return for you."
+    },
+    {
      "h": "Good to know",
      "items": [
       "Keep a folder with copies of every form you send and every letter you get.",
       "Government agencies never ask for payment by gift card, crypto or wire transfer.",
-      "When you move, update your address with IRCC, your bank and the CRA."
+      "When you move, update your address with IRCC, your bank and the CRA.",
+      "Your first months are busy. It is fine to do these steps one at a time."
+     ]
+    },
+    {
+     "h": "Common questions",
+     "items": [
+      "How long does it take to get a SIN? If you apply in person with the right documents, you usually get your number the same day. Online applications can take longer.",
+      "Can I do these steps before I have a permanent address? Yes for most of them. Use the address where you are staying and update it when you move.",
+      "Do I need to speak English or French to get help? No. Settlement agencies often have staff who speak your language or can find an interpreter.",
+      "Which step matters most in week one? Your SIN and your health card application, because other steps (work, benefits and coverage) depend on them."
      ]
     }
    ],
@@ -178,6 +222,24 @@
      "New immigrants: Government of Canada",
      "ircc"
     ]
+   ],
+   "see": [
+    [
+     "Applying for your health card",
+     "articles/health-card"
+    ],
+    [
+     "Opening your first bank account",
+     "articles/bank-account"
+    ],
+    [
+     "Exchanging your driver's licence",
+     "articles/drivers-licence"
+    ],
+    [
+     "Compare Canadian cities",
+     "cities"
+    ]
    ]
   },
   "housing": {
@@ -187,33 +249,51 @@
    "desc": "How newcomers can find a place to rent in Canada, what landlords ask for, tenant rights and how to avoid rental scams.",
    "eyebrow": "Housing",
    "h1": "Finding a place to live",
-   "lead": "Most newcomers start by renting. Prices and rules depend on your city and province, so plan early and ask for help.",
+   "lead": "Most newcomers start by renting. Prices, deposits and tenant rules depend on your city and province, so plan early, compare options and ask for help.",
    "sections": [
+    {
+     "h": "Start with a short-term place",
+     "p": "Many newcomers book a furnished room, a short-term rental or a stay with family for the first few weeks. It gives you time to learn the neighbourhoods, open a bank account and see apartments in person before you sign a one-year lease."
+    },
     {
      "h": "Where to look",
      "items": [
       "Online rental listings and local community groups",
       "Your settlement agency, which may know newcomer-friendly landlords",
-      "Short-term rentals or temporary housing while you search",
-      "Rooms in shared homes, which cost less in expensive cities"
+      "Property management companies, which often rent many units in the same building",
+      "Rooms in shared homes, which cost much less in expensive cities like Toronto and Vancouver",
+      "Signs in the windows of buildings in the neighbourhood you want"
      ]
     },
     {
      "h": "What landlords usually ask for",
      "items": [
       "A rental application with your income or job offer",
-      "References from past landlords or employers",
-      "A credit check. With no Canadian credit yet, offer bank statements as proof you can pay",
+      "References from past landlords or employers, including from your home country",
+      "A credit check. With no Canadian credit yet, offer bank statements, a job letter or a guarantor as proof you can pay",
       "A deposit. What a landlord can legally ask for depends on your province"
+     ]
+    },
+    {
+     "h": "Deposits: the rules are different in each province",
+     "p": "Check your province before you pay anything. A few examples: in Ontario, a landlord can ask for a deposit of last month's rent but not a damage deposit. In British Columbia, a security deposit can be at most half of one month's rent. In Quebec, a landlord can ask for the first month's rent but no other deposit. If a landlord asks for more than the law allows, you can contact your province's tenant office."
+    },
+    {
+     "h": "Budget for more than rent",
+     "items": [
+      "Ask whether heat, hydro (electricity), water and internet are included",
+      "Tenant insurance is cheap and many leases require it. It protects your belongings and covers you if you cause damage",
+      "Some buildings charge extra for parking, storage or laundry",
+      "Winter heating bills can be high in older houses if heat is not included"
      ]
     },
     {
      "h": "Know your rights",
      "items": [
-      "Ask for a written lease and read it before you sign",
+      "Ask for a written lease and read it before you sign. In Ontario, most landlords must use the province's standard lease form",
       "Each province has its own tenant rules and an office that settles disputes",
-      "A landlord cannot refuse you because of your race, religion, country of origin or family status",
-      "Keep a receipt for every payment"
+      "A landlord cannot refuse you because of your race, religion, country of origin or family status, including having children",
+      "Keep a receipt for every payment and take dated photos of the unit when you move in"
      ]
     },
     {
@@ -221,8 +301,17 @@
      "items": [
       "Never send money before you see the place and meet the landlord",
       "Be careful when the rent is much lower than similar homes nearby",
-      "Don't share your passport or SIN until you have signed a lease",
+      "Don't share your passport or SIN until you have signed a lease. A landlord does not need your SIN",
       "Pay in a way that leaves a record, never by gift card or crypto"
+     ]
+    },
+    {
+     "h": "Common questions",
+     "items": [
+      "Can I rent without a job in Canada? Yes. Many newcomers do. Show savings, a job offer or a guarantor, and some landlords accept a few months of rent paid in advance where the law allows it.",
+      "How long is a typical lease? Usually one year. After that, it often continues month to month on the same terms.",
+      "Can my landlord raise the rent at any time? No. Rules on how often and how much rent can go up are set by each province, and notice must be given in writing.",
+      "What if my landlord won't fix something? Ask in writing first and keep a copy. If nothing happens, contact your province's tenant office or a settlement worker."
      ]
     }
    ],
@@ -239,6 +328,20 @@
      "Find free newcomer services near you",
      "finder"
     ]
+   ],
+   "see": [
+    [
+     "Compare Canadian cities",
+     "cities"
+    ],
+    [
+     "Building a credit history",
+     "articles/credit-history"
+    ],
+    [
+     "Your first winter",
+     "articles/first-winter"
+    ]
    ]
   },
   "work": {
@@ -248,42 +351,63 @@
    "desc": "How newcomers can find a job in Canada: official job boards, Canadian-style résumés, licensed professions and your rights at work.",
    "eyebrow": "Work",
    "h1": "Finding work in Canada",
-   "lead": "A first Canadian job often comes through people you meet. Use official job boards, free employment programs and every connection you have.",
+   "lead": "A first Canadian job often comes through people you meet. Combine official job boards, free employment programs and every connection you have, and start licensing early if your profession is regulated.",
    "sections": [
     {
      "h": "Where to find jobs",
      "items": [
       "Job Bank, the Government of Canada's free job board",
-      "Free employment programs at settlement agencies, including mentoring and job fairs",
-      "Networking: tell friends, neighbours and community groups what work you want",
+      "Free employment programs at settlement agencies, including mentoring, job fairs and résumé reviews",
+      "Networking: tell friends, neighbours, faith groups and community groups what work you want",
+      "Professional associations in your field, many with newcomer memberships",
       "Volunteering, which builds Canadian experience and references"
      ]
     },
     {
      "h": "A Canadian-style résumé",
      "items": [
-      "Keep it to one or two pages",
+      "Keep it to one or two pages, starting with your most recent job",
       "Leave out your photo, age, marital status and religion",
       "Show results with numbers where you can",
+      "Use the keywords from the job posting, because many employers scan résumés with software",
       "Write a short cover letter for each job"
      ]
     },
     {
+     "h": "Interviews",
+     "p": "Canadian interviews often ask you to describe a time you solved a problem, worked in a team or handled a conflict. Prepare a few short stories that show the situation, what you did and the result. Arrive a few minutes early, research the employer, and send a short thank-you email afterward. Settlement agencies offer free mock interviews."
+    },
+    {
      "h": "Licensed professions",
      "items": [
-      "Doctors, nurses, engineers, teachers and many trades need a licence from a provincial regulator",
+      "Doctors, nurses, engineers, teachers, accountants and many trades need a licence from a provincial regulator",
       "Start the licensing process early, even before you arrive",
-      "You may need your education assessed",
+      "You may need your education assessed and to pass exams or supervised practice",
+      "Bridging programs at colleges and settlement agencies help you return to your field faster",
       "While you work toward your licence, look for related jobs in your field"
      ]
     },
     {
+     "h": "Understand your pay",
+     "p": "Your employer deducts income tax, Canada Pension Plan (or Quebec Pension Plan) contributions and Employment Insurance premiums from every pay cheque. Your take-home pay is usually much lower than your salary, so check the real number before you accept an offer. Our free pay calculator shows it for your province."
+    },
+    {
      "h": "Your rights at work",
      "items": [
-      "Each province sets its own minimum wage and work rules",
+      "Each province sets its own minimum wage, overtime and vacation rules",
       "You should get a pay stub that shows your hours and deductions",
       "You can refuse work that is unsafe",
-      "An employer cannot make you pay to get a job"
+      "An employer cannot make you pay to get a job or keep your passport",
+      "If you are injured at work, report it right away. Workplace insurance may cover your lost pay and treatment"
+     ]
+    },
+    {
+     "h": "Common questions",
+     "items": [
+      "Do I need Canadian experience to get hired? Many employers prefer it, but it is not a legal requirement. Volunteering, short contracts and bridging programs help you get it quickly.",
+      "Should I take a job outside my field at first? Many newcomers do while they network and finish licensing. Try to keep one foot in your field through courses, volunteering or a professional association.",
+      "Is an educational credential assessment the same as a licence? No. An assessment says how your degree compares to a Canadian one. Only the regulator in your province can license you.",
+      "What if I'm not paid for my work? Contact your province's employment standards office. You can make a complaint even if you no longer work there."
      ]
     }
    ],
@@ -304,6 +428,16 @@
      "Find free newcomer services near you",
      "finder"
     ]
+   ],
+   "see": [
+    [
+     "Compare Canadian cities",
+     "cities"
+    ],
+    [
+     "Opening your first bank account",
+     "articles/bank-account"
+    ]
    ]
   },
   "health": {
@@ -313,41 +447,57 @@
    "desc": "How health care works for newcomers to Canada: provincial health cards, waiting periods, what is covered and how to find a doctor.",
    "eyebrow": "Health",
    "h1": "Health care in Canada",
-   "lead": "Each province and territory runs its own public health insurance plan. Apply for your card as soon as you arrive.",
+   "lead": "Each province and territory runs its own public health insurance plan. Apply for your card as soon as you arrive, plan for any waiting period, and learn where to go for different kinds of care.",
    "sections": [
     {
      "h": "Get your health card",
      "items": [
       "Apply to your province or territory's health plan right after you arrive",
-      "Some provinces have a waiting period of up to three months",
-      "Buy private insurance to cover any waiting period",
-      "Resettled refugees and refugee claimants may get temporary coverage from the federal government"
+      "Ontario has no waiting period for most newcomers. Several other provinces make you wait up to three months",
+      "Buy private insurance to cover any waiting period, ideally before you land",
+      "Resettled refugees and refugee claimants may get temporary coverage from the federal government",
+      "Carry your card to every appointment and renew it before it expires"
      ]
     },
     {
      "h": "What is covered",
      "items": [
       "Medically necessary doctor visits and hospital care",
-      "Usually not covered for most adults: dental care, glasses and many prescriptions",
+      "Usually not covered for most adults: dental care, glasses, physiotherapy and many prescriptions",
       "Employer benefit plans often cover these extras",
       "Some provinces have programs for children, seniors and low-income families"
      ]
     },
     {
-     "h": "Getting care",
+     "h": "Where to go for care",
      "items": [
-      "Register for a family doctor. Many areas have a waiting list",
-      "Use walk-in clinics while you wait",
-      "Call 811 in most provinces to speak with a nurse",
-      "Call 911 or go to an emergency room in an emergency"
+      "Family doctor or nurse practitioner: for regular check-ups and ongoing care. Register on your province's waiting list as soon as you have your card",
+      "Walk-in clinics: for non-urgent problems while you wait for a family doctor",
+      "Pharmacists: in many provinces, they can now prescribe for minor problems like urinary tract infections or pink eye",
+      "811: in most provinces, call to speak with a nurse day or night",
+      "911 or the emergency room: only for emergencies such as chest pain, trouble breathing or serious injury"
      ]
+    },
+    {
+     "h": "Dental care and prescriptions",
+     "p": "The Canadian Dental Care Plan helps residents with no dental insurance and a family income under a set limit. To qualify, you must have filed a tax return in Canada, which is one more reason to file every year. For prescriptions, some provinces have drug plans for low-income residents, and Quebec requires everyone to have drug insurance, either through work or the public plan."
     },
     {
      "h": "Mental health",
      "items": [
       "Moving to a new country is stressful. Asking for help is normal",
       "Call or text 988 at any time if you are thinking about suicide",
-      "Settlement agencies can connect you with counsellors who speak your language"
+      "Settlement agencies can connect you with counsellors who speak your language",
+      "Many employers offer a free, confidential assistance program for you and your family"
+     ]
+    },
+    {
+     "h": "Common questions",
+     "items": [
+      "Is health care free in Canada? Doctor and hospital care is paid by your provincial plan once you are covered. You will pay for most dental, vision and prescription costs unless you have insurance.",
+      "Can I see a doctor before my health card arrives? Yes, but you may have to pay. Keep your receipts, because private insurance may pay you back.",
+      "Can I use my health card in another province? For short trips, doctor and hospital care is usually covered. If you move, you must apply in your new province.",
+      "Do I need to bring my vaccination records? Yes. Schools ask for children's records, and they help your new doctor."
      ]
     }
    ],
@@ -368,6 +518,16 @@
      "New immigrants: Government of Canada",
      "ircc"
     ]
+   ],
+   "see": [
+    [
+     "Applying for your health card",
+     "articles/health-card"
+    ],
+    [
+     "Your first winter",
+     "articles/first-winter"
+    ]
    ]
   },
   "money": {
@@ -377,32 +537,45 @@
    "desc": "A newcomer's guide to banking in Canada, building a credit history, filing taxes, getting benefits and avoiding scams.",
    "eyebrow": "Money",
    "h1": "Banking, credit and taxes",
-   "lead": "A few early steps make life much easier: a bank account, a credit history, and filing your taxes every year.",
+   "lead": "A few early steps make life much easier: a bank account, a credit history, filing your taxes every year and knowing how to spot scams.",
    "sections": [
     {
      "h": "Banking",
      "items": [
-      "Most banks offer newcomer accounts with lower fees in the first year",
+      "Most banks offer newcomer accounts with no monthly fee in the first year",
+      "You have the right to open a personal account with valid ID, even without a job or money to deposit",
       "A chequing account is for daily spending; a savings account is for saving",
-      "Compare monthly fees and transaction limits before you choose"
+      "Compare monthly fees and transaction limits before you choose, and check what happens when the newcomer offer ends",
+      "Eligible deposits at member institutions are protected up to $100,000 per category by the Canada Deposit Insurance Corporation"
      ]
     },
     {
      "h": "Build your credit",
      "items": [
       "Your credit history starts at zero in Canada",
-      "A secured credit card is an easy way to start",
-      "Pay the full balance on time every month",
+      "A secured or newcomer credit card is an easy way to start",
+      "Pay the full balance on time every month, and use only a small part of your limit",
       "Check your credit report for free with Equifax and TransUnion"
+     ]
+    },
+    {
+     "h": "Saving accounts with tax benefits",
+     "items": [
+      "Tax-Free Savings Account (TFSA): earnings and withdrawals are tax-free. You get room starting in the year you become a resident, if you are 18 or older",
+      "Registered Retirement Savings Plan (RRSP): contributions lower your taxes. Your room is based on income you earned in Canada, so it usually starts in your second year",
+      "First Home Savings Account (FHSA): for first-time home buyers who want to save for a down payment",
+      "Ask your bank for the official rules before you open one, and avoid going over your limit"
      ]
     },
     {
      "h": "Taxes and benefits",
      "items": [
       "File a tax return every year, even with no income, to keep getting benefits",
-      "The deadline for most people is April 30",
+      "The deadline for most people is April 30. Self-employed people have until June 15 to file but must still pay by April 30",
+      "In Quebec, you also file a provincial return with Revenu Québec",
       "In your first year, you can apply for benefits before you file",
-      "Free tax clinics can file a simple return for you"
+      "Free tax clinics can file a simple return for you",
+      "Set up direct deposit with the CRA so payments arrive faster"
      ]
     },
     {
@@ -410,7 +583,17 @@
      "items": [
       "The CRA never asks for payment by gift card, crypto or e-transfer to a person",
       "Hang up on calls that threaten arrest or deportation",
-      "When in doubt, call the CRA using the number on its official website"
+      "When in doubt, call the CRA using the number on its official website",
+      "Be careful with job offers that ask you to receive and forward money"
+     ]
+    },
+    {
+     "h": "Common questions",
+     "items": [
+      "Can I keep my bank account in my home country? Yes. If your foreign accounts and assets add up to more than $100,000, you may need to report them on your Canadian tax return.",
+      "Is it safe to keep money in a Canadian bank? Yes. Eligible deposits at member institutions are protected by the Canada Deposit Insurance Corporation.",
+      "Do I pay tax on money I bring with me? Generally no. Money you bring when you move is not income. Income you earn after you become a resident, in Canada or abroad, must be reported.",
+      "What is the cheapest way to send money home? It depends on the amount and the country. Compare the fee and the exchange rate together."
      ]
     }
    ],
@@ -438,6 +621,24 @@
     [
      "Financial Consumer Agency of Canada",
      "fcac"
+    ]
+   ],
+   "see": [
+    [
+     "Opening your first bank account",
+     "articles/bank-account"
+    ],
+    [
+     "Building a credit history",
+     "articles/credit-history"
+    ],
+    [
+     "Switching banks",
+     "articles/switch-banks"
+    ],
+    [
+     "Sending money home",
+     "articles/send-money"
     ]
    ]
   },

@@ -340,14 +340,14 @@ def render_index(L, langs):
 </main>"""
     return head(L, "index", P, langs) + header(L, "index", langs) + body + footer(L)
 
-def render_sections(P):
+def render_sections(P, ids=False):
     out = []
-    for s in P["sections"]:
+    for i, s in enumerate(P["sections"]):
+        sid = f' id="s{i+1}"' if ids else ""
+        inner = f'<p>{e(s["p"])}</p>' if "p" in s else ""
         if "items" in s:
-            lis = "".join(f"<li>{e(i)}</li>" for i in s["items"])
-            out.append(f'<section class="sec"><h2>{e(s["h"])}</h2><ul class="ticks">{lis}</ul></section>')
-        else:
-            out.append(f'<section class="sec"><h2>{e(s["h"])}</h2><p>{e(s["p"])}</p></section>')
+            inner += '<ul class="ticks">' + "".join(f"<li>{e(x)}</li>" for x in s["items"]) + "</ul>"
+        out.append(f'<section class="sec"{sid}><h2>{e(s["h"])}</h2>{inner}</section>')
     return "".join(out)
 
 def render_guide(L, slug, langs):
@@ -370,10 +370,19 @@ def render_guide(L, slug, langs):
         n = GUIDES[(GUIDES.index(slug) + 1) % len(GUIDES)]
         nxt = f'<a class="next" href="{href(code, code, n)}"><span class="small muted">{e(ui["next"])}</span><span class="next-title">{icon(n)}{e(L["pages"][n]["nav"])}{ARROW}</span></a>'
     ico = icon(slug, "ico big") if slug in ICONS else ""
+    long = slug in GUIDES and len(P["sections"]) >= 5
+    toc = ""
+    if long:
+        toc = "".join(f'<li><a href="#s{i+1}">{e(s["h"])}</a></li>' for i, s in enumerate(P["sections"]))
+        toc = f'<nav class="toc" aria-label="{e(ui["in_page"])}"><p class="toc-h">{e(ui["in_page"])}</p><ol>{toc}</ol></nav>'
     rel_arts = [a for a in ARTICLES if L["articles"]["items"][a]["related"] == slug]
     if rel_arts:
         lis = "".join(f'<li><a href="{href(code, code, "articles/" + a)}">{e(L["articles"]["items"][a]["h1"])}</a></li>' for a in rel_arts)
         nxt = f'<section class="more-arts"><h2>{e(L["articles"]["ui"]["nav"])}</h2><ul>{lis}</ul></section>' + nxt
+    see = [(t, p) for t, p in P.get("see", []) if not (p.startswith("articles/") and p.split("/", 1)[1] in rel_arts)]
+    if see:
+        lis = "".join(f'<li><a href="{href(code, code, p)}">{e(t)}</a></li>' for t, p in see)
+        nxt = f'<section class="more-arts"><h2>{e(ui["see_h"])}</h2><ul>{lis}</ul></section>' + nxt
     body = f"""<main id="main">
   <section class="page-head">
     <div class="wrap narrow">
@@ -384,7 +393,8 @@ def render_guide(L, slug, langs):
   </section>
   <article class="wrap narrow article">
     {checklist}
-    {render_sections(P)}
+    {toc}
+    {render_sections(P, long)}
     {mid}
     {tool_cta(L) if slug in ("work", "money") else ""}
     {official_links(L, P)}
