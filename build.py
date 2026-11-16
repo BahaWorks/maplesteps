@@ -18,8 +18,8 @@ REVIEWED = "2026-11-09"
 LANG_ORDER = ["en", "fr", "ar", "zh", "hi", "fa"]
 GUIDES = ["first-steps", "housing", "work", "health", "money"]
 CITIES = ["toronto", "montreal", "vancouver", "calgary", "ottawa", "edmonton", "winnipeg", "halifax"]
-ARTICLES = ["switch-banks", "health-card", "bank-account", "drivers-licence", "first-winter"]
-ARTICLE_ICONS = {"switch-banks": "money", "health-card": "health", "bank-account": "money", "drivers-licence": "first-steps", "first-winter": "info"}
+ARTICLES = ["credit-history", "send-money", "switch-banks", "health-card", "bank-account", "drivers-licence", "first-winter"]
+ARTICLE_ICONS = {"credit-history": "money", "send-money": "money", "switch-banks": "money", "health-card": "health", "bank-account": "money", "drivers-licence": "first-steps", "first-winter": "info"}
 CALC = "pay-calculator"
 PAGES = ["index"] + GUIDES + ["about", "privacy", "cities"] + CITIES + ["articles"] + [f"articles/{a}" for a in ARTICLES] + [CALC]
 CONTACT_EMAIL = "hello@maplesteps.ca"
@@ -73,6 +73,11 @@ LINKS = {
     "ramq": {"en": "https://www.ramq.gouv.qc.ca/en", "fr": "https://www.ramq.gouv.qc.ca/fr"},
     "ahcip": {"en": "https://www.alberta.ca/ahcip"},
     "fcac_open": {"en": "https://www.canada.ca/en/financial-consumer-agency/services/banking/opening-bank-account.html"},
+    "fcac_report": {"en": "https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/order-credit-report.html", "fr": "https://www.canada.ca/fr/agence-consommation-matiere-financiere/services/dossier-pointage-credit/commander-dossier-credit.html"},
+    "fcac_creditbasics": {"en": "https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score/credit-report-score-basics.html", "fr": "https://www.canada.ca/fr/agence-consommation-matiere-financiere/services/dossier-pointage-credit/dossier-cote-credit-base.html"},
+    "fcac_remit": {"en": "https://www.canada.ca/en/financial-consumer-agency/services/payment/international-money-transfers.html", "fr": "https://www.canada.ca/fr/agence-consommation-matiere-financiere/services/paiment/envoyer-argent-etranger.html"},
+    "fintrac_reg": {"en": "https://fintrac-canafe.canada.ca/msb-esm/reg-eng", "fr": "https://fintrac-canafe.canada.ca/msb-esm/reg-fra"},
+    "fintrac_tx": {"en": "https://fintrac-canafe.canada.ca/public/businesses-entreprises-eng", "fr": "https://fintrac-canafe.canada.ca/public/businesses-entreprises-fra"},
     "fcac_act": {"en": "https://itools-ioutils.fcac-acfc.gc.ca/ACT-OCC/SearchFilter-eng.aspx", "fr": "https://itools-ioutils.fcac-acfc.gc.ca/ACT-OCC/SearchFilter-fra.aspx"},
     "cdic": {"en": "https://www.cdic.ca/", "fr": "https://www.sadc.ca/"},
     "lowcost": {"en": "https://www.canada.ca/en/financial-consumer-agency/services/industry/laws-regulations/low-cost-no-cost-accounts"},
