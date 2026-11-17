@@ -558,6 +558,109 @@
      "fintrac_tx"
     ]
    ]
+  },
+  "winter-clothing": {
+   "related": "cities",
+   "title": "Winter clothing checklist for newcomers to Canada (and how to save) | MapleSteps",
+   "desc": "A winter clothing checklist for newcomers to Canada: what each family member needs, how much to budget, where to buy for less and when the big sales are.",
+   "h1": "Winter clothing checklist for newcomers",
+   "sub": "What to buy, what it costs and where to save",
+   "summary": "A printable-style checklist for adults and children, a realistic budget, and where and when to buy for less.",
+   "lead": "You don't need to spend a fortune to stay warm in a Canadian winter. Use this checklist to buy the few things that really matter, find them for less, and skip what you don't need.",
+   "sections": [
+    {
+     "h": "Before you shop",
+     "items": [
+      "Check how cold your city gets. Vancouver and Victoria are mild and rainy, while Winnipeg, Edmonton, Montreal and Ottawa often drop below -20°C",
+      "Wait until you arrive. Coats sold in warmer countries are rarely warm enough, and Canadian stores carry the right gear",
+      "Shop in person for boots, so you can try them on with thick socks",
+      "Ask your settlement agency first. Many communities run free coat drives for newcomer families"
+     ]
+    },
+    {
+     "h": "Checklist for each adult",
+     "items": [
+      "A winter coat that is windproof, covers your hips and has a hood",
+      "Insulated, waterproof boots with a thick, grippy sole",
+      "A warm hat (a toque) that covers your ears",
+      "Insulated mittens or gloves. Mittens are warmer",
+      "A scarf or neck warmer",
+      "Two or three pairs of wool or thermal socks",
+      "One thermal base layer (top and leggings) for the coldest days",
+      "A fleece or wool sweater to wear under your coat"
+     ]
+    },
+    {
+     "h": "Checklist for each child",
+     "items": [
+      "A one-piece snowsuit for toddlers, or a coat and snow pants for older children. Schools expect kids to play outside at recess unless it is extremely cold",
+      "Waterproof winter boots, one size up so thick socks fit",
+      "Two pairs of mittens, because one pair is always wet",
+      "A toque and a neck warmer. Many schools and daycares ask for neck warmers instead of long scarves for safety",
+      "Indoor shoes: many schools ask children to change out of their boots",
+      "Label everything with your child's name"
+     ]
+    },
+    {
+     "h": "How much to budget",
+     "p": "Prices vary a lot, but as a rough guide for new items at mid-range stores: a good winter coat often costs about $100 to $250, winter boots about $70 to $180, and a hat, mittens and scarf together about $30 to $60. Children's snowsuits and boots usually cost less, and secondhand gear can cut these numbers in half or more. Spend most of your budget on boots and a coat, and save on everything else."
+    },
+    {
+     "h": "Where to buy for less",
+     "items": [
+      "Thrift stores and charity shops, which get many winter coats in the fall",
+      "Online marketplaces and local buy-and-sell groups, especially for children's gear",
+      "Discount and big-box stores, which carry basic toques, mittens and thermal layers",
+      "Outlet stores and end-of-season clearance racks",
+      "Community clothing swaps at schools, libraries and places of worship"
+     ]
+    },
+    {
+     "h": "When the big sales are",
+     "items": [
+      "Black Friday in late November, when many stores cut prices on coats and boots",
+      "Boxing Day, December 26, and the week after it, one of the biggest sale periods of the year",
+      "Late January to March, when stores clear winter stock. A great time to buy next year's sizes",
+      "Back-to-school sales in August for children's boots and indoor shoes"
+     ]
+    },
+    {
+     "h": "What you can skip",
+     "items": [
+      "Designer parkas: a mid-priced coat with layers underneath works in most cities",
+      "Cotton hoodies and jeans as winter layers. Cotton stays wet and cold",
+      "Heavy winter gear in Vancouver or Victoria, where a waterproof jacket and warm layers usually do",
+      "Fashion boots without grip. Icy sidewalks are the most common winter hazard"
+     ]
+    },
+    {
+     "h": "Common questions",
+     "items": [
+      "Should I buy a winter coat before I come to Canada? Usually not. Coats sold in warmer countries are rarely warm enough. Bring a warm sweater for the trip and buy your coat here.",
+      "What does 'rated to -30' mean on a coat label? It is the brand's own estimate of how cold it can get before you feel cold. There is no official standard, so read reviews and plan to wear layers.",
+      "Are secondhand coats and boots a good idea? Yes, for coats and children's gear. For adult boots, check that the soles and waterproofing are in good shape.",
+      "Where can my family get free winter clothes? Ask your settlement agency, a local food bank or call 211. Many cities run winter coat drives every fall."
+     ]
+    }
+   ],
+   "links": [
+    [
+     "Weather forecasts (Government of Canada)",
+     "weather"
+    ],
+    [
+     "Wind chill and frostbite (Environment Canada)",
+     "windchill"
+    ],
+    [
+     "211: local community services",
+     "211"
+    ],
+    [
+     "Find free newcomer services near you",
+     "finder"
+    ]
+   ]
   }
  }
 }

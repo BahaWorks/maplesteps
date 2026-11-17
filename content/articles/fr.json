@@ -95,12 +95,16 @@
   },
   "bank-account": {
    "related": "money",
-   "title": "Ouvrir un compte bancaire au Canada : guide pour nouveaux arrivants | MapleSteps",
-   "desc": "Comment ouvrir un compte bancaire au Canada quand on est nouvel arrivant : vos droits, les pièces d'identité, les comptes gratuits la première année, l'assurance-dépôts et comment éviter frais et fraudes.",
+   "title": "Ouvrir un compte bancaire au Canada : compte chèques, documents et frais (nouveaux arrivants) | MapleSteps",
+   "desc": "Comment ouvrir un compte bancaire au Canada quand on est nouvel arrivant : pourquoi l'ouvrir tôt, les étapes, les pièces d'identité, compte chèques (compte courant) ou épargne, banques ou caisses Desjardins, frais et protection de vos dépôts.",
    "h1": "Ouvrir un compte bancaire au Canada",
    "summary": "Vos droits, les pièces d'identité requises, les offres pour nouveaux arrivants et la protection de votre argent.",
    "lead": "Un compte bancaire canadien est l'une des premières choses dont vous aurez besoin. Les employeurs versent les salaires par dépôt direct, les propriétaires demandent souvent le loyer par virement Interac et le gouvernement verse les prestations dans votre compte.",
    "sections": [
+    {
+     "h": "Pourquoi ouvrir un compte bancaire dès votre arrivée",
+     "p": "Au Canada, presque tout passe par un compte bancaire. Votre employeur y dépose votre salaire, le gouvernement y verse l'Allocation canadienne pour enfants et le crédit pour la TPS/TVH, et beaucoup de propriétaires veulent être payés par virement Interac. Un compte permet aussi d'obtenir une carte de débit, de payer vos factures en ligne et, plus tard, de bâtir votre crédit. Ouvrez-le dans votre première semaine, même si vous n'avez pas encore d'emploi."
+    },
     {
      "h": "Vous avez droit à un compte",
      "items": [
@@ -118,6 +122,20 @@
      ]
     },
     {
+     "h": "Les étapes pour ouvrir votre compte",
+     "items": [
+      "Comparez deux ou trois offres pour nouveaux arrivants en ligne ou avec l'outil de comparaison de l'ACFC.",
+      "Prenez rendez-vous en succursale. Beaucoup de banques ont des conseillers qui parlent arabe, chinois, hindi, persan ou d'autres langues.",
+      "Apportez vos pièces d'identité originales, votre NAS si vous l'avez, et une adresse au Canada (même temporaire).",
+      "Repartez avec votre carte de débit, choisissez votre NIP et activez les services bancaires en ligne et le virement Interac.",
+      "Inscrivez-vous au dépôt direct auprès de votre employeur et de l'Agence du revenu du Canada."
+     ]
+    },
+    {
+     "h": "Compte chèques, compte courant ou compte d'épargne ?",
+     "p": "Ce qu'on appelle un « compte courant » en France ou au Maghreb s'appelle un compte chèques (ou compte de dépôt) au Canada : c'est le compte des dépenses quotidiennes, relié à votre carte de débit. Le compte d'épargne sert à mettre de l'argent de côté et rapporte un peu d'intérêt, mais il limite souvent les retraits. La plupart des nouveaux arrivants ouvrent les deux le même jour, souvent sans frais la première année."
+    },
+    {
      "h": "Choisir un compte",
      "items": [
       "La plupart des grandes banques et beaucoup de caisses offrent des forfaits pour nouveaux arrivants, souvent sans frais mensuels la première année et avec une première carte de crédit.",
@@ -127,6 +145,10 @@
       "Les banques en ligne n'ont souvent pas de frais mensuels, mais offrent parfois moins de services aux nouveaux arrivants.",
       "Utilisez l'outil gratuit de comparaison des comptes de l'Agence de la consommation en matière financière du Canada pour comparer côte à côte les frais mensuels, les opérations gratuites et l'intérêt offerts par les banques."
      ]
+    },
+    {
+     "h": "Au Québec : banque ou caisse Desjardins ?",
+     "p": "Au Québec, vous pouvez choisir une banque ou une caisse Desjardins, une coopérative très présente dans les quartiers et les villages. Les deux offrent des comptes pour nouveaux arrivants. Les dépôts dans les caisses sont protégés par l'Autorité des marchés financiers (AMF) jusqu'à 100 000 $, et ceux des banques par la SADC. Comparez les frais, les guichets automatiques près de chez vous et le service en français ou dans votre langue."
     },
     {
      "h": "Votre argent est protégé",
@@ -139,6 +161,15 @@
     {
      "h": "Envoyer de l'argent à l'étranger",
      "p": "Les virements bancaires internationaux peuvent coûter cher. Comparez le coût total, y compris le taux de change, avec les services de transfert d'argent avant d'envoyer. Utilisez toujours une entreprise autorisée et n'envoyez jamais d'argent à quelqu'un que vous connaissez seulement en ligne."
+    },
+    {
+     "h": "Questions fréquentes",
+     "items": [
+      "Puis-je ouvrir un compte bancaire canadien avant d'arriver ? Certaines grandes banques permettent de commencer la demande depuis l'étranger, mais vous devrez généralement confirmer votre identité en succursale après votre arrivée.",
+      "Faut-il un NAS pour ouvrir un compte ? Non pour un compte sans intérêts. La banque le demandera pour les comptes qui rapportent des intérêts, car ces intérêts sont déclarés à l'ARC.",
+      "Puis-je ouvrir un compte avec un permis d'études ou de travail ? Oui. Votre permis et votre passeport sont généralement acceptés comme pièces d'identité.",
+      "Combien coûte un compte bancaire au Canada ? Souvent rien la première année avec une offre pour nouveaux arrivants. Ensuite, comptez de 0 $ (banques en ligne) à environ 4 $ par mois pour un compte à faible coût, et davantage pour les forfaits illimités."
+     ]
     }
    ],
    "links": [
@@ -158,7 +189,8 @@
      "Comment fonctionne l'argent au Canada (IRCC)",
      "money"
     ]
-   ]
+   ],
+   "sub": "Pourquoi l'ouvrir tôt, les étapes et le bon compte pour vous"
   },
   "drivers-licence": {
    "related": "first-steps",
@@ -556,6 +588,109 @@
     [
      "Faire affaire avec une entreprise de services monétaires (CANAFE)",
      "fintrac_tx"
+    ]
+   ]
+  },
+  "winter-clothing": {
+   "related": "cities",
+   "title": "Liste de vêtements d'hiver pour nouveaux arrivants au Canada (et comment économiser) | MapleSteps",
+   "desc": "Une liste de vêtements d'hiver pour les nouveaux arrivants au Canada : ce qu'il faut pour chaque membre de la famille, le budget à prévoir, où acheter moins cher et quand ont lieu les soldes.",
+   "h1": "Liste de vêtements d'hiver pour nouveaux arrivants",
+   "sub": "Quoi acheter, combien ça coûte et où économiser",
+   "summary": "Une liste pour adultes et enfants, un budget réaliste, et où et quand acheter moins cher.",
+   "lead": "Pas besoin de dépenser une fortune pour avoir chaud pendant l'hiver canadien. Utilisez cette liste pour acheter les quelques articles vraiment importants, les trouver moins cher et éviter le superflu.",
+   "sections": [
+    {
+     "h": "Avant de magasiner",
+     "items": [
+      "Vérifiez le froid dans votre ville. Vancouver et Victoria sont douces et pluvieuses, alors que Winnipeg, Edmonton, Montréal et Ottawa descendent souvent sous -20 °C",
+      "Attendez d'être arrivé. Les manteaux vendus dans les pays chauds sont rarement assez chauds, et les magasins canadiens ont l'équipement qu'il faut",
+      "Achetez vos bottes en magasin pour les essayer avec des bas épais",
+      "Demandez d'abord à votre organisme d'établissement. Beaucoup de communautés organisent des collectes de manteaux gratuits pour les familles nouvellement arrivées"
+     ]
+    },
+    {
+     "h": "Liste pour chaque adulte",
+     "items": [
+      "Un manteau d'hiver coupe-vent, qui couvre les hanches et avec un capuchon",
+      "Des bottes isolées et imperméables avec une semelle épaisse et antidérapante",
+      "Une tuque chaude qui couvre les oreilles",
+      "Des mitaines ou des gants isolés. Les mitaines sont plus chaudes",
+      "Un foulard ou un cache-cou",
+      "Deux ou trois paires de bas en laine ou thermiques",
+      "Une couche de base thermique (haut et caleçon long) pour les jours les plus froids",
+      "Un chandail en laine polaire ou en laine à porter sous le manteau"
+     ]
+    },
+    {
+     "h": "Liste pour chaque enfant",
+     "items": [
+      "Un habit de neige une pièce pour les tout-petits, ou un manteau et un pantalon de neige pour les plus grands. Les écoles s'attendent à ce que les enfants jouent dehors à la récréation, sauf par grand froid",
+      "Des bottes d'hiver imperméables, une pointure plus grande pour les bas épais",
+      "Deux paires de mitaines, car une paire est toujours mouillée",
+      "Une tuque et un cache-cou. Pour des raisons de sécurité, beaucoup d'écoles et de garderies préfèrent le cache-cou au long foulard",
+      "Des souliers d'intérieur : beaucoup d'écoles demandent aux enfants d'enlever leurs bottes",
+      "Identifiez tout au nom de votre enfant"
+     ]
+    },
+    {
+     "h": "Quel budget prévoir",
+     "p": "Les prix varient beaucoup, mais à titre indicatif pour des articles neufs dans des magasins de milieu de gamme : un bon manteau d'hiver coûte souvent entre 100 $ et 250 $, des bottes d'hiver entre 70 $ et 180 $, et la tuque, les mitaines et le foulard ensemble entre 30 $ et 60 $. Les habits de neige et les bottes pour enfants coûtent généralement moins cher, et l'usagé peut réduire ces montants de moitié ou plus. Consacrez l'essentiel du budget aux bottes et au manteau, et économisez sur le reste."
+    },
+    {
+     "h": "Où acheter moins cher",
+     "items": [
+      "Les friperies et magasins d'organismes de bienfaisance, qui reçoivent beaucoup de manteaux d'hiver à l'automne",
+      "Les sites de petites annonces et les groupes locaux d'achat-vente, surtout pour les vêtements d'enfants",
+      "Les magasins à rabais et les grandes surfaces, pour les tuques, mitaines et couches thermiques de base",
+      "Les magasins d'usine et les présentoirs de liquidation en fin de saison",
+      "Les échanges de vêtements organisés par les écoles, les bibliothèques et les lieux de culte"
+     ]
+    },
+    {
+     "h": "Quand ont lieu les grandes soldes",
+     "items": [
+      "Le Vendredi fou (Black Friday), fin novembre, quand beaucoup de magasins baissent le prix des manteaux et des bottes",
+      "Le lendemain de Noël (Boxing Day), le 26 décembre, et la semaine suivante, l'une des plus grandes périodes de soldes de l'année",
+      "De fin janvier à mars, quand les magasins liquident l'hiver. Un bon moment pour acheter les tailles de l'an prochain",
+      "Les soldes de la rentrée en août pour les bottes et souliers d'intérieur des enfants"
+     ]
+    },
+    {
+     "h": "Ce que vous pouvez éviter",
+     "items": [
+      "Les parkas de marque : un manteau de milieu de gamme avec des couches en dessous suffit dans la plupart des villes",
+      "Les chandails à capuchon et jeans en coton comme couches d'hiver. Le coton reste mouillé et froid",
+      "L'équipement de grand froid à Vancouver ou Victoria, où un imperméable et des couches chaudes suffisent généralement",
+      "Les bottes mode sans adhérence. Les trottoirs glacés sont le danger le plus courant en hiver"
+     ]
+    },
+    {
+     "h": "Questions fréquentes",
+     "items": [
+      "Dois-je acheter un manteau d'hiver avant de venir au Canada ? Généralement non. Les manteaux vendus dans les pays chauds sont rarement assez chauds. Apportez un chandail chaud pour le voyage et achetez votre manteau ici.",
+      "Que veut dire « -30 °C » sur l'étiquette d'un manteau ? C'est l'estimation de la marque. Il n'existe pas de norme officielle : lisez les avis et prévoyez des couches.",
+      "Les manteaux et bottes usagés sont-ils une bonne idée ? Oui pour les manteaux et les vêtements d'enfants. Pour des bottes d'adulte, vérifiez l'état des semelles et de l'imperméabilité.",
+      "Où ma famille peut-elle obtenir des vêtements d'hiver gratuits ? Demandez à votre organisme d'établissement ou à une banque alimentaire, ou composez le 211. Beaucoup de villes organisent une collecte de manteaux chaque automne."
+     ]
+    }
+   ],
+   "links": [
+    [
+     "Prévisions météo (gouvernement du Canada)",
+     "weather"
+    ],
+    [
+     "Refroidissement éolien et engelures (Environnement Canada)",
+     "windchill"
+    ],
+    [
+     "211 : services communautaires locaux",
+     "211"
+    ],
+    [
+     "Trouver des services gratuits pour nouveaux arrivants",
+     "finder"
     ]
    ]
   }
