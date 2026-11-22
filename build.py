@@ -18,8 +18,8 @@ REVIEWED = "2026-11-09"
 LANG_ORDER = ["en", "fr", "ar", "zh", "hi", "fa"]
 GUIDES = ["first-steps", "housing", "work", "health", "money"]
 CITIES = ["toronto", "montreal", "vancouver", "calgary", "ottawa", "edmonton", "winnipeg", "halifax"]
-ARTICLES = ["credit-history", "send-money", "switch-banks", "health-card", "bank-account", "drivers-licence", "first-winter", "winter-clothing"]
-ARTICLE_ICONS = {"credit-history": "money", "send-money": "money", "switch-banks": "money", "health-card": "health", "bank-account": "money", "drivers-licence": "first-steps", "first-winter": "info", "winter-clothing": "info"}
+ARTICLES = ["credit-history", "send-money", "switch-banks", "health-card", "bank-account", "drivers-licence", "first-winter", "winter-clothing", "groceries-benefit"]
+ARTICLE_ICONS = {"credit-history": "money", "send-money": "money", "switch-banks": "money", "health-card": "health", "bank-account": "money", "drivers-licence": "first-steps", "first-winter": "info", "winter-clothing": "info", "groceries-benefit": "money"}
 CALC = "pay-calculator"
 PAGES = ["index"] + GUIDES + ["about", "privacy", "cities"] + CITIES + ["articles"] + [f"articles/{a}" for a in ARTICLES] + [CALC]
 CONTACT_EMAIL = "hello@maplesteps.ca"
@@ -94,6 +94,12 @@ LINKS = {
     "pdoc": {"en": "https://www.canada.ca/pdoc"},
     "taxrates": {"en": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html"},
     "rq_changes": {"en": "https://www.revenuquebec.ca/en/businesses/source-deductions-and-employer-contributions/employers-principal-changes-for-2026/"},
+    "cgeb": {"en": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4210/canada-groceries-essentials-benefit.html", "fr": "https://www.canada.ca/fr/agence-revenu/services/formulaires-publications/publications/rc4210/allocation-canadienne-epicerie-besoins-essentiels.html"},
+    "cra_newcomers": {"en": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/newcomers-canada-immigrants.html", "fr": "https://www.canada.ca/fr/agence-revenu/services/impot/impot-international-non-residents/particuliers-depart-canada-entree-canada-non-residents/nouveaux-arrivants-canada-immigrants.html"},
+    "rc151": {"en": "https://www.canada.ca/en/revenue-agency/services/forms-publications/forms/rc151.html", "fr": "https://www.canada.ca/fr/agence-revenu/services/formulaires-publications/formulaires/rc151.html"},
+    "rc66": {"en": "https://www.canada.ca/en/revenue-agency/services/forms-publications/forms/rc66.html", "fr": "https://www.canada.ca/fr/agence-revenu/services/formulaires-publications/formulaires/rc66.html"},
+    "ccb": {"en": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit-overview.html", "fr": "https://www.canada.ca/fr/agence-revenu/services/prestations-enfants-familles/allocation-canadienne-enfants-apercu.html"},
+    "benefit_dates": {"en": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/benefit-payment-dates.html", "fr": "https://www.canada.ca/fr/agence-revenu/services/prestations-enfants-familles/dates-versement-prestations.html"},
 }
 
 FONTS = {

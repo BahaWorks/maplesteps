@@ -661,6 +661,117 @@
      "finder"
     ]
    ]
+  },
+  "groceries-benefit": {
+   "related": "money",
+   "title": "Canada Groceries and Essentials Benefit (CGEB) for newcomers: how to apply | MapleSteps",
+   "desc": "The GST/HST credit is now the Canada Groceries and Essentials Benefit (CGEB). How newcomers apply with RC151 or RC66, how much you can get and the next payment dates.",
+   "h1": "Canada Groceries and Essentials Benefit for newcomers",
+   "sub": "The new name for the GST/HST credit: who can get it, how to apply with RC151 or RC66, and when it pays",
+   "summary": "The GST/HST credit is now called the CGEB. Newcomers must apply once: here is who qualifies, how much it pays, which form to use and the next payment dates.",
+   "lead": "Since July 2026, the GST/HST credit has a new name: the Canada Groceries and Essentials Benefit (CGEB). It is free money from the government for people with low or modest incomes, and newcomers can get it even before their first Canadian tax return. But you have to apply. Here is how.",
+   "sections": [
+    {
+     "h": "What changed",
+     "items": [
+      "The Canada Groceries and Essentials Benefit (CGEB) replaced the GST/HST credit, starting with the July 2026 payment. It is a tax-free payment from the Canada Revenue Agency (CRA) every three months.",
+      "If you were already getting the GST/HST credit, you don't need to do anything. Your payments continue under the new name.",
+      "As a newcomer, you don't get it automatically. You apply once, for the year you became a resident of Canada.",
+      "You don't need to file your first tax return before you apply."
+     ]
+    },
+    {
+     "h": "Who can get it",
+     "items": [
+      "You are a resident of Canada for income tax purposes. For most newcomers this starts the day you arrive and set up ties here, such as a home, or a spouse or children living with you in Canada.",
+      "You are 19 or older. If you are younger, you must have (or have had) a spouse or common-law partner, or be a parent living with your child.",
+      "You and your spouse or partner have a Social Insurance Number (SIN). If Service Canada can't give you one, the CRA explains how to apply anyway with a note attached to Form RC151.",
+      "What matters is tax residency, not your type of immigration status. Permanent residents, protected persons and many students and workers can qualify. If you are not sure you are a resident, the CRA can decide using Form NR74."
+     ]
+    },
+    {
+     "h": "How much you can get",
+     "p": "For July 2026 to June 2027, the maximum is $679 a year for a single person, $890 for a married or common-law couple, and $234 for each child under 19. The amount goes down as family income goes up, and it is paid in four parts. If your payment would be under $50 a quarter, the CRA pays the whole year at once in July. Many provinces and territories add their own payments, such as the Ontario Trillium Benefit or the Saskatchewan low-income tax credit, and you may get these automatically once you are registered for the CGEB."
+    },
+    {
+     "h": "How to apply",
+     "items": [
+      "No children: use the CRA's online RC151 form. It is quick and you don't need to mail anything.",
+      "Children under 19: apply for the Canada Child Benefit (CCB) with Form RC66 or in CRA My Account (\"Apply for child benefits\"). The same application is used for the CGEB, so you don't need a separate RC151.",
+      "Children, but not eligible for the CCB: print the paper RC151 and mail it to your tax centre with proof of birth for each child.",
+      "Only one person in the household needs to apply.",
+      "Have ready: the date you entered Canada, your marital status, your immigration status, and your income from all sources for up to two years before you arrived, converted to Canadian dollars. You don't pay Canadian tax on money earned before you became a resident. The CRA uses it only to calculate your benefits."
+     ]
+    },
+    {
+     "h": "Canada Child Benefit for newcomer families",
+     "items": [
+      "The CCB is a tax-free monthly payment for each child under 18. For most families it is the largest benefit.",
+      "For July 2025 to June 2026, the maximum was $7,997 a year for each child under 6 and $6,748 for each child aged 6 to 17. Amounts are updated for inflation every July.",
+      "Temporary residents can start getting the CCB in their 19th month in Canada, if they hold a valid permit and meet the other rules.",
+      "The CRA reports delays in processing RC66 applications, so apply as soon as you can after you arrive."
+     ]
+    },
+    {
+     "h": "Payment dates",
+     "items": [
+      "The CGEB is paid on the 5th of July, October, January and April. The next payment is expected on January 5, 2027, then in April 2027.",
+      "The CCB is paid every month, usually around the 20th. The December 2026 payment comes earlier, on December 11.",
+      "If a payment date falls on a weekend or holiday, you are paid on the last business day before it.",
+      "Sign up for direct deposit with the CRA so payments go straight to your bank account."
+     ]
+    },
+    {
+     "h": "Keep the payments coming",
+     "items": [
+      "File a tax return every year, even if you had no income. If you arrived in 2026, your first return (for 2026) is due April 30, 2027. In Quebec, you also file with Revenu Québec.",
+      "Free tax clinics can file a simple return for you if your income is modest.",
+      "Temporary residents: send the CRA your new permit before the old one expires, or your payments will stop.",
+      "Tell the CRA when you move, marry, separate or have a baby.",
+      "Watch for scams. The CRA does not ask for payment in gift cards or cryptocurrency, and does not threaten arrest by text message."
+     ]
+    },
+    {
+     "h": "Common questions",
+     "items": [
+      "Is the CGEB the same as the GST/HST credit? Yes. It replaced the GST/HST credit in July 2026. If you were getting the credit, your payments continue under the new name.",
+      "Do I have to file a tax return before I can get it? No. Newcomers can apply with RC151, or RC66 for families, before their first return. After that, you must file every year to keep getting it.",
+      "I'm an international student. Can I get the CGEB? Possibly. If you are a resident of Canada for tax purposes and meet the age rules, you can apply with RC151. Students who keep strong ties abroad may not count as residents.",
+      "When is the next CGEB payment? The next payment is expected on January 5, 2027. Apply early: the CRA pays you on the next scheduled date after your application is processed.",
+      "Is the CGEB taxable? No. The CGEB and the CCB are tax-free, so you don't report them as income."
+     ]
+    }
+   ],
+   "links": [
+    [
+     "Canada Groceries and Essentials Benefit (CRA)",
+     "cgeb"
+    ],
+    [
+     "Newcomers to Canada and the CRA",
+     "cra_newcomers"
+    ],
+    [
+     "Form RC151 for new residents",
+     "rc151"
+    ],
+    [
+     "Canada Child Benefit",
+     "ccb"
+    ],
+    [
+     "Form RC66 (child benefits)",
+     "rc66"
+    ],
+    [
+     "Benefit payment dates",
+     "benefit_dates"
+    ],
+    [
+     "Free tax clinics",
+     "taxhelp"
+    ]
+   ]
   }
  }
 }
